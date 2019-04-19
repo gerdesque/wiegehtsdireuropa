@@ -1,0 +1,20 @@
+{
+  "short_name": "Europa",
+  "name": "Wie geht's dir, Europa?",
+  "icons": [
+    {
+      "src":"logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#0a2eb3",
+  "theme_color": "#fbdd00",
+  "display": "standalone"
+}

@@ -1,0 +1,19 @@
+{
+  "tweets": [{
+    "id": "1",
+    "text": "Europa wagen",
+    "sentiments": ["positive"],
+    "categories": ["auto", "mut"]
+  }],
+  "hashtags": [{
+    "id": "1",
+    "text": "#Euphorie",
+    "sentiments": ["positive"],
+    "categories": ["mut"]
+  }],
+  "images": [{
+    "id": "1",
+    "sentiments": ["positive", "neutral"],
+    "categories": ["auto"]
+  }]
+}
