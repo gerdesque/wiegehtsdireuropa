@@ -12,22 +12,22 @@
     "categories": ["mut"]
   }],
   "images": [{
-    "id": "1",
+    "id": "labw-5-91128",
     "sentiments": ["positive", "neutral"],
     "categories": ["auto"]
   },
   {
-    "id": "2",
+    "id": "labw-5-93411",
     "sentiments": ["neutral"],
     "categories": ["mut"]
   },
             {
-    "id": "3",
+    "id": "labw-5-93773",
     "sentiments": ["positive", "neutral"],
     "categories": ["auto"]
   },
   {
-    "id": "4",
+    "id": "labw-5-93907",
     "sentiments": ["neutral"],
     "categories": ["mut"]
   }]
