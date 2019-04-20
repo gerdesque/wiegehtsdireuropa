@@ -20,5 +20,15 @@
     "id": "2",
     "sentiments": ["neutral"],
     "categories": ["mut"]
+  },
+            {
+    "id": "3",
+    "sentiments": ["positive", "neutral"],
+    "categories": ["auto"]
+  },
+  {
+    "id": "4",
+    "sentiments": ["neutral"],
+    "categories": ["mut"]
   }]
 }
