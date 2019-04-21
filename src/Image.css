@@ -1,5 +1,27 @@
+.Image-container {
+  min-width: 100%;
+  margin: 5px;
+}
+
 .Image {
-  height: 500px;
-  width: 500px;
-  margin-right: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.Image-text {
+
+}
+
+/* Medium screens */
+@media all and (min-width: 800px) {
+  .Image-container {
+    min-width: 75%;
+  }
+}
+
+/* Large screens */
+@media all and (min-width: 1200px) {
+  .Image-container {
+    min-width: 50%;
+  }
 }

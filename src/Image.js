@@ -13,7 +13,10 @@ class Image extends Component {
   render() {
 
     return (
-      <img className="Image" {...this.props} src={this.state.src} alt={this.props.id}/>
+      <div className="Image-container">
+        <img className="Image" {...this.props} src={this.state.src} alt={this.props.id}/>
+        
+      </div>
     )
   }
 }
