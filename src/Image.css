@@ -1,22 +1,19 @@
 .Image-container {
-  min-width: 100%;
-  margin: 5px;
+  min-width: 75%;
+  margin: 50px 15px 30px;
+	padding: 10px 10px 50px;
+  box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  font-size: 18px;
+  font-weight: bold;
+  transform: rotate(4deg);
 }
 
 .Image {
   width: 100%;
-  height: 100%;
 }
 
-.Image-text {
-
-}
-
-/* Medium screens */
-@media all and (min-width: 800px) {
-  .Image-container {
-    min-width: 75%;
-  }
+.Image-container:after {
+  content: attr(title);
 }
 
 /* Large screens */
@@ -24,4 +21,19 @@
   .Image-container {
     min-width: 50%;
   }
+}
+ 
+/* Rotate all even images 2 degrees */
+.Image-container:nth-child(even) {
+  transform: rotate(2deg);
+}
+ 
+/* Don't rotate every third image, but offset its position */
+.Image-container:nth-child(3n) {
+  transform: none;
+}
+ 
+/* Rotate every fourth image by 5 degrees */
+.Image-container:nth-child(4n) {
+  transform: rotate(-2deg);
 }

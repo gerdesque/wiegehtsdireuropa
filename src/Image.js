@@ -13,9 +13,8 @@ class Image extends Component {
   render() {
 
     return (
-      <div className="Image-container">
+      <div className="Image-container" title={this.props.sentiments} >
         <img className="Image" {...this.props} src={this.state.src} alt={this.props.id}/>
-        
       </div>
     )
   }

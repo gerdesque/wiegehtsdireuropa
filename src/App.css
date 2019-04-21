@@ -30,6 +30,7 @@ ul {
   font-size: calc(16px + 1vmin);
   color: white;
   padding: 0 10px 0 0;
+  align-items: center;
 }
 
 .App-logo {
@@ -39,5 +40,5 @@ ul {
   background: url('./assets/hero.jpg') no-repeat center center;
   background-size: contain;
   width: 100%;
-  padding-top: 50%;
+  padding-top: 30%;
 }
