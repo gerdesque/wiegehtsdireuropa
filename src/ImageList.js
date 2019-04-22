@@ -23,7 +23,7 @@ class ImageList extends Component {
   render() {
     const imageItems = this.state.images.map((image) =>
       <Image key={image.id} {...image}/>);
-      return (<div className="ImageList">{imageItems}</div>);
+      return (<div className="ImageList"><hr className="ImageList-line"/>{imageItems}</div>);
   }
 }
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import hero from './assets/hero.jpg';
 import './App.css';
 import ImageList from './ImageList';
 import Boxes from './Boxes';
@@ -10,14 +9,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Wie geht's dir, Europa?</h1>
-          <img src={logo} className="App-logo" alt="logo" />
+          <img className="App-logo" src={logo} alt="logo"/>
+          <h1>Wie geht's dir, Europa?</h1>     
         </header>
-        <div className="App-container">
-          <img src={hero} className="App-hero" alt="hero" />
+          <div className="App-hero"/>
           <ImageList/>
           <Boxes/>
-        </div>
       </div>
     );
   }

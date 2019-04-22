@@ -1,5 +1,107 @@
+.Image-container {
+  min-width: 75%;
+  margin: 50px 15px 30px;
+	padding: 10px 10px 50px;
+  box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  font-size: 18px;
+  font-weight: bold;
+  transform: none;
+}
+
 .Image {
-  height: 500px;
-  width: 500px;
-  margin-right: 15px;
+  width: 100%;
+}
+
+.Image-container::before {
+  content: url('./assets/clothespin.svg');
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+}
+
+.Image-container:after {
+  content: attr(title);
+}
+
+/* Large screens */
+@media all and (min-width: 1200px) {
+  .Image-container {
+    min-width: 50%;
+  }
+}
+ 
+/* Rotate all even images 2 degrees */
+.Image-container:nth-child(2n) {
+  transform: rotate(2deg);
+}
+ 
+/* Don't rotate every third image, but offset its position */
+.Image-container:nth-child(3n) {
+  transform: rotate(4deg);
+}
+ 
+/* Rotate every fourth image by 5 degrees */
+.Image-container:nth-child(4n) {
+  transform: rotate(-2deg);
+}
+
+.duotone {
+  position: relative;
+}
+
+.duotone::after {
+  position: absolute;
+  content: "© Staatsarchiv Freiburg";
+  font-size: 22px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.yellow-red {
+  background-color: rgba(221, 204, 0, 1);
+}
+
+.yellow-red img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: darken;
+}
+
+.yellow-red::after {
+  background-color: rgba(221, 0, 0, 1);
+  mix-blend-mode: lighten;
+  color: white;
+}
+
+.green-blue {
+  background-color: #00ff36
+}
+
+.green-blue img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: multiply;
+}
+
+.green-blue::after {
+  background-color: #23278a;
+  mix-blend-mode: lighten;
+  color: white;
+}
+
+.purple-green {
+  background-color: #88169d;
+}
+
+.purple-green img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: lighten;
+}
+
+.purple-green::after {
+  mix-blend-mode: hard-light;
+  background: linear-gradient(to top left, #75d775, #321a5b);
 }
