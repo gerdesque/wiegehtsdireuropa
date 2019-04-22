@@ -19,7 +19,7 @@ class Image extends Component {
 
     return (
       <div className="Image-container" title={this.props.sentiments}>
-        <div className={this.state.color[this.getRandomColor(4)] + ' duotone'}>
+        <div className={'duotone ' + this.state.color[this.getRandomColor(4)]}>
           <img className="Image" {...this.props} src={this.state.src} alt={this.props.id}/>
         </div>
       </div>
