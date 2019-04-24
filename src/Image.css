@@ -5,11 +5,7 @@
   box-shadow: 0 4px 6px rgba(0,0,0,.3);
   font-size: 18px;
   font-weight: bold;
-  transform: none;
-}
-
-.Image {
-  width: 100%;
+  transform: rotate(4deg);
 }
 
 .Image-container::before {
@@ -37,14 +33,19 @@
   transform: rotate(2deg);
 }
  
-/* Don't rotate every third image, but offset its position */
+/* Don't rotate every third image */
 .Image-container:nth-child(3n) {
-  transform: rotate(4deg);
+  transform: none;
 }
  
-/* Rotate every fourth image by 5 degrees */
+/* Rotate every fourth image by -2 degrees */
 .Image-container:nth-child(4n) {
   transform: rotate(-2deg);
+}
+
+/* Rotate every fifth image by -4 degrees */
+.Image-container:nth-child(4n) {
+  transform: rotate(-4deg);
 }
 
 .duotone {
@@ -104,4 +105,8 @@
 .purple-green::after {
   mix-blend-mode: hard-light;
   background: linear-gradient(to top left, #75d775, #321a5b);
+}
+
+.Image {
+  width: 100%;
 }

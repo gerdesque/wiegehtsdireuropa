@@ -6,7 +6,7 @@ class Image extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      src: require('./assets/' + this.props.id + '.jpg'),
+      src: require('./assets/squares/' + this.props.id + '.jpg'),
       color: ["", "yellow-red","green-blue", "purple-green"]
     };
   }
