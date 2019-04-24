@@ -38,7 +38,7 @@ ul {
 }
 
 .App-hero {
-  background: url('./assets/hero.jpg') no-repeat center center;
+  background: url('./assets/hero.webp') no-repeat center center;
   background-size: contain;
   width: 100%;
   padding-top: 30%;
