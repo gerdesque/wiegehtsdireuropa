@@ -3,25 +3,8 @@ import './ImageList.css';
 import Image from './Image';
 
 class ImageList extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { 
-      images: []
-    };
-  }
-
-  async componentDidMount() {
-    try {
-      let response = await fetch('https://raw.githubusercontent.com/gerdesque/wiegehtsdireuropa/master/europe.json');
-      let responseJson = await response.json();
-      this.setState({ images: responseJson.images });
-     } catch(error) {
-      console.error(error);
-    }
-  }
-
   render() {
-    const imageItems = this.state.images.map((image) =>
+    const imageItems = this.props.images.map((image) =>
       <Image key={image.id} {...image}/>);
       return (<div className="ImageList">{imageItems}</div>);
   }
