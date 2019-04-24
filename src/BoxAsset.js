@@ -4,7 +4,7 @@ import './BoxAsset.css';
 class BoxAsset extends Component {
 
   render() {
-    return (<h2 className="BoxAsset" {...this.props}>{this.props.text}</h2>);
+    return (<p className="BoxAsset" {...this.props}>{this.props.text}</p>);
   }
 }
 

@@ -1,3 +1,8 @@
 .BoxAsset {
-  color: brown;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-radius: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px;
+  padding: 7px 10px 5px 10px;
 }

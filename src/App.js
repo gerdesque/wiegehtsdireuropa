@@ -17,7 +17,7 @@ class App extends Component {
 
   async componentDidMount() {
     try {
-      let response = await fetch('https://raw.githubusercontent.com/gerdesque/wiegehtsdireuropa/master/europe.json');
+      let response = await fetch('https://raw.githubusercontent.com/gerdesque/wiegehtsdireuropa/master/src/assets/europe.json');
       let responseJson = await response.json();
       this.setState({ ...responseJson });
      } catch(error) {

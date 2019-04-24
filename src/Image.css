@@ -5,7 +5,7 @@
   box-shadow: 0 4px 6px rgba(0,0,0,.3);
   font-size: 18px;
   font-weight: bold;
-  transform: rotate(4deg);
+  transform: none;
 }
 
 .Image-container::before {
@@ -14,7 +14,8 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 90px;
+  height: 117px;
+  z-index: 2;
 }
 
 .Image-container:after {
@@ -28,24 +29,14 @@
   }
 }
  
-/* Rotate all even images 2 degrees */
+/* Rotate all even images -2 degrees */
 .Image-container:nth-child(2n) {
-  transform: rotate(2deg);
-}
- 
-/* Don't rotate every third image */
-.Image-container:nth-child(3n) {
-  transform: none;
-}
- 
-/* Rotate every fourth image by -2 degrees */
-.Image-container:nth-child(4n) {
   transform: rotate(-2deg);
 }
 
-/* Rotate every fifth image by -4 degrees */
-.Image-container:nth-child(4n) {
-  transform: rotate(-4deg);
+/* Rotate every fifth image by 2 degrees */
+.Image-container:nth-child(3n) {
+  transform: rotate(2deg);
 }
 
 .duotone {

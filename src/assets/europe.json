@@ -598,7 +598,7 @@
       "categories": ["sport", "bewegung", "rennen"]
     },
     {
-      "id": "labw-5-90901",
+      "id": "labw-5-90955",
       "sentiments": ["positive", "neutral", "negative"],
       "categories": ["spiel", "miteinander", "familie", "menschen", "gemeinsam"]
     },
@@ -638,7 +638,7 @@
       "categories": ["freunde", "party", "jubel", "reise"]
     },
     {
-      "id": "labw-5-91122",
+      "id": "labw-5-91128",
       "sentiments": ["positive"],
       "categories": ["schoenmachen", "aktion", "kunst"]
     },
