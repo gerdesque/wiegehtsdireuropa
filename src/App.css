@@ -12,34 +12,78 @@ ul {
   list-style-type: none;
 }
 
-.App {
-  background-color: #f0eff0;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
+header {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url('./assets/hero_853.webp') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
 }
 
-.App > * {
-  margin: 0 0 10px 0;
+@media all and (min-width: 853px) {
+  header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url('./assets/hero_1246.webp')
+  }
 }
 
-.App-header {
-  display: flex;
-  background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 100%);
-  font-size: calc(16px + 1vmin);
-  color: white;
-  padding: 0 10px 0 0;
-  align-items: center;
+@media all and (min-width: 1246px) {
+  header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url('./assets/hero_1616.webp')
+  }
+}
+
+@media all and (min-width: 1616px) {
+  header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url('./assets/hero_1901.webp')
+  }
+}
+
+@media all and (min-width: 1901px) {
+  header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url('./assets/hero_1920.webp')
+  }
 }
 
 .App-logo {
-  max-height: 150px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-10%, -50%);
 }
 
-.App-hero {
-  background: url('./assets/hero.webp') no-repeat center center;
-  background-size: contain;
+.App-logo img{
   width: 100%;
-  padding-top: 30%;
+  height: auto;
+}
+
+.App-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+}
+
+main {
+  margin: 10px auto;
 }
