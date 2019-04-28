@@ -17,7 +17,6 @@ class Image extends Component {
   }
 
   render() {
-
     return (
       <div className="Image-container" title={this.props.sentiments}>
         <div className={'duotone ' + this.state.color[this.getRandomColor(4)]}>
