@@ -50,6 +50,7 @@ header {
 .App-logo img{
   width: 100%;
   height: auto;
+  min-height: 150px;
 }
 
 .App-text {
