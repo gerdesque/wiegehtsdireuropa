@@ -49,7 +49,7 @@ class App extends Component {
         </header>
         <main>
           <ImageList images={this.state.images}/>
-          <Boxes assets={this.state.tweets}/>
+          {/* <Boxes assets={this.state.tweets}/> */}
           <Boxes assets={this.state.hashtags}/>
         </main>
       </>

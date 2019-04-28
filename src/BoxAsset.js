@@ -3,9 +3,18 @@ import './BoxAsset.css';
 
 class BoxAsset extends Component {
 
-  render() {
-    return (<p className="BoxAsset" {...this.props}>{this.props.text}</p>);
+  onDragStart = (ev, id) => {
+    console.log('dragstart:',id);
+    ev.dataTransfer.setData("id", id);
   }
-}
 
-export default BoxAsset;
+  render() {
+    return ( <div
+      key = {this.props.id}
+      {...this.props}
+      onDragStart = { (e) => this.onDragStart(e, this.props.id) }
+      draggable className = "BoxAsset">{this.props.text}</div>);
+    }
+  }
+
+  export default BoxAsset;

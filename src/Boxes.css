@@ -4,3 +4,12 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
+
+.Boxes-droppable {
+  width: 100%;
+  min-height: 120px;
+  background-color: #984a00;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
