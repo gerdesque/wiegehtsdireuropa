@@ -17,39 +17,21 @@ header {
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url('./assets/hero_853.webp') no-repeat center center fixed;
+    url('./assets/hero_1050.webp') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
 }
 
-@media all and (min-width: 853px) {
+@media all and (min-width: 1050px) {
   header {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)),
-      url('./assets/hero_1246.webp')
+      url('./assets/hero_1586.webp')
   }
 }
 
-@media all and (min-width: 1246px) {
-  header {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-      url('./assets/hero_1616.webp')
-  }
-}
-
-@media all and (min-width: 1616px) {
-  header {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-      url('./assets/hero_1901.webp')
-  }
-}
-
-@media all and (min-width: 1901px) {
+@media all and (min-width: 1586px) {
   header {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
