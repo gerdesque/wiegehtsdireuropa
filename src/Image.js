@@ -12,15 +12,16 @@ class Image extends Component {
     };
   }
 
-  getRandomColor(max) {
-    return Math.floor(Math.random() * Math.floor(max));
-  }
-
   render() {
     return (
-      <div className="Image-container" title={this.props.sentiments}>
-        <div className={'duotone ' + this.state.color[this.getRandomColor(4)]}>
+      <div className="Image-container">
+        <div className={'duotone ' + this.state.color[this.props.color]}>
         <LazyImage className="Image" offset={100} {...this.props} link={this.state.src} alt={this.props.id}/>
+        </div>
+        <div className="Boxes-droppable"
+          onDragOver={(e)=>this.onDragOver(e)}
+          onDrop={(e)=>this.onDrop(e, "image")}>
+          droppable
         </div>
       </div>
     )

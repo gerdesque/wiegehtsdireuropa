@@ -1,34 +1,16 @@
 .Image-container {
-  min-width: 75%;
-  margin: 50px 15px 30px;
-	padding: 10px 10px 50px;
+  margin: 15px;
+	padding: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,.3);
-  font-size: 18px;
-  font-weight: bold;
   transform: none;
 }
 
 .Image-container::before {
   content: url('./assets/clothespin.svg');
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  height: 117px;
+  margin-left: calc(50% - 15px);
   z-index: 2;
 }
 
-.Image-container:after {
-  content: attr(title);
-}
-
-/* Large screens */
-@media all and (min-width: 1200px) {
-  .Image-container {
-    min-width: 50%;
-  }
-}
- 
 /* Rotate all even images -2 degrees */
 .Image-container:nth-child(2n) {
   transform: rotate(-2deg);
@@ -41,15 +23,17 @@
 
 .duotone {
   position: relative;
+  top: -10px;
 }
 
 .duotone::after {
   position: absolute;
   content: "© Staatsarchiv Freiburg";
+  content: "";
   font-size: 22px;
   top: 0;
   left: 0;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
   pointer-events: none;
 }
