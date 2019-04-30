@@ -1,8 +1,9 @@
 .Boxes {
-  background-color: #887600;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  background-image: linear-gradient(135deg, #8ac3cc 33.33%, #F6F0CF 33.33%, #F6F0CF 50%, #8ac3cc 50%, #8ac3cc 83.33%, #F6F0CF 83.33%, #F6F0CF 100%);
+  background-size: 84.85px 84.85px;
 }
 
 .Droppable {
