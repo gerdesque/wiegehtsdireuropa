@@ -5,7 +5,7 @@
   justify-content: space-evenly;
 }
 
-.Boxes-droppable {
+.Droppable {
   width: 100%;
   min-height: 120px;
   background-color: #984a00;

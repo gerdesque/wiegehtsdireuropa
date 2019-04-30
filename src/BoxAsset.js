@@ -3,16 +3,16 @@ import './BoxAsset.css';
 
 class BoxAsset extends Component {
 
-  onDragStart = (ev, id) => {
-    console.log('dragstart:',id);
-    ev.dataTransfer.setData("id", id);
+  onPanStart = (ev, props) => {
+    ev.dataTransfer.setData("asset", props);
   }
 
   render() {
+    const props = JSON.stringify(this.props);
     return ( <div
-      key = {this.props.id}
       {...this.props}
-      onDragStart = { (e) => this.onDragStart(e, this.props.id) }
+      onTouchStart = { (e) => this.onPanStart(e, props) }
+      onDragStart = { (e) => this.onPanStart(e, props) }
       draggable className = "BoxAsset">{this.props.text}</div>);
     }
   }
