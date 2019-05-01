@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'EuropaBrush-Regular';
+  src:  url('./assets/fonts/EuropaBrush-Regular.woff') format('woff');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,21 +14,30 @@ header {
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url('./assets/hero_1050.webp') no-repeat center center fixed;
+    url('./assets/hero_983.webp') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
 }
 
-@media all and (min-width: 1050px) {
+@media all and (min-width: 983px) {
   header {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)),
-      url('./assets/hero_1586.webp')
+      url('./assets/hero_1427.webp')
   }
 }
 
-@media all and (min-width: 1586px) {
+@media all and (min-width: 1427px) {
+  header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url('./assets/hero_1856.webp')
+  }
+}
+
+@media all and (min-width: 1856px) {
   header {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -35,8 +49,8 @@ header {
 .App-logo {
   position: absolute;
   top: 10%;
-  left: 10%;
-  transform: translate(-10%, -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .App-logo img{
@@ -47,17 +61,35 @@ header {
 
 .App-text {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
+  width: 100%;
 }
 
 h1 {
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 3rem;
+  margin: 0 10px;
+  font-size: 3em;
+  line-height: 1.25;
+  font-family: EuropaBrush-Regular, arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 4em;
+    line-height: 1.125;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 7em;
+    line-height: 1.05;
+  }
 }
 
 main {
