@@ -1,5 +1,5 @@
 {
-  "main.css": "/wiegehtsdireuropa/static/css/main.215fc624.chunk.css",
+  "main.css": "/wiegehtsdireuropa/static/css/main.1c7758b2.chunk.css",
   "main.js": "/wiegehtsdireuropa/static/js/main.06fa3a8e.chunk.js",
   "main.js.map": "/wiegehtsdireuropa/static/js/main.06fa3a8e.chunk.js.map",
   "runtime~main.js": "/wiegehtsdireuropa/static/js/runtime~main.b0c5e7bb.js",
@@ -7,11 +7,10 @@
   "static/js/2.da92fe3a.chunk.js": "/wiegehtsdireuropa/static/js/2.da92fe3a.chunk.js",
   "static/js/2.da92fe3a.chunk.js.map": "/wiegehtsdireuropa/static/js/2.da92fe3a.chunk.js.map",
   "index.html": "/wiegehtsdireuropa/index.html",
-  "precache-manifest.6a7be259873dd73a020929e73766f953.js": "/wiegehtsdireuropa/precache-manifest.6a7be259873dd73a020929e73766f953.js",
+  "precache-manifest.c7bf1692477b8983e38787430b1b0e46.js": "/wiegehtsdireuropa/precache-manifest.c7bf1692477b8983e38787430b1b0e46.js",
   "service-worker.js": "/wiegehtsdireuropa/service-worker.js",
-  "static/css/main.215fc624.chunk.css.map": "/wiegehtsdireuropa/static/css/main.215fc624.chunk.css.map",
+  "static/css/main.1c7758b2.chunk.css.map": "/wiegehtsdireuropa/static/css/main.1c7758b2.chunk.css.map",
   "static/media/App.css": "/wiegehtsdireuropa/static/media/hero_983.dc7fa216.webp",
-  "static/media/Image.css": "/wiegehtsdireuropa/static/media/clothespin.1923b01b.svg",
   "static/media/labw-5-90607.webp": "/wiegehtsdireuropa/static/media/labw-5-90607.d2cffd74.webp",
   "static/media/labw-5-90623.webp": "/wiegehtsdireuropa/static/media/labw-5-90623.edcc1a69.webp",
   "static/media/labw-5-90625.webp": "/wiegehtsdireuropa/static/media/labw-5-90625.11d39109.webp",
@@ -110,5 +109,6 @@
   "static/media/labw-5-95330.webp": "/wiegehtsdireuropa/static/media/labw-5-95330.4490e875.webp",
   "static/media/labw-5-95472.webp": "/wiegehtsdireuropa/static/media/labw-5-95472.f2d5a497.webp",
   "static/media/labw-5-95612.webp": "/wiegehtsdireuropa/static/media/labw-5-95612.2da3602d.webp",
-  "static/media/logo.svg": "/wiegehtsdireuropa/static/media/logo.ecd99bac.svg"
+  "static/media/logo.svg": "/wiegehtsdireuropa/static/media/logo.ecd99bac.svg",
+  "static/media/Image.css": "/wiegehtsdireuropa/static/media/pin.e1450753.svg"
 }
