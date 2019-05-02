@@ -6,6 +6,10 @@
   background-size: 84.85px 84.85px;
 }
 
+.Image-container .highlighted .Droppable{
+  box-shadow: inset 0 0 4px #00f;
+}
+
 .Droppable {
   width: 100%;
   min-height: 120px;

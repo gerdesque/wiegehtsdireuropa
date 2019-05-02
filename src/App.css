@@ -17,6 +17,16 @@ header {
     url('./assets/hero_983.webp') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
+  animation-name: flash;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+
+@keyframes flash {
+  0% { opacity: .3; }
+  5% { opacity: 1; }
 }
 
 @media all and (min-width: 983px) {
