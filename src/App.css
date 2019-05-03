@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'EuropaBrush-Regular';
-  src:  url('./assets/fonts/EuropaBrush-Regular.woff') format('woff');
+  font-family: 'EuropaBrush';
+  src:  url('./assets/fonts/EuropaBrush.woff') format('woff');
 }
 
 body {
@@ -76,7 +76,7 @@ h1 {
   margin: 0 10px;
   font-size: 3em;
   line-height: 1.25;
-  font-family: EuropaBrush-Regular, arial, sans-serif;
+  font-family: EuropaBrush, arial, sans-serif;
   font-style: normal;
   font-weight: 400;
 }

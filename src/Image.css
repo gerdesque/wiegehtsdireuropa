@@ -24,7 +24,8 @@
 
 .duotone {
   position: relative;
-  top: -10px;
+  top: -25px;
+  display: grid;
 }
 
 .duotone::after {
@@ -34,7 +35,7 @@
   font-size: 22px;
   top: 0;
   left: 0;
-  bottom: 10px;
+  bottom: 0px;
   right: 0;
   pointer-events: none;
 }

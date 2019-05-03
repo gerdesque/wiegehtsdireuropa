@@ -19,7 +19,8 @@ class Image extends Component {
     const droppedAsset = e.dragData.props;
 
     const duplicate = this.state.assets.some(asset => asset.id === droppedAsset.id);
-    if (this.state.assets.length === 0 || !duplicate) {
+    const maxAssets = this.state.assets.length === 3;
+    if (!maxAssets && !duplicate) {
       this.setState({ assets: [
         ...this.state.assets,
         droppedAsset
