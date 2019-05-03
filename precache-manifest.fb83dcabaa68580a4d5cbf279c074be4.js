@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ce0c21bde09e292c727cebd9123a0913",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-93279.ce0c21bd.webp"
+    "revision": "ed57ec89a7f53c61102c8ae825a2bf80",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-93221.ed57ec89.webp"
   },
   {
-    "revision": "01ebf8b46078a6441398",
-    "url": "/wiegehtsdireuropa/static/css/main.1c7758b2.chunk.css"
+    "revision": "ad58ac03aeca0e4b0ca0",
+    "url": "/wiegehtsdireuropa/static/css/main.e0f7f013.chunk.css"
   },
   {
     "revision": "95bbee0410ad99687d84",
@@ -37,11 +37,15 @@ self.__precacheManifest = [
   },
   {
     "revision": "17baadf57b6b807a93a047c0059eb58e",
-    "url": "/wiegehtsdireuropa/static/media/EuropaBrush-Regular.17baadf5.woff"
+    "url": "/wiegehtsdireuropa/static/media/EuropaBrush.17baadf5.woff"
   },
   {
     "revision": "e145075355cf79a035ec0af264b4e870",
     "url": "/wiegehtsdireuropa/static/media/pin.e1450753.svg"
+  },
+  {
+    "revision": "0a00c04029f465a305f31054da5e0b07",
+    "url": "/wiegehtsdireuropa/static/media/CinnamonCake.0a00c040.ttf"
   },
   {
     "revision": "d2cffd749266bf196891073ea4ea6107",
@@ -216,12 +220,12 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-93112.1626cafc.webp"
   },
   {
-    "revision": "ed57ec89a7f53c61102c8ae825a2bf80",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-93221.ed57ec89.webp"
+    "revision": "ad58ac03aeca0e4b0ca0",
+    "url": "/wiegehtsdireuropa/static/js/main.e47a1df5.chunk.js"
   },
   {
-    "revision": "01ebf8b46078a6441398",
-    "url": "/wiegehtsdireuropa/static/js/main.06fa3a8e.chunk.js"
+    "revision": "ce0c21bde09e292c727cebd9123a0913",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-93279.ce0c21bd.webp"
   },
   {
     "revision": "0e032b93cb871c297be73fb747a01fde",
@@ -436,7 +440,7 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-95612.2da3602d.webp"
   },
   {
-    "revision": "85101859023b195dc0f20aeb8561af39",
+    "revision": "7a5a841a3787a521222b2152fb984cd7",
     "url": "/wiegehtsdireuropa/index.html"
   }
 ];
