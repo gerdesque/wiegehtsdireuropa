@@ -56,22 +56,15 @@ header {
   }
 }
 
-.App-logo {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.App-logo img{
-  width: 100%;
+.App-header img{
+  width: 150px;
   height: auto;
   min-height: 150px;
 }
 
-.App-text {
+.App-header {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -90,14 +83,14 @@ h1 {
 
 @media (min-width: 43.75em) {
   h1 {
-    font-size: 4em;
+    font-size: 6em;
     line-height: 1.125;
   }
 }
 
 @media (min-width: 56.25em) {
   h1 {
-    font-size: 7em;
+    font-size: 8em;
     line-height: 1.05;
   }
 }

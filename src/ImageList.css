@@ -5,11 +5,12 @@
   grid-auto-flow: column;
   grid-auto-columns: calc(95% - 40px);
   overflow-x: scroll;
+  scroll-snap-type: x mandatory;
 }
 
 @media all and (min-width: 768px) {
   .ImageList {
-    grid-auto-columns: calc(75% - 40px);
+    grid-auto-columns: calc(75% - 40px);  
   }
 }
 
