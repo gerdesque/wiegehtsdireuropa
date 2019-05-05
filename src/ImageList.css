@@ -5,6 +5,7 @@
   grid-auto-flow: column;
   grid-auto-columns: calc(66% - 40px);
   overflow-x: scroll;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
 }
 

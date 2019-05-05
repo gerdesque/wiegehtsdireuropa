@@ -19,7 +19,7 @@ class Boxes extends Component {
       <BoxAsset key ={asset.id} {...asset}/>);
 
     return (
-    <div className="Boxes">{assets}</div>
+    <div className="Boxes"><div className="Boxes-container">{assets}</div></div>
     );
   }
 }
