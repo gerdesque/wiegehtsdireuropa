@@ -32,7 +32,10 @@ class Boxes extends Component {
         <div className="Boxes-label">
           <p>Hashtags & Tweets</p>
         </div>
-        <div className="Boxes-container">{hashtags}{tweets}</div>
+        <div className="Boxes-container">
+          <div className="Boxes-inner Boxes-tweets">{tweets}</div>
+          <div className="Boxes-inner Boxes-hashtags">{hashtags}</div>
+        </div>
       </div>
     );
   }
