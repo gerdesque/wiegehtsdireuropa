@@ -1,10 +1,50 @@
 {
   "tweets": [{
-    "id": "1",
-    "text": "Europa wagen",
-    "sentiments": ["positive"],
-    "categories": ["auto", "mut"]
-  }],
+      "id": "1",
+      "text": "Europa ist unser Ort, wo wir Tradition und Werte pflegen können.",
+      "sentiments": ["positive"],
+      "categories": ["miteinander", "menschen", "geschichte", "generationen", "tradition"],
+      "twitterhandle": ["@PLInst_Wien"],
+      "username": ["PL Institut Wien"],
+      "timestamp": ["09:00 - 1. Mai 2019"]
+    },
+    {
+      "id": "2",
+      "text": "Europa ist ein Ort, wo wir seit 1000 Jahren sind. Das ist ein Ort, wo wir leben, uns entwickeln, arbeiten & Familien gründen; ein Ort, der uns viele Möglichkeiten gibt. Das ist ein Ort, den wir mitgestalten. Das ist unser Ort.",
+      "sentiments": ["positive"],
+      "categories": ["reise", "arbeit", "menschen"],
+      "twitterhandle": ["@PLInst_Wien"],
+      "username": ["PL Institut Wien"],
+      "timestamp": ["03:01 - 1. Mai 2019"]
+    },
+    {
+      "id": "3",
+      "text": "Was werdet ihr wählen?",
+      "sentiments": ["neutral"],
+      "categories": ["politik", "wahl", "essen"],
+      "twitterhandle": ["@BlondJedi"],
+      "username": ["Julia"],
+      "timestamp": ["09:52 - 27. Apr. 2019"]
+    },
+    {
+      "id": "4",
+      "text": "Europa ist auf einer großen Idee aufgebaut: Gemeinsamkeit. Und die Herausforderungen, vor denen wir heute stehen, die können wir nur gemeinsam anpacken.",
+      "sentiments": ["positive"],
+      "categories": ["baustelle", "gemeinsam", "arbeit"],
+      "twitterhandle": ["@Die_Gruenen"],
+      "username": ["BÜNDNIS90/DIE GRÜNEN"],
+      "timestamp": ["03:02 - 2. Mai 2019"]
+    },
+    {
+      "id": "5",
+      "text": "Reguläre Jobs mit ordentlichen Löhnen und fairen Arbeitsbedingungen sind machbar.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["arbeit", "baustelle"],
+      "twitterhandle": ["@dieLinke"],
+      "username": ["Die Linke"],
+      "timestamp": ["07:26 - 29. Apr. 2019"]
+    }
+  ],
   "hashtags": [{
       "id": "1",
       "text": "#nEUland",

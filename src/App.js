@@ -44,11 +44,13 @@ class App extends Component {
             <h1>Wie geht's dir, Europa?</h1>
             <img src={logo} alt="logo"/>
           </div>
+          <div className="App-subtitle">
+            <h2>@WillyPragher</h2>
+          </div>
         </header>
         <main>
           <ImageList images={this.state.images}/>
-          {/* <Boxes assets={this.state.tweets}/> */}
-          <Boxes assets={this.state.hashtags}/>
+          <Boxes hashtags={this.state.hashtags} tweets={this.state.tweets}/>
         </main>
       </>
     );

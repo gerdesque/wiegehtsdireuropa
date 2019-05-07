@@ -72,10 +72,28 @@ header {
   width: 100%;
 }
 
+.App-subtitle {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
 h1 {
   margin: 0 10px;
   font-size: 3em;
   line-height: 1.25;
+  font-family: EuropaBrush, arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0 10px;
+  font-size: 2em;
   font-family: EuropaBrush, arial, sans-serif;
   font-style: normal;
   font-weight: 400;

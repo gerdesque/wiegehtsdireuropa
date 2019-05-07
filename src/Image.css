@@ -30,7 +30,6 @@
 
 .duotone::after {
   position: absolute;
-  content: "© Staatsarchiv Freiburg";
   content: "";
   font-size: 22px;
   top: 0;
