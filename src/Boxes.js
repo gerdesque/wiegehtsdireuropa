@@ -16,8 +16,10 @@ class Boxes extends Component {
   }
 
   toggleBox = () => {
-    const element = document.getElementsByClassName('Boxes-container')[0];
-    element.classList.toggle('open');
+    const container = document.getElementsByClassName('Boxes-container')[0];
+    container.classList.add('open');
+    const label = document.getElementsByClassName('Boxes-label')[0];
+    label.classList.add('close');
   }
 
   render() {
