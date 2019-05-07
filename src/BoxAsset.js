@@ -10,7 +10,12 @@ class BoxAsset extends Component {
         targetKey="image"
         dragData={{props: this.props}}
         render = {() => {
-          return <div {...this.props} className = "BoxAsset">{this.props.text}</div>
+          return <div {...this.props} className = "BoxAsset">
+            {this.props.username && <div className="BoxAsset-user">{this.props.username}</div>}
+            {this.props.twitterhandle && <div className="BoxAsset-handle">{this.props.twitterhandle}</div>}
+            {this.props.text}
+            {this.props.timestamp && <div className="BoxAsset-timestamp">{this.props.timestamp}</div>}
+            </div>
         }}/>
     );
     }

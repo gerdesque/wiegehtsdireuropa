@@ -19,3 +19,14 @@
 .Boxes-hashtags .BoxAsset {
   color: #19cf86;
 }
+
+.BoxAsset-user {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.BoxAsset-handle,
+.BoxAsset-timestamp {
+  font-size: 14px;
+  color: #657786;
+}
