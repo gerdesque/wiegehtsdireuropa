@@ -3,6 +3,7 @@ import logo from './assets/logo.svg';
 import './App.css';
 import ImageList from './ImageList';
 import Boxes from './Boxes';
+import domtoimage from 'dom-to-image';
 
 // const small = require('./assets/hero_360.webp');
 // const medium = require('./assets/hero_1050.webp');
@@ -36,6 +37,18 @@ class App extends Component {
     }
   }
 
+  share() {
+    const selectedImage = document.getElementById('container-labw-5-90607');
+
+    domtoimage.toPng(selectedImage)
+    .then(function (dataUrl) {
+      const img = new Image();
+      //const cleanDataUrl = dataUrl.replace("<\s*style[^>]*>(.*?)<\s*/\s*style>", "g");
+      img.src = dataUrl;
+      document.getElementsByClassName('ImageList-share')[0].appendChild(img);
+    })
+  }
+
   render() {
     return (
       <>
@@ -49,7 +62,7 @@ class App extends Component {
           </div>
         </header>
         <main>
-          <ImageList images={this.state.images}/>
+          <ImageList images={this.state.images} share={this.share}/>
           <Boxes hashtags={this.state.hashtags} tweets={this.state.tweets}/>
         </main>
       </>

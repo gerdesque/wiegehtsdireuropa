@@ -17,9 +17,11 @@ class Image extends Component {
 
   handleDrop = (e) => {
     const droppedAsset = e.dragData.props;
+    const isTweet = droppedAsset.username !== undefined;
 
     const duplicate = this.state.assets.some(asset => asset.id === droppedAsset.id);
-    const maxAssets = this.state.assets.length === 3;
+    const maxAssets = (isTweet && this.state.assets.some(asset => asset.username !== null))
+      || this.state.assets.length === 4;
     if (!maxAssets && !duplicate) {
       this.setState({ assets: [
         ...this.state.assets,
@@ -54,7 +56,7 @@ class Image extends Component {
 
   render() {
     return (
-      <div className="Image-container">
+      <div id={'container-'+this.props.id} className="Image-container">
         <div className={'duotone ' + this.state.color[this.props.color]}>
           <LazyImage className="Image" offset={100} {...this.props} link={this.state.src} alt={this.props.id}/>
         </div>

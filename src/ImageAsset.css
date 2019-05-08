@@ -4,9 +4,9 @@
 }
 
 .ImageAsset {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 400;
-  margin: 10px;
+  margin: 5px;
   height: fit-content;
   font-family: CinnamonCake, arial, sans-serif;
   background-color: #FFF;
