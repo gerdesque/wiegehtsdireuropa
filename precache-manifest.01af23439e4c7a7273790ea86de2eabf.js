@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "ce0c21bde09e292c727cebd9123a0913",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-93279.ce0c21bd.webp"
+    "revision": "ed57ec89a7f53c61102c8ae825a2bf80",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-93221.ed57ec89.webp"
   },
   {
-    "revision": "14d0da72a5faf3556878",
-    "url": "/wiegehtsdireuropa/static/css/main.2510ae65.chunk.css"
+    "revision": "2ff390e006d792009a47",
+    "url": "/wiegehtsdireuropa/static/css/main.f170cae7.chunk.css"
   },
   {
     "revision": "95bbee0410ad99687d84",
     "url": "/wiegehtsdireuropa/static/js/runtime~main.b0c5e7bb.js"
   },
   {
-    "revision": "3d522aa2c4edad073369",
-    "url": "/wiegehtsdireuropa/static/js/2.af18ee5f.chunk.js"
+    "revision": "2da3602d38add9e044c30880785a29a3",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-95612.2da3602d.webp"
+  },
+  {
+    "revision": "2da5915bacf6b143507a",
+    "url": "/wiegehtsdireuropa/static/js/2.7353003c.chunk.js"
   },
   {
     "revision": "ecd99bac1aa6c471bc2a58357af55200",
@@ -216,12 +220,12 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-93112.1626cafc.webp"
   },
   {
-    "revision": "ed57ec89a7f53c61102c8ae825a2bf80",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-93221.ed57ec89.webp"
+    "revision": "2ff390e006d792009a47",
+    "url": "/wiegehtsdireuropa/static/js/main.48d1baf0.chunk.js"
   },
   {
-    "revision": "14d0da72a5faf3556878",
-    "url": "/wiegehtsdireuropa/static/js/main.23a3c275.chunk.js"
+    "revision": "ce0c21bde09e292c727cebd9123a0913",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-93279.ce0c21bd.webp"
   },
   {
     "revision": "0e032b93cb871c297be73fb747a01fde",
@@ -432,11 +436,11 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-95472.f2d5a497.webp"
   },
   {
-    "revision": "2da3602d38add9e044c30880785a29a3",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-95612.2da3602d.webp"
+    "revision": "2da5915bacf6b143507a",
+    "url": "/wiegehtsdireuropa/static/css/2.18f6c5ac.chunk.css"
   },
   {
-    "revision": "17e69d9763205c30dd15b7cd4e5766d3",
+    "revision": "1bb97ce61fa2ef52ce7fa8bbf6a4e859",
     "url": "/wiegehtsdireuropa/index.html"
   }
 ];
