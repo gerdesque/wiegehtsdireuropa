@@ -1,5 +1,5 @@
 .Image-container {
-  margin: 15px;
+  margin: 30px 15px 15px;
 	padding: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,.3);
   transform: none;
@@ -18,8 +18,17 @@
 
 .duotone {
   position: relative;
-  top: -25px;
   display: grid;
+}
+
+.duotone::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  pointer-events: none;
 }
 
 .yellow-red {

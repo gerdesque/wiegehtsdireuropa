@@ -1,48 +1,417 @@
 {
   "tweets": [{
-      "id": "1",
+      "id": "201",
       "text": "Europa ist unser Ort, wo wir Tradition und Werte pflegen können.",
       "sentiments": ["positive"],
-      "categories": ["miteinander", "menschen", "geschichte", "generationen", "tradition"],
-      "twitterhandle": "@PLInst_Wien",
-      "username": "PL Institut Wien",
-      "timestamp": "09:00 - 1. Mai 2019"
+      "categories": ["miteinander", "menschen", "geschichte", "generationen", "tradition", "jagd", "alte"],
+      "twitterhandle": ["@PLInst_Wien"],
+      "username": ["PL Institut Wien"],
+      "timestamp": ["09:00 - 1. Mai 2019"]
     },
     {
-      "id": "2",
-      "text": "Europa ist ein Ort, wo wir seit 1000 Jahren sind. Das ist ein Ort, wo wir leben, uns entwickeln, arbeiten & Familien gründen; ein Ort, der uns viele Möglichkeiten gibt. Das ist ein Ort, den wir mitgestalten. Das ist unser Ort.",
+      "id": "202",
+      "text": "Europa ist ein Ort, den wir mitgestalten. Das ist unser Ort.",
       "sentiments": ["positive"],
-      "categories": ["reise", "arbeit", "menschen"],
-      "twitterhandle": "@PLInst_Wien",
-      "username": "PL Institut Wien",
-      "timestamp": "03:01 - 1. Mai 2019"
+      "categories": ["reise", "arbeit", "menschen", "abenteuer", "aktion", "entdeckung"],
+      "twitterhandle": ["@PLInst_Wien"],
+      "username": ["PL Institut Wien"],
+      "timestamp": ["03:01 - 1. Mai 2019"]
     },
     {
-      "id": "3",
+      "id": "203",
       "text": "Was werdet ihr wählen?",
       "sentiments": ["neutral"],
-      "categories": ["politik", "wahl", "essen"],
-      "twitterhandle": "@BlondJedi",
-      "username": "Julia",
-      "timestamp": "09:52 - 27. Apr. 2019"
+      "categories": ["politik", "wahl", "essen", "aufklaerung", "neugier", "suche", "entscheidung"],
+      "twitterhandle": ["@BlondJedi"],
+      "username": ["Julia"],
+      "timestamp": ["09:52 - 27. Apr. 2019"]
     },
     {
-      "id": "4",
+      "id": "204",
       "text": "Europa ist auf einer großen Idee aufgebaut: Gemeinsamkeit. Und die Herausforderungen, vor denen wir heute stehen, die können wir nur gemeinsam anpacken.",
       "sentiments": ["positive"],
-      "categories": ["baustelle", "gemeinsam", "arbeit"],
-      "twitterhandle": "@Die_Gruenen",
-      "username": "BÜNDNIS90/DIE GRÜNEN",
-      "timestamp": "03:02 - 2. Mai 2019"
+      "categories": ["baustelle", "gemeinsam", "arbeit", "aktion", "bruecke"],
+      "twitterhandle": ["@Die_Gruenen"],
+      "username": ["BÜNDNIS90/DIE GRÜNEN"],
+      "timestamp": ["03:02 - 2. Mai 2019"]
     },
     {
-      "id": "5",
+      "id": "205",
       "text": "Reguläre Jobs mit ordentlichen Löhnen und fairen Arbeitsbedingungen sind machbar.",
       "sentiments": ["positive", "neutral"],
       "categories": ["arbeit", "baustelle"],
-      "twitterhandle": "@dieLinke",
-      "username": "Die Linke",
-      "timestamp": "07:26 - 29. Apr. 2019"
+      "twitterhandle": ["@dieLinke"],
+      "username": ["DIE LINKE"],
+      "timestamp": ["07:26 - 29. Apr. 2019"]
+    },
+    {
+      "id": "206",
+      "text": "Scheiss auf Europa!",
+      "sentiments": ["negative"],
+      "categories": ["einsam", "ekel", "emotion", "warten"],
+      "twitterhandle": ["@12Mannbmg"],
+      "username": ["Lucienfavre1122"],
+      "timestamp": ["03:52 - 2. Mai 2019"]
+    },
+    {
+      "id": "207",
+      "text": "In Germany we don‘t say „we experience a crisis of the political system“, we say „Nutzt die Chancen, kommt zusammen, wir bauen unser neues Europa, das ist die Antwort. Freiheit!“ and I think it‘s beautiful.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["arbeit", "baustelle", "aktion", "neugier"],
+      "twitterhandle": ["@nicosemsrott"],
+      "username": ["Nico Semsrott"],
+      "timestamp": ["22:42 - 1. Mai 2019"]
+    },
+    {
+      "id": "208",
+      "text": "Am 26. Mai werden die Weichen für die Zukunft gestellt.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["bewegung", "zukunft", "jetzt", "neugier", "rennen", "entscheidung"],
+      "twitterhandle": ["@ihkniederbayern"],
+      "username": ["IHK Niederbayern"],
+      "timestamp": ["03:55 - 2. Mai 2019"]
+    },
+    {
+      "id": "209",
+      "text": "The European Union is a role model to me.",
+      "sentiments": ["positive"],
+      "categories": ["schoenmachen", "menschen", "jagd"],
+      "twitterhandle": ["@rebekkamueller"],
+      "username": ["Rebekka Mueller"],
+      "timestamp": ["11:37 - 11. Juli 2017"]
+    },
+    {
+      "id": "210",
+      "text": "Wie würde dein Leben ohne die EU aussehen?",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["arbeit", "baustelle", "aufklaerung", "glaube", "warten"],
+      "twitterhandle": ["@CarlyLaurence"],
+      "username": ["Carly Laurence"],
+      "timestamp": ["12:48 - 18. Mai 2017"]
+    },
+    {
+      "id": "211",
+      "text": "Spargel essen für Europa!",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["essen"],
+      "twitterhandle": ["@zwangsbernd"],
+      "username": ["avec vous"],
+      "timestamp": ["12:03 - 1. Mai 2019"]
+    },
+    {
+      "id": "212",
+      "text": "Die Lebensmittel welche in Europa und Nordamerika weggeworfen werden, würde dreimal reichen um alle hungernden auf der Welt zu versorgen!",
+      "sentiments": ["negative"],
+      "categories": ["essen"],
+      "twitterhandle": ["@Suuupertyp"],
+      "username": ["Adi Pös"],
+      "timestamp": ["13:30 - 31. Juli 2013"]
+    },
+    {
+      "id": "213",
+      "text": "Ein Europa, in dem wir mal eben rüber nach Frankreich fahren können, um mit Eingeborenen, Erasmusstudenten aus aller Welt und Kommilitonen lecker Döner zu essen, und es zu genießen, dass wir aus den 1940ern schon lange raus sind <3",
+      "sentiments": ["positive"],
+      "categories": ["miteinander", "essen", "menschen"],
+      "twitterhandle": ["@RedPanda10V3"],
+      "username": ["kuscheliges Capybara"],
+      "timestamp": ["03:54 - 5. Mai 2018"]
+    },
+    {
+      "id": "214",
+      "text": "Lecker aufs Land - ein kulinarischer Ausflug",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["essen", "reise"],
+      "twitterhandle": ["@AllgemeineNachr"],
+      "username": ["Allg. Nachrichten"],
+      "timestamp": ["23:30 - 10. Nov. 2017"]
+    },
+    {
+      "id": "215",
+      "text": "Ich liebe Europa. Die Länder, die Menschen, die Sprachen, das Essen. Vielfalt ohne Mauern. Es ist ein wahr gewordener Traum - für mich.",
+      "sentiments": ["positive"],
+      "categories": ["menschen", "miteinander", "essen", "unterschiede", "austausch", "entspannung", "jubel", "mauer"],
+      "twitterhandle": ["@sfn_eddie"],
+      "username": ["A. Tom Quixotte"],
+      "timestamp": ["02:57 - 23. Sept. 2017"]
+    },
+    {
+      "id": "216",
+      "text": "ABER: es darf eben NICHT nur heißen 'Für Europa reicht's' Wir brauchen ein sozialeres, nachhaltigeres, offeneres und jüngeres Europa!",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["arbeit", "generationen", "freunde"],
+      "twitterhandle": ["@MR_SBULL"],
+      "username": ["SIMON"],
+      "timestamp": ["22:30 - 6. Mai 2019"]
+    },
+    {
+      "id": "217",
+      "text": "Klimawandel macht nicht an Grenzen halt.",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["grenzen", "zukunft", "bewegung"],
+      "twitterhandle": ["@Umwelthilfe"],
+      "username": ["Deutsche Umwelthilfe"],
+      "timestamp": ["03:02 - 7. Mai 2019"]
+    },
+    {
+      "id": "218",
+      "text": "Vor 30 Jahren wurde in der DDR zum letzten Mal eine Wahl gefälscht. Die Bürgerinnen und Bürger begannen sich zu wehren. Die Demokratie lebt von Einmischung und Beteiligung - nicht nur, aber auch wieder am 26. Mai.",
+      "sentiments": ["neutral"],
+      "categories": ["buerokratie", "zukunft", "wahl"],
+      "twitterhandle": ["@GoeringEckardt"],
+      "username": ["Katrin Göring-Eckardt MdB"],
+      "timestamp": ["02:08 - 7. Mai 2019"]
+    },
+    {
+      "id": "219",
+      "text": "Was ist Europa für uns? Für die Wirtschaft ist es nicht nur Heimat, sondern auch Heimmarkt",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["handel", "geld"],
+      "twitterhandle": ["@WKOe"],
+      "username": ["Wirtschaftskammer Ö."],
+      "timestamp": ["09:07 - 7. Mai 2019"]
+    },
+    {
+      "id": "220",
+      "text": "Verdammte scheiße, geht zur EUROPA WAHL und jammert nicht rum!",
+      "sentiments": ["negative"],
+      "categories": ["wahl", "unfall", "emotion", "schlaf"],
+      "twitterhandle": ["@FreakCologne"],
+      "username": ["Freak"],
+      "timestamp": ["09:07 - 7. Mai 2019"]
+    },
+    {
+      "id": "221",
+      "text": "Welche Partei muss ich wählen um im Europa günstiger mit der Bahn von A nach B zu kommen als mit dem Flieger?",
+      "sentiments": ["neutral"],
+      "categories": ["reise", "auto", "unfall"],
+      "twitterhandle": ["@DanielFrevel"],
+      "username": ["Daniel Frevel"],
+      "timestamp": ["16:24 - 31. März 2019"]
+    },
+    {
+      "id": "222",
+      "text": "Es muss Schluss sein mit dem Lohndumping! Deshalb wollen wir einen europäischen Mindestlohn einführen, der 60 % des mittleren Einkommens des jeweiligen Landes beträgt.",
+      "sentiments": ["neutral"],
+      "categories": ["geld", "arbeit"],
+      "twitterhandle": ["@katarinabarley"],
+      "username": ["Katarina Barley"],
+      "timestamp": ["23:03 - 3. Mai 2019"]
+    },
+    {
+      "id": "223",
+      "text": "Deutschland produziert mehr Fleisch als erlaubt. Um dieses Problem zu lösen, brauchen wir die EU.",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["essen"],
+      "twitterhandle": ["@krautreporter"],
+      "username": ["Krautreporter"],
+      "timestamp": ["12:01 - 3. Mai 2019"]
+    },
+    {
+      "id": "224",
+      "text": "EUROPA. DIE BESTE IDEE, DIE EUROPA JE HATTE.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["kunst", "mut", "emotion", "trinken", "freude"],
+      "twitterhandle": ["@felix_graedler"],
+      "username": ["Felix Grädler"],
+      "timestamp": ["09:11 - 2. Mai 2019"]
+    },
+    {
+      "id": "225",
+      "text": "Europa ist auf einer großen Idee aufgebaut: Gemeinsamkeit. Und die Herausforderungen, vor denen wir heute stehen, die können wir nur gemeinsam anpacken.",
+      "sentiments": ["positive"],
+      "categories": ["gemeinsam", "arbeit", "zukunft"],
+      "twitterhandle": ["@Die_Gruenen"],
+      "username": ["BÜNDNIS90/DIE GRÜNEN"],
+      "timestamp": ["03:02 - 2. Mai 2019"]
+    },
+    {
+      "id": "226",
+      "text": "Europawahl ist Klimawahl.",
+      "sentiments": ["neutral"],
+      "categories": ["reise", "zukunft"],
+      "twitterhandle": ["@Marco_Fechner"],
+      "username": ["Marco Fechner"],
+      "timestamp": ["08:17 - 7. Mai 2019"]
+    },
+    {
+      "id": "227",
+      "text": "Sinnloses Gelddrucken statt echter Sanierung. Draghis vergiftetes Erbe: Europa als Kollateralschaden der EZB-Geldpolitik.",
+      "sentiments": ["negative"],
+      "categories": ["geld", "baustelle", "politik"],
+      "twitterhandle": ["@gamleboeger"],
+      "username": ["Gert Pedersen"],
+      "timestamp": ["15:00 - 31. März 2019"]
+    },
+    {
+      "id": "228",
+      "text": "Für Europa reichts.",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["wahl", "zukunft", "schlaf", "essen", "musik", "schoenmachen", "sport", "warten"],
+      "twitterhandle": ["@AFromsdorf"],
+      "username": ["Günther Hubs"],
+      "timestamp": ["14:13 - 31. März 2019"]
+    },
+    {
+      "id": "229",
+      "text": "Wer allen Menschen wirklich zuhört gewinnt die Wahl.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["wahl", "dialog", "telefon", "alte"],
+      "twitterhandle": ["@Humanistin"],
+      "username": ["Humanistin"],
+      "timestamp": ["16:28 - 30. März 2019"]
+    },
+    {
+      "id": "230",
+      "text": "Heute ist ein guter Tag für Europa!",
+      "sentiments": ["positive"],
+      "categories": ["jetzt", "mut", "abenteuer", "jubel", "sport", "trinken", "freude"],
+      "twitterhandle": ["@hugohbusse"],
+      "username": ["Hugo Holger Busse"],
+      "timestamp": ["16:03 - 30. März 2019"]
+    },
+    {
+      "id": "231",
+      "text": "Was wir wollen, ist ein Europa der Menschenrechte, das freie & gerechte Gesellschaften fördert",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["menschen"],
+      "twitterhandle": ["@AmnestySachsen"],
+      "username": ["Amnesty International Sachsen"],
+      "timestamp": ["12:24 - 7. Mai 2019"]
+    },
+    {
+      "id": "232",
+      "text": "„Wir dürfen nicht den Extremisten die Macht geben. Redet mit jedem. Es ist eine Schicksalswahl.“",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["mut", "wahl", "zukunft"],
+      "twitterhandle": ["@spdde"],
+      "username": ["SPD Parteivorstand"],
+      "timestamp": ["12:26 - 7. Mai 2019"]
+    },
+    {
+      "id": "233",
+      "text": "Mein lie­ber noch namen­lo­ser Enkel... du wur­dest in eine Gesell­schaft hineingebo­ren, in der es nicht um radi­ka­le Gleich­heit der Geschlech­ter geht, son­dern um einen bewuss­ten und inklu­si­ven Umgang mit Unterschieden.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["unterschiede", "generationen"],
+      "twitterhandle": ["@www_magazin"],
+      "username": ["was wäre wenn"],
+      "timestamp": ["12:33 - 7. Mai 2019"]
+    },
+    {
+      "id": "234",
+      "text": "Lass‘ mal reden, Europa! Heute Nachmittag bei Kaffee und Kuchen.",
+      "sentiments": ["positive"],
+      "categories": ["dialog", "telefon", "essen"],
+      "twitterhandle": ["@MiRo_SPD"],
+      "username": ["Michael Roth MdB"],
+      "timestamp": ["16:57 - 6. Mai 2019"]
+    },
+    {
+      "id": "235",
+      "text": "Gleicher Lohn für gleiche Arbeit in Europa.",
+      "sentiments": ["neutral"],
+      "categories": ["arbeit"],
+      "twitterhandle": ["@kinokathi"],
+      "username": ["Katharina Dockhorn"],
+      "timestamp": ["17:45 - 8. Mai 2019"]
+    },
+    {
+      "id": "236",
+      "text": "Europa. Jetzt aber richtig!",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["wahl", "zukunft", "baustelle", "arbeit", "jetzt", "musik", "rennen"],
+      "twitterhandle": ["@GEW_BERLIN"],
+      "username": ["GEW BERLIN"],
+      "timestamp": ["13:38 - 1. Mai 2019"]
+    },
+    {
+      "id": "237",
+      "text": "Welchen Zirkus soll ich denn nun wählen? Also ich mag ja Glitzer, aber ich fürchte Europa braucht etwas mehr als das. ",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["fasching", "party", "licht"],
+      "twitterhandle": ["@mybrainfudge"],
+      "username": ["MyBrainFudge"],
+      "timestamp": ["19:40 - 3. Mai 2019"]
+    },
+    {
+      "id": "238",
+      "text": "Man kann auch reisen, ohne zu fliegen. Europa hat viele schöne Ecken, die sind auch mit Bus, Bahn oder Auto erreichbar.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["auto", "reise", "unfall"],
+      "twitterhandle": ["@MelVar17"],
+      "username": ["M.V."],
+      "timestamp": ["22:48 - 5. Mai 2019"]
+    },
+    {
+      "id": "239",
+      "text": "So ein bisschen Framing muss schon sein, deshalb geht es ja auch um Europa und nicht um die EU.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["kunst"],
+      "twitterhandle": ["@griese_robert"],
+      "username": ["Robert Griese"],
+      "timestamp": ["13:33 - 8. Mai 2019"]
+    },
+    {
+      "id": "240",
+      "text": "Europa ist unser Zuhause, es ist der Ort, an dem wir leben und arbeiten. Europa bedeutet für uns Freunde und Familie. ",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "menschen", "familie", "arbeit"],
+      "twitterhandle": ["@EON_de"],
+      "username": ["E.ON"],
+      "timestamp": ["11:31 - 8. Mai 2019"]
+    },
+    {
+      "id": "241",
+      "text": "Das Europa wie wir es kennen steht auf dem Spiel!",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["spiel", "politik"],
+      "twitterhandle": ["@bxlmax"],
+      "username": ["Max von Abendroth"],
+      "timestamp": ["22:44 - 5. Mai 2019"]
+    },
+    {
+      "id": "242",
+      "text": "Geringe Wahlbeteiligung bei der letzten Europawahl sich ändern. Willst du mit mir wählen gehen?",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["wahl", "zukunft", "gemeinsam", "rufen", "menschen"],
+      "twitterhandle": ["@ZDFheute"],
+      "username": ["ZDF Heute"],
+      "timestamp": ["10:24 - 3. Mai 2019"]
+    },
+    {
+      "id": "243",
+      "text": "Und wie sieht deine Heimat Europa aus?",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["reise", "menschen", "baustelle", "party", "essen", "musik"],
+      "twitterhandle": ["@PulseofEurope"],
+      "username": ["Pulse of Europe"],
+      "timestamp": ["22:10 - 29. Apr. 2019"]
+    },
+    {
+      "id": "244",
+      "text": "Ich wohne an Ruhr und Pfaffenteich. Meine Pommes sind speciaal. Meine Heimat ist Europa.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["reise", "essen"],
+      "twitterhandle": ["@blogspeciaal"],
+      "username": ["blog speciaal"],
+      "timestamp": ["02:59 - 3. Mai 2019"]
+    },
+    {
+      "id": "245",
+      "text": "Europa ist ein Mosaik. Aus vielen unterschiedlichen Steinen. Vielfältig, offen, demokratisch und friedlich.",
+      "sentiments": ["positive"],
+      "categories": ["menschen", "generationen", "party", "freunde", "familie"],
+      "twitterhandle": ["@Kasallamusik"],
+      "username": ["Kasalla"],
+      "timestamp": ["11:42 - 2. Mai 2019"]
+    },
+    {
+      "id": "246",
+      "text": "Europa ist nicht perfekt, aber zusammen können wir es besser machen.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["arbeit", "zukunft", "gemeinsam", "baustelle", "kunst", "schoenmachen"],
+      "twitterhandle": ["@Igutmensch"],
+      "username": ["Idgie Gutmensch"],
+      "timestamp": ["02:11 - 29. Apr. 2019"]
     }
   ],
   "hashtags": [{
@@ -55,19 +424,19 @@
       "id": "2",
       "text": "#frEUnde",
       "sentiments": ["positive"],
-      "categories": ["freunde", "liebe", "gemeinsam", "miteinander"]
+      "categories": ["freunde", "gemeinsam", "miteinander"]
     },
     {
       "id": "3",
       "text": "#frEUndschaft",
       "sentiments": ["positive"],
-      "categories": ["freunde", "gemeinsam", "liebe", "miteinander"]
+      "categories": ["freunde", "gemeinsam", "miteinander"]
     },
     {
       "id": "4",
       "text": "#EUphorie",
       "sentiments": ["positive"],
-      "categories": ["freude", "hoffnung", "jubel"]
+      "categories": ["freude", "jubel"]
     },
     {
       "id": "5",
@@ -85,7 +454,7 @@
       "id": "7",
       "text": "#hEUte",
       "sentiments": ["positive", "neutral"],
-      "categories": ["jetzt", "heute", "aktion", "zukunft"]
+      "categories": ["jetzt", "aktion", "zukunft"]
     },
     {
       "id": "8",
@@ -97,7 +466,7 @@
       "id": "9",
       "text": "#frEUndlich",
       "sentiments": ["positive"],
-      "categories": ["menschen", "miteinander", "nett", "freunde"]
+      "categories": ["menschen", "miteinander", "freunde"]
     },
     {
       "id": "10",
@@ -109,7 +478,7 @@
       "id": "11",
       "text": "#EUretwegen",
       "sentiments": ["positive", "negative"],
-      "categories": ["menschen", "miteinander", "freunde", "feinde", "antieuropa"]
+      "categories": ["menschen", "miteinander", "freunde"]
     },
     {
       "id": "12",
@@ -127,13 +496,13 @@
       "id": "14",
       "text": "#trEU",
       "sentiments": ["positive"],
-      "categories": ["menschen", "miteinander", "freunde", "familie", "partnerschaft"]
+      "categories": ["menschen", "miteinander", "freunde", "familie"]
     },
     {
       "id": "15",
       "text": "#originalgetrEU",
       "sentiments": ["positive", "neutral"],
-      "categories": ["jetzt", "echt", "tradition", "geschichte", "unterschiede", "alte"]
+      "categories": ["jetzt", "tradition", "geschichte", "unterschiede", "alte"]
     },
     {
       "id": "16",
@@ -151,7 +520,7 @@
       "id": "18",
       "text": "#erlEUchten",
       "sentiments": ["positive"],
-      "categories": ["aufklaerung", "wissen", "zukunft", "miteinander"]
+      "categories": ["aufklaerung", "zukunft", "miteinander"]
     },
     {
       "id": "19",
@@ -175,7 +544,7 @@
       "id": "22",
       "text": "#krEUzung",
       "sentiments": ["positive", "neutral", "negative"],
-      "categories": ["entscheidung", "miteinander", "austausch", "dialog", "streit"]
+      "categories": ["entscheidung", "miteinander", "austausch", "dialog"]
     },
     {
       "id": "23",
@@ -193,7 +562,7 @@
       "id": "25",
       "text": "#sEUfz",
       "sentiments": ["positive", "negative"],
-      "categories": ["trauer", "emotion", "jubel", "freude", "liebe", "sehnsucht", "entspannung"]
+      "categories": ["emotion", "jubel", "freude", "entspannung"]
     },
     {
       "id": "26",
@@ -205,7 +574,7 @@
       "id": "27",
       "text": "#nEUronalenetzwerke",
       "sentiments": ["positive", "neutral"],
-      "categories": ["wissen", "miteinander", "dialog"]
+      "categories": ["miteinander", "dialog"]
     },
     {
       "id": "28",
@@ -241,7 +610,7 @@
       "id": "33",
       "text": "#EUropaleuchtet",
       "sentiments": ["positive"],
-      "categories": ["licht", "wissen", "mut"]
+      "categories": ["licht", "mut"]
     },
     {
       "id": "34",
@@ -265,7 +634,7 @@
       "id": "37",
       "text": "#wiesiehtdeinEUROPAaus",
       "sentiments": ["positive", "neutral", "negative"],
-      "categories": ["menschen", "reise", "wissen", "bildung"]
+      "categories": ["menschen", "reise", "unfall"]
     },
     {
       "id": "38",
@@ -301,7 +670,7 @@
       "id": "43",
       "text": "#aufdersuchenachEUropa",
       "sentiments": ["positive", "neutral", "negative"],
-      "categories": ["zukunft", "jetzt", "warten", "hoffnung", "suche"]
+      "categories": ["zukunft", "jetzt", "warten", "suche"]
     },
     {
       "id": "44",
@@ -367,7 +736,7 @@
       "id": "54",
       "text": "#nEUrose",
       "sentiments": ["negative"],
-      "categories": ["krankheit", "menschen"]
+      "categories": ["einsam"]
     },
     {
       "id": "55",
@@ -385,7 +754,7 @@
       "id": "57",
       "text": "#berEUen",
       "sentiments": ["negative"],
-      "categories": ["geschichte", "fehler", "politik", "jetzt", "tradition"]
+      "categories": ["geschichte", "politik", "jetzt", "tradition"]
     },
     {
       "id": "58",
@@ -397,7 +766,7 @@
       "id": "59",
       "text": "#fehlertEUfel",
       "sentiments": ["negative"],
-      "categories": ["jetzt", "fehler", "menschen", "buerokratie"]
+      "categories": ["jetzt", "menschen", "buerokratie"]
     },
     {
       "id": "60",
@@ -463,7 +832,7 @@
       "id": "70",
       "text": "#believeinEUrope",
       "sentiments": ["positive"],
-      "categories": ["glaube", "liebe", "hoffnung", "zukunft"]
+      "categories": ["glaube", "zukunft"]
     },
     {
       "id": "71",
@@ -485,7 +854,7 @@
     },
     {
       "id": "74",
-      "text": "#handsonEUrope",
+      "text": "#hands-onEUrope",
       "sentiments": ["positive"],
       "categories": ["baustelle", "aktion", "miteinander", "schoenmachen"]
     },
@@ -505,7 +874,7 @@
       "id": "77",
       "text": "#EUropelikestomoveit",
       "sentiments": ["positive"],
-      "categories": ["party", "bewegung", "tanz", "reise", "auto"]
+      "categories": ["party", "bewegung", "reise", "auto"]
     },
     {
       "id": "78",
@@ -565,13 +934,13 @@
       "id": "87",
       "text": "#datingEUrope",
       "sentiments": ["positive"],
-      "categories": ["liebe", "partnerschaft"]
+      "categories": ["telefon"]
     },
     {
       "id": "88",
       "text": "#fallingforEUrope",
       "sentiments": ["positive"],
-      "categories": ["unfall", "liebe"]
+      "categories": ["unfall"]
     },
     {
       "id": "89",
@@ -720,7 +1089,7 @@
     {
       "id": "labw-5-91548",
       "sentiments": ["positive", "neutral", "negative"],
-      "categories": ["unterschiede", "menschen"]
+      "categories": ["unterschiede", "menschen", "wahl"]
     },
     {
       "id": "labw-5-91600",
@@ -735,7 +1104,7 @@
     {
       "id": "labw-5-91625",
       "sentiments": ["positive"],
-      "categories": ["party", "trinken", "jubel", "fasching"]
+      "categories": ["party", "trinken", "jubel", "fasching", "freude"]
     },
     {
       "id": "labw-5-91655",
@@ -870,7 +1239,7 @@
     {
       "id": "labw-5-93655",
       "sentiments": ["positive", "neutral"],
-      "categories": ["zukunft", "vergangenheit", "jetzt", "austausch"]
+      "categories": ["zukunft", "geschichte", "jetzt", "austausch"]
     },
     {
       "id": "labw-5-93666",
@@ -880,7 +1249,7 @@
     {
       "id": "labw-5-93696",
       "sentiments": ["positive", "neutral"],
-      "categories": ["generationen", "unterschiede", "alter", "reise"]
+      "categories": ["generationen", "unterschiede", "alte", "reise"]
     },
     {
       "id": "labw-5-93723",
@@ -890,7 +1259,7 @@
     {
       "id": "labw-5-93737",
       "sentiments": ["positive", "neutral", "negative"],
-      "categories": ["rufen"]
+      "categories": ["rufen", "politik"]
     },
     {
       "id": "labw-5-93741",
@@ -905,7 +1274,7 @@
     {
       "id": "labw-5-93788",
       "sentiments": ["positive"],
-      "categories": ["freunde", "party", "musik", "miteinander"]
+      "categories": ["freunde", "party", "musik", "miteinander", "freude"]
     },
     {
       "id": "labw-5-93804",
@@ -955,7 +1324,7 @@
     {
       "id": "labw-5-93907",
       "sentiments": ["positive", "negative"],
-      "categories": ["freunde", "spiel", "baustelle"]
+      "categories": ["freunde", "spiel", "baustelle", "mauer"]
     },
     {
       "id": "labw-5-93913",
@@ -1030,7 +1399,7 @@
     {
       "id": "labw-5-94770",
       "sentiments": ["positive"],
-      "categories": ["freunde", "essen", "trinken", "gemeinsam"]
+      "categories": ["freunde", "essen", "trinken", "gemeinsam", "wahl"]
     },
     {
       "id": "labw-5-94790",
@@ -1060,7 +1429,7 @@
     {
       "id": "labw-5-95202",
       "sentiments": ["positive", "neutral"],
-      "categories": ["bewegung", "reise"]
+      "categories": ["bewegung", "reise", "entscheidung", "wahl"]
     },
     {
       "id": "labw-5-95250",
@@ -1080,7 +1449,7 @@
     {
       "id": "labw-5-95612",
       "sentiments": ["negative", "neutral"],
-      "categories": ["menschen", "arbeit", "freunde", "familie", "buerokratie"]
+      "categories": ["menschen", "arbeit", "freunde", "familie", "buerokratie", "wahl"]
     }
   ]
 }

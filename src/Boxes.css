@@ -34,7 +34,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 15px solid #4e413b;
+  border: 5px solid #4e413b;
   box-shadow: 0 4px 6px rgba(32, 33, 36, 0.28);
   padding: 5px;
   background-color: #f6f6f8;

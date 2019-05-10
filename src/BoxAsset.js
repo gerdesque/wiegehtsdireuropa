@@ -3,12 +3,34 @@ import './BoxAsset.css';
 import { DragDropContainer } from 'react-drag-drop-container';
 
 class BoxAsset extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {dragging: false};
+  }
+
+  onDragStart = (e) => {
+    console.log(e.dragData);
+    this.setState({dragging: true})
+  };
+
+  onDragEnd = (e) => {
+    console.log(e.dragData);
+    this.setState({dragging: false})
+  };
+
+  onMove = (e) => {
+    if (this.state.dragging) return;
+  }
 
   render() {
     return (
       <DragDropContainer
         targetKey="image"
         dragData={{props: this.props}}
+        onDragStart={this.onDragStart}
+        onDragEnd={this.onDragEnd}
+        onMouseMove={this.onMove}
+        onTouchMove={this.onMove}
         render = {() => {
           return <div {...this.props} className = "BoxAsset">
             {this.props.username && <div className="BoxAsset-user">{this.props.username}</div>}

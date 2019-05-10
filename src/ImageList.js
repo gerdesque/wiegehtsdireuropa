@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './ImageList.css';
 import Image from './Image';
+import Facebook from 'react-sharingbuttons/dist/buttons/Facebook'
+import Twitter from 'react-sharingbuttons/dist/buttons/Twitter'
+import 'react-sharingbuttons/dist/main.css'
 
 let currentValue = 0;
 
@@ -17,12 +20,17 @@ class ImageList extends Component {
   };
 
   render() {
+    const url = 'https://leo-bw.de/wiegehtsdireuropa'
+    const shareText = 'Foto @WillyPrager #wiegehtsdireuropa #cdvsued #codingdavinci'
     const imageItems = this.props.images.map((image) =>
       <Image key={image.id} color={this.getRandomColor(8)} {...image}/>);
       return (
         <>
           <div className="ImageList">{imageItems}</div>
-          {/* <div className="ImageList-share"><button id="share" onClick={this.share}>Share</button></div> */}
+          <div className="ImageList-share">
+            <Twitter url={url} shareText={shareText} />
+            <Facebook url={url} />
+          </div>
         </>
       );
   }

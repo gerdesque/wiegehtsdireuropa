@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'EuropaBrush';
+  font-display: swap;
   src:  url('./assets/fonts/EuropaBrush.woff') format('woff');
 }
 

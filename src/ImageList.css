@@ -11,7 +11,7 @@
 
 @media all and (min-width: 768px) {
   .ImageList {
-    grid-auto-columns: calc(40% - 40px);  
+    grid-auto-columns: calc(50% - 40px);
   }
 }
 
@@ -23,4 +23,9 @@
 .ImageList::after {
   content: '';
   width: 10px;
+}
+
+.ImageList-share {
+  width: 100%;
+  text-align: center;
 }
