@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "ed57ec89a7f53c61102c8ae825a2bf80",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-93221.ed57ec89.webp"
+    "revision": "ce0c21bde09e292c727cebd9123a0913",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-93279.ce0c21bd.webp"
   },
   {
-    "revision": "12cd10da0800b6456438",
-    "url": "/wiegehtsdireuropa/static/css/main.7c533e5e.chunk.css"
+    "revision": "14d0da72a5faf3556878",
+    "url": "/wiegehtsdireuropa/static/css/main.2510ae65.chunk.css"
   },
   {
     "revision": "95bbee0410ad99687d84",
     "url": "/wiegehtsdireuropa/static/js/runtime~main.b0c5e7bb.js"
   },
   {
-    "revision": "3884d1cb89e8d20ceaf1",
-    "url": "/wiegehtsdireuropa/static/js/2.33aeb11e.chunk.js"
+    "revision": "3d522aa2c4edad073369",
+    "url": "/wiegehtsdireuropa/static/js/2.af18ee5f.chunk.js"
   },
   {
     "revision": "ecd99bac1aa6c471bc2a58357af55200",
@@ -38,10 +38,6 @@ self.__precacheManifest = [
   {
     "revision": "17baadf57b6b807a93a047c0059eb58e",
     "url": "/wiegehtsdireuropa/static/media/EuropaBrush.17baadf5.woff"
-  },
-  {
-    "revision": "e145075355cf79a035ec0af264b4e870",
-    "url": "/wiegehtsdireuropa/static/media/pin.e1450753.svg"
   },
   {
     "revision": "0a00c04029f465a305f31054da5e0b07",
@@ -220,12 +216,12 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-93112.1626cafc.webp"
   },
   {
-    "revision": "12cd10da0800b6456438",
-    "url": "/wiegehtsdireuropa/static/js/main.236c9acd.chunk.js"
+    "revision": "ed57ec89a7f53c61102c8ae825a2bf80",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-93221.ed57ec89.webp"
   },
   {
-    "revision": "ce0c21bde09e292c727cebd9123a0913",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-93279.ce0c21bd.webp"
+    "revision": "14d0da72a5faf3556878",
+    "url": "/wiegehtsdireuropa/static/js/main.23a3c275.chunk.js"
   },
   {
     "revision": "0e032b93cb871c297be73fb747a01fde",
@@ -440,7 +436,7 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-95612.2da3602d.webp"
   },
   {
-    "revision": "63721c9ae70677941627afbd8453280a",
+    "revision": "17e69d9763205c30dd15b7cd4e5766d3",
     "url": "/wiegehtsdireuropa/index.html"
   }
 ];
