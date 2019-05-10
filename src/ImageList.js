@@ -17,8 +17,8 @@ class ImageList extends Component {
   };
 
   render() {
-    const imageItems = this.props.images.slice(0,7).map((image) =>
-      <Image key={image.id} color={this.getRandomColor(4)} {...image}/>);
+    const imageItems = this.props.images.map((image) =>
+      <Image key={image.id} color={this.getRandomColor(8)} {...image}/>);
       return (
         <>
           <div className="ImageList">{imageItems}</div>

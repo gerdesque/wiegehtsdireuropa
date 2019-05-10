@@ -6,13 +6,6 @@
   scroll-snap-align: center;
 }
 
-.Image-container::before {
-  content: url('./assets/pin.svg');
-  content: '';
-  margin-left: calc(50% - 15px);
-  z-index: 2;
-}
-
 /* Rotate all even images -2 degrees */
 .Image-container:nth-child(2n) {
   transform: rotate(-2deg);
@@ -27,17 +20,6 @@
   position: relative;
   top: -25px;
   display: grid;
-}
-
-.duotone::after {
-  position: absolute;
-  content: "";
-  font-size: 22px;
-  top: 0;
-  left: 0;
-  bottom: 0px;
-  right: 0;
-  pointer-events: none;
 }
 
 .yellow-red {
@@ -84,6 +66,75 @@
   background: linear-gradient(to top left, #75d775, #321a5b);
 }
 
+.pink-blue {
+  background-color: #3A34FF;
+}
+
+.pink-blue img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: hard-light;
+}
+
+.pink-blue::after {
+  mix-blend-mode: darken;
+  background: #FF49BA;
+}
+
+.red-blue {
+  background-color: #F7392B;
+}
+
+.red-blue img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: multiply;
+}
+
+.red-blue::after {
+  mix-blend-mode: lighten;
+  background: #16006F;
+}
+
+.orange-green {
+  background-color: #70F134;
+}
+
+.orange-green img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: luminosity;
+}
+
+.orange-green::after {
+  mix-blend-mode: multiply;
+  background: #FF8B02;
+}
+
+.orange-black {
+  background-color: #010101;
+}
+
+.orange-black img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: luminosity;
+}
+
+.orange-black::after {
+  mix-blend-mode: overlay;
+  background: #F98900;
+}
+
 .Image {
   width: 100%;
 }
+
+.fade {
+  animation-duration: 3s;
+  animation-name: fade;
+ }
+ @keyframes fade {
+  from {
+  opacity: 0;
+  }
+  to {
+  opacity: 1;
+  }
+ }

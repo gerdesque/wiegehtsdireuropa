@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Image.css';
-import {LazyImage} from 'lazy-react'
+import { InView } from 'react-intersection-observer'
 import ImageAsset from './ImageAsset';
 import { DropTarget } from 'react-drag-drop-container';
 
@@ -10,7 +10,7 @@ class Image extends Component {
     super(props);
     this.state = {
       src: require('./assets/squares/' + this.props.id + '.webp'),
-      color: ["", "yellow-red","green-blue", "purple-green"],
+      color: ["", "yellow-red","green-blue", "purple-green", "pink-blue", "red-blue", "orange-green", "orange-black"],
       assets: JSON.parse(localStorage.getItem(this.props.id)) || []
     };
   }
@@ -20,7 +20,7 @@ class Image extends Component {
     const isTweet = droppedAsset.username !== undefined;
 
     const duplicate = this.state.assets.some(asset => asset.id === droppedAsset.id);
-    const maxAssets = (isTweet && this.state.assets.some(asset => asset.username !== null))
+    const maxAssets = (isTweet && this.state.assets.some(asset => asset.username !== undefined))
       || this.state.assets.length === 4;
     if (!maxAssets && !duplicate) {
       this.setState({ assets: [
@@ -56,27 +56,35 @@ class Image extends Component {
 
   render() {
     return (
-      <div id={'container-'+this.props.id} className="Image-container">
-        <div className={'duotone ' + this.state.color[this.props.color]}>
-          <LazyImage className="Image" offset={100} {...this.props} link={this.state.src} alt={this.props.id}/>
-        </div>
-        <DropTarget
-          onHit={this.handleDrop}
-          targetKey="image"
-          dropData={{name: this.props.name}}>
-          <DropTarget
-            onHit={this.handleDrop}
-            targetKey="imageItem"
-            dropData={{name: this.props.name}}>
-            <div className="Droppable">
-              {this.state.assets.map((asset, index) => {
-                return (
-                  <ImageAsset key={asset.id} {...asset} kill={this.kill} index={index} swap={this.swap}/>);
-                  })}
-            </div>
-          </DropTarget>
-        </DropTarget>
-      </div>
+      <InView triggerOnce="true">
+        {({ inView, ref }) => (
+          <div id={'container-'+this.props.id} className="Image-container" ref={ref}>
+          {inView && 
+            <>
+              <div className={'duotone ' + this.state.color[this.props.color]}>
+                <img className="Image fade" {...this.props} src={this.state.src} alt={this.props.id}/>
+              </div>
+              <DropTarget
+                onHit={this.handleDrop}
+                targetKey="image"
+                dropData={{name: this.props.name}}>
+                <DropTarget
+                  onHit={this.handleDrop}
+                  targetKey="imageItem"
+                  dropData={{name: this.props.name}}>
+                  <div className="Droppable">
+                    {this.state.assets.map((asset, index) => {
+                      return (
+                        <ImageAsset key={asset.id} {...asset} kill={this.kill} index={index} swap={this.swap}/>);
+                        })}
+                  </div>
+                </DropTarget>
+              </DropTarget>
+            </>
+          }
+          </div>
+         )}
+      </InView>
     )
   }
 }
