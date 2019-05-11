@@ -27,9 +27,9 @@ class ImageList extends Component {
       <>
         <div className="ImageList">{imageItems}</div>
         <div className="ImageList-share">
-          <a class="react-sharing-button__link react-sharing-button--download" onClick={this.share}>
-            <svg class="react-sharing-button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 12v5H3v-5H1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5z"/><path d="M10 15l5-6h-4V1H9v8H5l5 6z"/></svg>
-            <span class="react-sharing-button__text">Download</span>
+          <a className="react-sharing-button__link react-sharing-button--download" onClick={this.share}>
+            <svg className="react-sharing-button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 12v5H3v-5H1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5z"/><path d="M10 15l5-6h-4V1H9v8H5l5 6z"/></svg>
+            <span className="react-sharing-button__text">Download</span>
           </a>
           <Twitter url={url} shareText={shareText} />
           <Facebook url={url} />
