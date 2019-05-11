@@ -1,9 +1,10 @@
 .Boxes {
-  height: 15vh;
-  background: rgb(233,223,196);
-  background: linear-gradient(90deg, rgba(233,223,196,1) 0%,rgba(233,223,196,1) 1%,rgba(237,227,200,1) 2%,rgba(237,227,200,1) 24%,rgba(235,221,195,1) 25%,rgba(233,223,196,1) 48%,rgba(235,221,195,1) 49%,rgba(230,216,189,1) 52%,rgba(230,216,189,1) 53%,rgba(233,219,192,1) 54%,rgba(230,216,189,1) 55%,rgba(230,216,189,1) 56%,rgba(233,219,192,1) 57%,rgba(230,216,189,1) 58%,rgba(230,216,189,1) 73%,rgba(233,219,192,1) 74%,rgba(233,219,192,1) 98%,rgba(235,221,195,1) 100%);
-  background-size: 120px;
-  background-repeat: repeat;
+  height: 25vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url('./assets/knob.png');
+  border: 30px solid;
+  border-image: url('./assets/knob.png') 60 30;
 }
 
 .Boxes-container {

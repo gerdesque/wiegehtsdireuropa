@@ -16,10 +16,7 @@ class Boxes extends Component {
   }
 
   toggleBox = () => {
-    const container = document.getElementsByClassName('Boxes-container')[0];
-    container.classList.add('open');
-    const label = document.getElementsByClassName('Boxes-label')[0];
-    label.classList.add('close');
+    document.getElementsByClassName('Boxes-container')[0].classList.add('open');
   }
 
   render() {
@@ -31,9 +28,6 @@ class Boxes extends Component {
 
     return (
       <div className="Boxes" onClick={this.toggleBox}>
-        <div className="Boxes-label">
-          <p>Hashtags & Tweets</p>
-        </div>
         <div className="Boxes-container">
           <div className="Boxes-inner Boxes-tweets">{tweets}</div>
           <div className="Boxes-inner Boxes-hashtags">{hashtags}</div>
