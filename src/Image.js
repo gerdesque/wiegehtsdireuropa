@@ -15,6 +15,30 @@ class Image extends Component {
     };
   }
 
+  componentDidMount() {
+    if (this.state.assets.length !== 0) return;
+
+    const preselectedTweet = this.getRandomAsset(this.props.tweets);
+    const preselectedHashtag = this.getRandomAsset(this.props.hashtags);
+    this.setState({ assets: [
+      ...this.state.assets,
+      preselectedTweet,
+      preselectedHashtag
+    ]},() => {
+      localStorage.setItem(this.props.id, JSON.stringify(this.state.assets));
+    });
+  }
+
+  getRandomAsset(assets) {
+    const maxLength = assets.length-1;
+    const randomValue = Math.floor(Math.random() * Math.floor(maxLength))
+    return assets[randomValue];
+  }
+
+  random = (max) => {
+    this.props.random(max);
+  };
+
   handleDrop = (e) => {
     const droppedAsset = e.dragData.props;
     const isTweet = droppedAsset.username !== undefined;

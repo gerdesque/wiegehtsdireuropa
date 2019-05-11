@@ -9,16 +9,17 @@ class BoxAsset extends Component {
   }
 
   onDragStart = (e) => {
-    console.log(e.dragData);
+    console.log('onDragStart',e);
     this.setState({dragging: true})
   };
 
   onDragEnd = (e) => {
-    console.log(e.dragData);
+    console.log('onDragEnd',e);
     this.setState({dragging: false})
   };
 
   onMove = (e) => {
+    console.log('onMove',e);
     if (this.state.dragging) return;
   }
 

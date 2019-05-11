@@ -14,6 +14,10 @@ class ImageList extends Component {
     return currentValue;
   }
 
+  getRandomValue(max) {
+    return Math.floor(Math.random() * Math.floor(max))
+  }
+
   share = () => {
     this.props.share();
   };
@@ -22,7 +26,10 @@ class ImageList extends Component {
     const url = 'https://leo-bw.de/wiegehtsdireuropa'
     const shareText = 'Foto @WillyPrager #wiegehtsdireuropa #cdvsued #codingdavinci'
     const imageItems = this.props.images.map((image) =>
-      <Image key={image.id} color={this.getRandomColor(8)} {...image}/>);
+      <Image key={image.id} color={this.getRandomColor(8)} {...image}
+        hashtags={this.props.hashtags.filter((tag) => tag.sentiments.some((sentiment) => sentiment === image.sentiments[this.getRandomValue(2)]))}
+        tweets={this.props.tweets.filter((tag) => tag.sentiments.some((sentiment) => sentiment === image.sentiments[this.getRandomValue(2)]))}
+      />);
     return (
       <>
         <div className="ImageList">{imageItems}</div>

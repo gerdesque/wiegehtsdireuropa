@@ -61,7 +61,7 @@ class App extends Component {
           </div>
         </header>
         <main>
-          <ImageList images={this.state.images} share={this.share}/>
+          <ImageList images={this.state.images} share={this.share} hashtags={this.state.hashtags} tweets={this.state.tweets}/>
           <Boxes hashtags={this.state.hashtags} tweets={this.state.tweets}/>
         </main>
       </>
