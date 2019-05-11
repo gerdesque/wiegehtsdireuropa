@@ -2,9 +2,9 @@
   height: 25vh;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-image: url('./assets/knob.png');
-  border: 30px solid;
-  border-image: url('./assets/knob.png') 60 30;
+  background-image: url('./assets/knob.webp');
+  border: 20px solid;
+  border-image: url('./assets/knob.webp') 60 30;
 }
 
 .Boxes-container {
@@ -16,7 +16,7 @@
 }
 
 .Boxes-container.open {
-  max-height: 30vh;
+  max-height: 100%;
 }
 
 .Boxes-inner {

@@ -614,19 +614,19 @@
     },
     {
       "id": "34",
-      "text": "#ichwaehleEU",
+      "text": "#ichwähleEU",
       "sentiments": ["positive", "neutral"],
       "categories": ["politik", "wahl", "menschen", "mut", "entscheidung"]
     },
     {
       "id": "35",
-      "text": "#gehwaehlen",
+      "text": "#gehwählen",
       "sentiments": ["positive", "neutral"],
       "categories": ["politik", "wahl", "menschen", "mut", "entscheidung", "unterschiede"]
     },
     {
       "id": "36",
-      "text": "#EUropafueralle",
+      "text": "#EUropafüralle",
       "sentiments": ["positive"],
       "categories": ["menschen", "miteinander", "mut", "politik", "freunde", "familie", "alte", "generationen"]
     },
@@ -650,13 +650,13 @@
     },
     {
       "id": "40",
-      "text": "#EUropabautbruecken",
+      "text": "#EUropabautbrücken",
       "sentiments": ["positive"],
       "categories": ["dialog", "bruecke", "miteinander", "baustelle"]
     },
     {
       "id": "41",
-      "text": "#EUropalaesstdichnichtallein",
+      "text": "#EUropalässtdichnichtallein",
       "sentiments": ["positive"],
       "categories": ["familie", "bruecke", "miteinander", "freunde", "party"]
     },
@@ -680,7 +680,7 @@
     },
     {
       "id": "45",
-      "text": "#verruecktnachEUropa",
+      "text": "#verrücktnachEUropa",
       "sentiments": ["positive", "negative"],
       "categories": ["jubel", "party", "miteinander", "fasching"]
     },

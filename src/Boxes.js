@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Boxes.css';
 import BoxAsset from './BoxAsset';
+import { InView } from 'react-intersection-observer'
 
 class Boxes extends Component {
   constructor(props) {
@@ -16,7 +17,7 @@ class Boxes extends Component {
   }
 
   toggleBox = () => {
-    document.getElementsByClassName('Boxes-container')[0].classList.add('open');
+    document.getElementsByClassName('Boxes-container')[0].classList.toggle('open');
   }
 
   render() {
@@ -27,12 +28,20 @@ class Boxes extends Component {
       <BoxAsset key ={asset.id} {...asset}/>);
 
     return (
-      <div className="Boxes" onClick={this.toggleBox}>
-        <div className="Boxes-container">
-          <div className="Boxes-inner Boxes-tweets">{tweets}</div>
-          <div className="Boxes-inner Boxes-hashtags">{hashtags}</div>
+      <InView triggerOnce="true">
+      {({ inView, ref }) => (
+        <div ref={ref}>
+        {inView &&
+        <div className="Boxes" onClick={this.toggleBox}>
+          <div className="Boxes-container">
+            <div className="Boxes-inner Boxes-tweets">{tweets}</div>
+            <div className="Boxes-inner Boxes-hashtags">{hashtags}</div>
+          </div>
         </div>
+        }
       </div>
+    )}
+  </InView>
     );
   }
 }
