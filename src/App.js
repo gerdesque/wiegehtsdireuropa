@@ -39,14 +39,13 @@ class App extends Component {
 
   share() {
     const selectedImage = document.getElementById('container-labw-5-90607');
-
-    domtoimage.toPng(selectedImage)
+    domtoimage.toJpeg(selectedImage, { quality: 0.95 })
     .then(function (dataUrl) {
-      const img = new Image();
-      //const cleanDataUrl = dataUrl.replace("<\s*style[^>]*>(.*?)<\s*/\s*style>", "g");
-      img.src = dataUrl;
-      document.getElementsByClassName('ImageList-share')[0].appendChild(img);
-    })
+        var link = document.createElement('a');
+        link.download = 'wiegehtsdireuropa.jpeg';
+        link.href = dataUrl;
+        link.click();
+    });
   }
 
   render() {
