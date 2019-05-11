@@ -28,7 +28,7 @@ class BoxAsset extends Component {
       <InView triggerOnce="true">
         {({ inView, ref }) => (
           <div ref={ref}>
-          {inView && 
+          {inView &&
             <DragDropContainer
               targetKey="image"
               dragData={{props: this.props}}
