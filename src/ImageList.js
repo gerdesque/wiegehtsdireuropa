@@ -27,8 +27,12 @@ class ImageList extends Component {
     const shareText = 'Foto @WillyPrager #wiegehtsdireuropa #cdvsued #codingdavinci'
     const imageItems = this.props.images.map((image) =>
       <Image key={image.id} color={this.getRandomColor(8)} {...image}
-        hashtags={this.props.hashtags.filter((tag) => tag.sentiments.some((sentiment) => sentiment === image.sentiments[this.getRandomValue(2)]))}
-        tweets={this.props.tweets.filter((tag) => tag.sentiments.some((sentiment) => sentiment === image.sentiments[this.getRandomValue(2)]))}
+        hashtags={this.props.hashtags
+          .filter((tag) => tag.sentiments.some(sentiment => image.sentiments.includes(sentiment)))
+          .filter((tag) => tag.categories.some(categorie => image.categories.includes(categorie)))}
+        tweets={this.props.tweets
+          .filter((tweet) => tweet.sentiments.some(sentiment => image.sentiments.includes(sentiment)))
+          .filter((tweet) => tweet.categories.some(categorie => image.categories.includes(categorie)))}
       />);
     return (
       <>

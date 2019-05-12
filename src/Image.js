@@ -35,10 +35,6 @@ class Image extends Component {
     return assets[randomValue];
   }
 
-  random = (max) => {
-    this.props.random(max);
-  };
-
   handleDrop = (e) => {
     const droppedAsset = e.dragData.props;
     const isTweet = droppedAsset.username !== undefined;
