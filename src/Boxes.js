@@ -8,7 +8,8 @@ class Boxes extends Component {
     super(props);
     this.state = {
       hashtags: props.hashtags,
-      tweets: props.tweets
+      tweets: props.tweets,
+      open: false
     };
   }
 
@@ -17,7 +18,9 @@ class Boxes extends Component {
   }
 
   toggleBox = () => {
-    document.getElementsByClassName('Boxes-container')[0].classList.toggle('open');
+    this.setState(prevState => ({
+      open: !prevState.open
+    }));
   }
 
   render() {
@@ -27,10 +30,16 @@ class Boxes extends Component {
     const tweets = this.state.tweets.map ((asset) =>
       <BoxAsset key ={asset.id} {...asset}/>);
 
+    let className = 'Boxes';
+    if (this.state.open) {
+      className += ' open';
+    }
+
     return (
       <InView triggerOnce="true">
       {({ inView, ref }) => (
-        <div className="Boxes" onClick={this.toggleBox} ref={ref}>
+        <div className={className} onClick={this.toggleBox} ref={ref}>
+          <div class="Boxes-knob"/>
         {inView &&
           <div className="Boxes-container">
             <div className="Boxes-inner Boxes-tweets">{tweets}</div>

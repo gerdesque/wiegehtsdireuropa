@@ -11,7 +11,9 @@ class Image extends Component {
     this.state = {
       src: require('./assets/squares/' + this.props.id + '.webp'),
       color: ["", "yellow-red","green-blue", "purple-green", "pink-blue", "red-blue", "orange-green", "orange-black"],
-      assets: JSON.parse(localStorage.getItem(this.props.id)) || []
+      assets: JSON.parse(localStorage.getItem(this.props.id)) || [],
+      zoomed: false,
+      selected: false
     };
   }
 
@@ -74,15 +76,26 @@ class Image extends Component {
     });
   };
 
+  zoom = () => {
+    const isZoomed = this.state.zoomed;
+    this.setState({ zoomed: !isZoomed });
+  }
+
+  select = () => {
+    const isSelected = this.state.selected;
+    this.setState({ selected: !isSelected });
+  }
+
   render() {
+    const isZoomed = this.state.zoomed ? 'zoomed': '';
     return (
       <InView triggerOnce="true">
         {({ inView, ref }) => (
           <div id={'container-'+this.props.id} className="Image-container" ref={ref}>
           {inView && 
             <>
-              <div className={'duotone ' + this.state.color[this.props.color]}>
-                <img className="Image fade" {...this.props} src={this.state.src} alt={this.props.id}/>
+              <div className={'duotone ' + this.state.color[this.props.color] + ' ' + isZoomed} onClick={this.select}>
+                <img className="Image fade" {...this.props} src={this.state.src} alt={this.props.id} onClick={this.zoom}/>
               </div>
               <DropTarget
                 onHit={this.handleDrop}

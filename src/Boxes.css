@@ -1,10 +1,27 @@
 .Boxes {
   height: 25vh;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-image: url('./assets/knob.webp');
-  border: 20px solid;
-  border-image: url('./assets/knob.webp') 60 30;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.5em;
+  background: rgb(238, 214, 80);
+  margin: 5%;
+  box-shadow: 3px 3px 4px 6px rgba(32, 33, 36, 0.28);
+}
+
+.Boxes-knob {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(56, 2, 22);
+  box-shadow: 5px 5px 9px rgba(32, 33, 36, 0.28);
+}
+
+.open .Boxes-knob {
+  display: none;
 }
 
 .Boxes-container {
@@ -15,7 +32,7 @@
 	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
-.Boxes-container.open {
+.open .Boxes-container {
   max-height: 100%;
 }
 
