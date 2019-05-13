@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-93279.ce0c21bd.webp"
   },
   {
-    "revision": "c798ebe6e99e1daff2a6",
-    "url": "/wiegehtsdireuropa/static/css/main.9ac5fcbe.chunk.css"
+    "revision": "2718b0029a3098d4e09a",
+    "url": "/wiegehtsdireuropa/static/css/main.a4ffabc1.chunk.css"
   },
   {
     "revision": "95bbee0410ad99687d84",
@@ -220,8 +220,8 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-93221.ed57ec89.webp"
   },
   {
-    "revision": "c798ebe6e99e1daff2a6",
-    "url": "/wiegehtsdireuropa/static/js/main.e8e93fe2.chunk.js"
+    "revision": "2718b0029a3098d4e09a",
+    "url": "/wiegehtsdireuropa/static/js/main.d55b9172.chunk.js"
   },
   {
     "revision": "0e032b93cb871c297be73fb747a01fde",
@@ -436,7 +436,7 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-95612.2da3602d.webp"
   },
   {
-    "revision": "0d1666ef2e9ec7e86d61996a8995160e",
+    "revision": "c914044842ee4042b6244e3d84036d2c",
     "url": "/wiegehtsdireuropa/index.html"
   }
 ];
