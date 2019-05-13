@@ -39,7 +39,7 @@ class Boxes extends Component {
       <InView triggerOnce="true">
       {({ inView, ref }) => (
         <div className={className} onClick={this.toggleBox} ref={ref}>
-          <div class="Boxes-knob"/>
+          <div className="Boxes-knob"/>
         {inView &&
           <div className="Boxes-container">
             <div className="Boxes-inner Boxes-tweets">{tweets}</div>

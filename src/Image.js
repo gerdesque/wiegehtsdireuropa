@@ -87,15 +87,15 @@ class Image extends Component {
   }
 
   render() {
-    const isZoomed = this.state.zoomed ? 'zoomed': '';
+    const isZoomed = this.state.zoomed ? ' zoomed': '';
     return (
       <InView triggerOnce="true">
         {({ inView, ref }) => (
-          <div id={'container-'+this.props.id} className="Image-container" ref={ref}>
+          <div id={'container-'+this.props.id} className={'Image-container' + isZoomed} ref={ref}>
           {inView && 
             <>
-              <div className={'duotone ' + this.state.color[this.props.color] + ' ' + isZoomed} onClick={this.select}>
-                <img className="Image fade" {...this.props} src={this.state.src} alt={this.props.id} onClick={this.zoom}/>
+              <div className={'duotone ' + this.state.color[this.props.color]} onClick={this.select}>
+                <img className="Image fade" id={this.props.id} src={this.state.src} alt={this.props.id} onClick={this.zoom}/>
               </div>
               <DropTarget
                 onHit={this.handleDrop}
@@ -113,6 +113,9 @@ class Image extends Component {
                   </div>
                 </DropTarget>
               </DropTarget>
+              <button className="react-sharing-button__link react-sharing-button--download" onClick={ () => this.props.share(this.props.id)}>
+                <svg className="react-sharing-button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 12v5H3v-5H1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5z"/><path d="M10 15l5-6h-4V1H9v8H5l5 6z"/></svg>
+              </button>
             </>
           }
           </div>

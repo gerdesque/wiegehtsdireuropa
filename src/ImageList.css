@@ -60,24 +60,13 @@
 .react-sharing-button--download {
   background-color: #A32C19;
   cursor: pointer;
-}
-
-.react-sharing-button--download:hover {
-  background-color: #c23321;
+  border: none;
 }
 
 .react-sharing-button--facebook {
   background-color: #3b5998;
 }
 
-.react-sharing-button--facebook:hover {
-  background-color: #2d4373;
-}
-
 .react-sharing-button--twitter {
   background-color: #105A98;
-}
-
-.react-sharing-button--twitter:hover {
-  background-color: #2795e9;
 }

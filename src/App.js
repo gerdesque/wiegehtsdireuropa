@@ -15,6 +15,10 @@ import domtoimage from 'dom-to-image';
 //     srcSet={`${small} 360w, ${medium} 1050w, ${large} 1586w, ${jumpo} 1920w`}/>
 // );
 
+function filter (node) {
+  return (node.tagName !== 'A');
+}
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -37,12 +41,13 @@ class App extends Component {
     }
   }
 
-  share() {
-    const selectedImage = document.getElementById('container-labw-5-90607');
-    domtoimage.toJpeg(selectedImage, { quality: 0.95 })
+  share = (id) => {
+    const selectedImage = document.getElementById(`container-${id}`);
+    domtoimage.toPng(selectedImage,
+      { filter: filter, quality: 0.95, bgcolor: "#FFFFFF", style: {'transform': 'scale(0.95)' , margin: 0}})
     .then(function (dataUrl) {
         var link = document.createElement('a');
-        link.download = 'wiegehtsdireuropa.jpeg';
+        link.download = 'wiegehtsdireuropa.png';
         link.href = dataUrl;
         link.click();
     });

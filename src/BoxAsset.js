@@ -10,18 +10,18 @@ class BoxAsset extends Component {
 
   onDragStart = (e) => {
     console.log('onDragStart',e);
-    this.setState({dragging: true})
+    return;
   };
+
+  onDrag = (e) => {
+    console.log('onDrag',e);
+    this.setState({dragging: true})
+  }
 
   onDragEnd = (e) => {
     console.log('onDragEnd',e);
     this.setState({dragging: false})
   };
-
-  onMove = (e) => {
-    console.log('onMove',e);
-    if (this.state.dragging) return;
-  }
 
   render() {
     return (
@@ -29,9 +29,8 @@ class BoxAsset extends Component {
         targetKey="image"
         dragData={{props: this.props}}
         onDragStart={this.onDragStart}
+        onDrag={this.onDrag}
         onDragEnd={this.onDragEnd}
-        onMouseMove={this.onMove}
-        onTouchMove={this.onMove}
         render = {() => {
           return <div {...this.props} className = "BoxAsset">
             {this.props.username && <div className="BoxAsset-user">{this.props.username}</div>}

@@ -26,7 +26,7 @@ class ImageAsset extends Component {
             <DropTarget
               onHit={this.handleDrop}
               targetKey="imageItem">
-              <div className="ImageAsset-drag" contentEditable="true">
+              <div className="ImageAsset-drag" contentEditable="true" suppressContentEditableWarning>
                 {this.props.text}
               </div>
           </DropTarget>

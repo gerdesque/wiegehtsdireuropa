@@ -136,7 +136,7 @@
   width: 100%;
 }
 
-.zoomed {
+.Image-container.zoomed {
   position: fixed;
   top: 0;
   right: 0;
@@ -144,7 +144,7 @@
   left: 0;
   z-index: 1000;
   will-change: opacity;
-  transform:scale(1.01);
+  transform: rotate(0deg) scale(1.01);
 }
 
 .fade {
