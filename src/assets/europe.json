@@ -48,7 +48,7 @@
       "id": "206",
       "text": "Scheiss auf Europa!",
       "sentiments": ["negative"],
-      "categories": ["einsam", "ekel", "emotion", "warten"],
+      "categories": ["einsam", "ekel", "emotion", "warten", "schlaf"],
       "twitterhandle": ["@12Mannbmg"],
       "username": ["Lucienfavre1122"],
       "timestamp": ["03:52 - 2. Mai 2019"]
@@ -83,7 +83,7 @@
     {
       "id": "210",
       "text": "Wie würde dein Leben ohne die EU aussehen?",
-      "sentiments": ["positive", "neutral"],
+      "sentiments": ["positive", "neutral", "negative"],
       "categories": ["baustelle", "müde", "aufklaerung", "glaube", "warten", "schlaf"],
       "twitterhandle": ["@CarlyLaurence"],
       "username": ["Carly Laurence"],
@@ -120,7 +120,7 @@
       "id": "214",
       "text": "Lecker aufs Land - ein kulinarischer Ausflug",
       "sentiments": ["positive", "neutral"],
-      "categories": ["essen", "klimawandel"],
+      "categories": ["essen", "klimawandel", "suche"],
       "twitterhandle": ["@AllgemeineNachr"],
       "username": ["Allg. Nachrichten"],
       "timestamp": ["23:30 - 10. Nov. 2017"]
@@ -245,8 +245,8 @@
     {
       "id": "228",
       "text": "Für Europa reichts.",
-      "sentiments": ["negative", "neutral"],
-      "categories": ["wahl", "schlaf", "schoenmachen", "sport", "warten"],
+      "sentiments": ["negative", "neutral", "positive"],
+      "categories": ["schoenmachen", "sport", "warten"],
       "twitterhandle": ["@AFromsdorf"],
       "username": ["Günther Hubs"],
       "timestamp": ["14:13 - 31. März 2019"]
@@ -318,7 +318,7 @@
       "id": "236",
       "text": "Europa. Jetzt aber richtig!",
       "sentiments": ["positive", "neutral"],
-      "categories": ["wahl", "zukunft", "baustelle", "arbeit", "musik", "rennen", "schiff"],
+      "categories": ["wahl", "baustelle", "musik", "rennen", "schiff"],
       "twitterhandle": ["@GEW_BERLIN"],
       "username": ["GEW BERLIN"],
       "timestamp": ["13:38 - 1. Mai 2019"]
@@ -399,7 +399,7 @@
       "id": "246",
       "text": "Europa ist nicht perfekt, aber zusammen können wir es besser machen.",
       "sentiments": ["positive", "neutral"],
-      "categories": ["arbeit", "zukunft", "gemeinsam", "baustelle", "kunst", "schoenmachen"],
+      "categories": ["arbeit", "zukunft", "gemeinsam", "baustelle", "kunst", "schoenmachen", "unfall"],
       "twitterhandle": ["@Igutmensch"],
       "username": ["Idgie Gutmensch"],
       "timestamp": ["02:11 - 29. Apr. 2019"]
@@ -676,12 +676,6 @@
       "categories": ["geld", "baustelle", "buerokratie"]
     },
     {
-      "id": "54",
-      "text": "#nEUrose",
-      "sentiments": ["negative"],
-      "categories": ["einsam"]
-    },
-    {
       "id": "55",
       "text": "#musEUm",
       "sentiments": ["negative"],
@@ -715,7 +709,7 @@
       "id": "62",
       "text": "#gegenstEUern",
       "sentiments": ["negative", "positive"],
-      "categories": ["bewegung", "dialog", "aktion", "schiff"]
+      "categories": ["bewegung", "dialog", "aktion", "schiff", "unfall"]
     },
     {
       "id": "64",
@@ -841,7 +835,7 @@
       "id": "85",
       "text": "#lookingforEUrope",
       "sentiments": ["positive"],
-      "categories": ["suche"]
+      "categories": ["suche", "reise"]
     },
     {
       "id": "86",
@@ -858,7 +852,7 @@
     {
       "id": "88",
       "text": "#fallingforEUrope",
-      "sentiments": ["positive"],
+      "sentiments": ["positive", "negative"],
       "categories": ["unfall"]
     },
     {
@@ -922,7 +916,7 @@
     },
     {
       "id": "labw-5-90901",
-      "sentiments": ["neutral"],
+      "sentiments": ["neutral", "positive", "negative"],
       "categories": ["sport", "rennen"]
     },
     {
@@ -1067,7 +1061,7 @@
     },
     {
       "id": "labw-5-92897",
-      "sentiments": ["neutral"],
+      "sentiments": ["neutral", "positive"],
       "categories": ["reise", "entdeckung", "einsam"]
     },
     {
@@ -1202,7 +1196,7 @@
     },
     {
       "id": "labw-5-93806",
-      "sentiments": ["positive", "neutral"],
+      "sentiments": ["positive", "neutral", "negative"],
       "categories": ["schlaf"]
     },
     {
