@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './ImageAsset.css';
 import { DragDropContainer,DropTarget } from 'react-drag-drop-container';
 
+const maxAssetLength = 140;
+
 class ImageAsset extends Component {
 
   handleDrop = (e) => {
@@ -12,6 +14,12 @@ class ImageAsset extends Component {
 
   deleteMe = () => {
     this.props.kill(this.props.id);
+  };
+
+  onEdit = (e) => {
+    if(e.target.textContent.length >= maxAssetLength && e.keyCode !== 8) {
+      e.preventDefault();
+    }
   };
 
   render() {
@@ -26,7 +34,7 @@ class ImageAsset extends Component {
             <DropTarget
               onHit={this.handleDrop}
               targetKey="imageItem">
-              <div className="ImageAsset-drag" contentEditable="true" suppressContentEditableWarning>
+              <div className="ImageAsset-drag" onKeyDown={this.onEdit} onPaste={this.onEdit} contentEditable="true" suppressContentEditableWarning>
                 {this.props.text}
               </div>
           </DropTarget>

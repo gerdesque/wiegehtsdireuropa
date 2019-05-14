@@ -13,21 +13,20 @@ class Image extends Component {
       srcJpg: require('./assets/squares/fallback/' + this.props.id + '.jpg'),
       color: ["", "yellow-red","green-blue", "purple-green", "pink-blue", "red-blue", "orange-green", "orange-black"],
       assets: [],
-      zoomed: false,
-      selected: false
+      zoomed: false
     };
   }
 
   componentDidMount() {
-    if (this.state.assets.length !== 0) return;
-
-    const preselectedTweet = this.getRandomAsset(this.props.tweets);
-    const preselectedHashtag = this.getRandomAsset(this.props.hashtags);
-    this.setState({ assets: [
-      ...this.state.assets,
-      preselectedTweet,
-      preselectedHashtag
-    ]});
+    if (this.props.tweets.length !== 0 && this.props.hashtags.length !== 0) {
+      const preselectedTweet = this.getRandomAsset(this.props.tweets);
+      const preselectedHashtag = this.getRandomAsset(this.props.hashtags);
+      this.setState({ assets: [
+        ...this.state.assets,
+        preselectedTweet,
+        preselectedHashtag
+      ]});
+    }
   }
 
   getRandomAsset(assets) {
@@ -37,19 +36,39 @@ class Image extends Component {
   }
 
   handleDrop = (e) => {
-    const droppedAsset = e.dragData.props;
-    const isTweet = droppedAsset.username !== undefined;
+    let assets = this.state.assets.slice();
 
-    const duplicate = this.state.assets.some(asset => asset.id === droppedAsset.id);
-    const maxAssets = (isTweet && this.state.assets.some(asset => asset.username !== undefined))
-      || this.state.assets.length === 4;
-    if (!maxAssets && !duplicate) {
-      this.setState({ assets: [
-        ...this.state.assets,
-        droppedAsset
-      ]});
+    const droppedAsset = e.dragData.props;
+    const duplicate = assets.some(asset => asset.id === droppedAsset.id);
+
+    if (duplicate) return;
+
+    // Replace tweet
+    const isTweet = droppedAsset.username !== undefined;
+    const oldTweet = assets.find(asset => asset.username !== undefined);
+    if (isTweet && oldTweet !== undefined) {
+      return this.replaceAsset(oldTweet.id, assets, droppedAsset)
     }
+
+    // Replace hashtag
+    const oldHashtags = assets.filter(asset => asset.username === undefined);
+    if (!isTweet && oldHashtags.length === 3) {
+      return this.replaceAsset(oldHashtags[2].id, assets, droppedAsset)
+    }
+
+    // Add asset
+    this.setState({ assets: [...assets, droppedAsset]});
   };
+
+  replaceAsset(id, assets, droppedAsset) {
+    const index = assets.findIndex((asset) => {
+      return asset.id === id
+    });
+    if (index !== -1) {
+      assets.splice(index, 1, droppedAsset);
+    }
+    this.setState({ assets: assets});
+  }
 
   swap = (fromIndex, toIndex, dragData) => {
     let assets = this.state.assets.slice();
@@ -72,11 +91,6 @@ class Image extends Component {
   zoom = () => {
     const isZoomed = this.state.zoomed;
     this.setState({ zoomed: !isZoomed });
-  }
-
-  select = () => {
-    const isSelected = this.state.selected;
-    this.setState({ selected: !isSelected });
   }
 
   render() {

@@ -28,9 +28,9 @@
     },
     {
       "id": "204",
-      "text": "Europa ist auf einer großen Idee aufgebaut: Gemeinsamkeit. Und die Herausforderungen, vor denen wir heute stehen, die können wir nur gemeinsam anpacken.",
+      "text": "Europa ist auf einer großen Idee aufgebaut: Gemeinsamkeit.",
       "sentiments": ["positive"],
-      "categories": ["gemeinsam", "arbeit", "aktion"],
+      "categories": ["gemeinsam", "unterschiede"],
       "twitterhandle": ["@Die_Gruenen"],
       "username": ["BÜNDNIS90/DIE GRÜNEN"],
       "timestamp": ["03:02 - 2. Mai 2019"]
@@ -55,9 +55,9 @@
     },
     {
       "id": "207",
-      "text": "In Germany we don‘t say „we experience a crisis of the political system“, we say „Nutzt die Chancen, kommt zusammen, wir bauen unser neues Europa, das ist die Antwort. Freiheit!“ and I think it‘s beautiful.",
+      "text": "Nutzt die Chancen, kommt zusammen, wir bauen unser neues Europa, das ist die Antwort. Freiheit!",
       "sentiments": ["positive", "neutral"],
-      "categories": ["baustelle", "aktion", "neugier"],
+      "categories": ["baustelle", "aktion", "neugier", "arbeit"],
       "twitterhandle": ["@nicosemsrott"],
       "username": ["Nico Semsrott"],
       "timestamp": ["22:42 - 1. Mai 2019"]
@@ -100,7 +100,7 @@
     },
     {
       "id": "212",
-      "text": "Die Lebensmittel welche in Europa und Nordamerika weggeworfen werden, würde dreimal reichen um alle hungernden auf der Welt zu versorgen!",
+      "text": "Die Lebensmittel, welche in Europa und Nordamerika weggeworfen werden, würden dreimal reichen um alle Hungernden auf der Welt zu versorgen!",
       "sentiments": ["negative"],
       "categories": ["essen"],
       "twitterhandle": ["@Suuupertyp"],
@@ -109,7 +109,7 @@
     },
     {
       "id": "213",
-      "text": "Ein Europa, in dem wir mal eben rüber nach Frankreich fahren können, um mit Eingeborenen, Erasmusstudenten aus aller Welt und Kommilitonen lecker Döner zu essen, und es zu genießen, dass wir aus den 1940ern schon lange raus sind <3",
+      "text": "Ein Europa, in dem wir mal eben nach Frankreich fahren können, um mit Eingeborenen, Erasmusstudenten und Kommilitonen lecker Döner zu essen.",
       "sentiments": ["positive"],
       "categories": ["miteinander", "essen"],
       "twitterhandle": ["@RedPanda10V3"],
@@ -154,7 +154,7 @@
     },
     {
       "id": "218",
-      "text": "Vor 30 Jahren wurde in der DDR zum letzten Mal eine Wahl gefälscht. Die Bürgerinnen und Bürger begannen sich zu wehren. Die Demokratie lebt von Einmischung und Beteiligung - nicht nur, aber auch wieder am 26. Mai.",
+      "text": "Die Demokratie lebt von Einmischung und Beteiligung - nicht nur, aber auch wieder am 26. Mai.",
       "sentiments": ["neutral"],
       "categories": ["buerokratie", "rufen"],
       "twitterhandle": ["@GoeringEckardt"],
@@ -190,7 +190,7 @@
     },
     {
       "id": "222",
-      "text": "Es muss Schluss sein mit dem Lohndumping! Deshalb wollen wir einen europäischen Mindestlohn einführen, der 60 % des mittleren Einkommens des jeweiligen Landes beträgt.",
+      "text": "Es muss Schluss sein mit dem Lohndumping!",
       "sentiments": ["neutral"],
       "categories": ["geld", "arbeit"],
       "twitterhandle": ["@katarinabarley"],
@@ -217,7 +217,7 @@
     },
     {
       "id": "225",
-      "text": "Europa ist auf einer großen Idee aufgebaut: Gemeinsamkeit. Und die Herausforderungen, vor denen wir heute stehen, die können wir nur gemeinsam anpacken.",
+      "text": "Die Herausforderungen, vor denen wir heute stehen, die können wir nur gemeinsam anpacken.",
       "sentiments": ["positive"],
       "categories": ["gemeinsam", "arbeit"],
       "twitterhandle": ["@Die_Gruenen"],
@@ -289,7 +289,7 @@
     },
     {
       "id": "233",
-      "text": "Mein lie­ber noch namen­lo­ser Enkel... du wur­dest in eine Gesell­schaft hineingebo­ren, in der es nicht um radi­ka­le Gleich­heit der Geschlech­ter geht, son­dern um einen bewuss­ten und inklu­si­ven Umgang mit Unterschieden.",
+      "text": "Eine Gesellschaft, in der es nicht um radikale Gleichheit der Geschlechter geht, sondern um einen bewussten und inklusiven Umgang mit Unterschieden.",
       "sentiments": ["positive", "neutral"],
       "categories": ["unterschiede", "generationen"],
       "twitterhandle": ["@www_magazin"],
@@ -370,7 +370,7 @@
     },
     {
       "id": "242",
-      "text": "Geringe Wahlbeteiligung bei der letzten Europawahl sich ändern. Willst du mit mir wählen gehen?",
+      "text": "Geringe Wahlbeteiligung bei der letzten Europawahl. Das muss sich ändern. Willst du mit mir wählen gehen?",
       "sentiments": ["positive", "neutral"],
       "categories": ["wahl", "rufen"],
       "twitterhandle": ["@ZDFheute"],

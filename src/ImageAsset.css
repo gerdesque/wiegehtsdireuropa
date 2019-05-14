@@ -7,6 +7,7 @@
   font-family: CinnamonCake, arial, sans-serif;
   background-color: #FFF;
   margin-right: 5px;
+  height: fit-content;
 }
 
 @media (min-width: 600px) {

@@ -6,7 +6,6 @@
   grid-auto-columns: calc(90% - 40px);
   overflow-x: auto;
   overflow-y: hidden;
-  scroll-snap-type: x mandatory;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
