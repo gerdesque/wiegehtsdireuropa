@@ -3,6 +3,7 @@ import './ImageList.css';
 import Image from './Image';
 
 let currentValue = 0;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
 
 class ImageList extends Component {
 
@@ -21,7 +22,7 @@ class ImageList extends Component {
     const shareText = 'Foto @WillyPrager #wiegehtsdireuropa #cdvsued #codingdavinci'
     var twitterUrl = 'https://twitter.com/intent/tweet/?text=' + encodeURIComponent(shareText) + '&url=' + encodeURIComponent(url);
     var facebookUrl = 'https://facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
-    const imageItems = this.props.images.map((image) =>
+    const imageItems = shuffleArray(this.props.images).map((image) =>
       <Image key={image.id} color={this.getRandomColor(8)} {...image} share={this.props.share}
         hashtags={this.props.hashtags
           .filter((tag) => tag.sentiments.some(sentiment => image.sentiments.includes(sentiment)))

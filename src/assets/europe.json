@@ -3,7 +3,7 @@
       "id": "201",
       "text": "Europa ist unser Ort, wo wir Tradition und Werte pflegen können.",
       "sentiments": ["positive"],
-      "categories": ["miteinander", "geschichte", "generationen", "tradition", "jagd", "alte"],
+      "categories": ["geschichte", "generationen", "tradition", "alte"],
       "twitterhandle": ["@PLInst_Wien"],
       "username": ["PL Institut Wien"],
       "timestamp": ["09:00 - 1. Mai 2019"]
@@ -57,7 +57,7 @@
       "id": "207",
       "text": "Nutzt die Chancen, kommt zusammen, wir bauen unser neues Europa, das ist die Antwort. Freiheit!",
       "sentiments": ["positive", "neutral"],
-      "categories": ["baustelle", "aktion", "neugier", "arbeit"],
+      "categories": ["baustelle", "arbeit"],
       "twitterhandle": ["@nicosemsrott"],
       "username": ["Nico Semsrott"],
       "timestamp": ["22:42 - 1. Mai 2019"]
@@ -120,7 +120,7 @@
       "id": "214",
       "text": "Lecker aufs Land - ein kulinarischer Ausflug",
       "sentiments": ["positive", "neutral"],
-      "categories": ["reise", "essen"],
+      "categories": ["essen", "klimawandel"],
       "twitterhandle": ["@AllgemeineNachr"],
       "username": ["Allg. Nachrichten"],
       "timestamp": ["23:30 - 10. Nov. 2017"]
@@ -210,7 +210,7 @@
       "id": "224",
       "text": "Europa. Die beste Idee, die Europa je hatte.",
       "sentiments": ["positive", "neutral"],
-      "categories": ["kunst", "mut", "emotion", "trinken", "freude", "entspannung"],
+      "categories": ["emotion", "trinken", "entspannung"],
       "twitterhandle": ["@felix_graedler"],
       "username": ["Felix Grädler"],
       "timestamp": ["09:11 - 2. Mai 2019"]
@@ -246,7 +246,7 @@
       "id": "228",
       "text": "Für Europa reichts.",
       "sentiments": ["negative", "neutral"],
-      "categories": ["wahl", "schlaf", "essen", "musik", "schoenmachen", "sport", "warten"],
+      "categories": ["wahl", "schlaf", "schoenmachen", "sport", "warten"],
       "twitterhandle": ["@AFromsdorf"],
       "username": ["Günther Hubs"],
       "timestamp": ["14:13 - 31. März 2019"]
@@ -282,7 +282,7 @@
       "id": "232",
       "text": "„Wir dürfen nicht den Extremisten die Macht geben. Redet mit jedem. Es ist eine Schicksalswahl.“",
       "sentiments": ["negative", "neutral"],
-      "categories": ["mut", "wahl", "zukunft"],
+      "categories": ["mut", "wahl"],
       "twitterhandle": ["@spdde"],
       "username": ["SPD Parteivorstand"],
       "timestamp": ["12:26 - 7. Mai 2019"]
@@ -381,7 +381,7 @@
       "id": "243",
       "text": "Und wie sieht deine Heimat Europa aus?",
       "sentiments": ["positive", "neutral"],
-      "categories": ["reise", "baustelle", "party", "essen", "musik"],
+      "categories": ["reise", "party", "essen", "musik"],
       "twitterhandle": ["@PulseofEurope"],
       "username": ["Pulse of Europe"],
       "timestamp": ["22:10 - 29. Apr. 2019"]
@@ -433,13 +433,13 @@
       "id": "9",
       "text": "#frEUndlich",
       "sentiments": ["positive"],
-      "categories": ["miteinander", "freunde"]
+      "categories": ["freunde"]
     },
     {
       "id": "10",
       "text": "#meinmiliEU",
       "sentiments": ["positive", "negative"],
-      "categories": ["miteinander", "freunde", "familie", "grenzen", "generationen", "rahmen"]
+      "categories": ["freunde", "familie", "grenzen", "generationen", "rahmen"]
     },
     {
       "id": "11",
@@ -451,7 +451,7 @@
       "id": "13",
       "text": "#nEUgier",
       "sentiments": ["positive"],
-      "categories": ["miteinander", "neugier", "abenteuer", "mut"]
+      "categories": ["neugier", "abenteuer", "mut"]
     },
     {
       "id": "15",
@@ -475,37 +475,37 @@
       "id": "18",
       "text": "#erlEUchten",
       "sentiments": ["positive"],
-      "categories": ["aufklaerung", "zukunft", "miteinander"]
+      "categories": ["aufklaerung", "zukunft"]
     },
     {
       "id": "19",
       "text": "#nichtsberEUen",
       "sentiments": ["positive"],
-      "categories": ["mut", "miteinander", "zukunft", "geschichte", "entspannung", "alte"]
+      "categories": ["mut", "zukunft", "geschichte", "entspannung", "alte"]
     },
     {
       "id": "20",
       "text": "#freEUdentaumel",
       "sentiments": ["positive"],
-      "categories": ["party", "miteinander", "jubel", "freude"]
+      "categories": ["party", "jubel", "freude"]
     },
     {
       "id": "21",
       "text": "#kontaktfrEUdig",
       "sentiments": ["positive"],
-      "categories": ["freunde", "miteinander", "dialog", "austausch"]
+      "categories": ["freunde", "dialog", "austausch"]
     },
     {
       "id": "22",
       "text": "#krEUzung",
       "sentiments": ["positive", "neutral", "negative"],
-      "categories": ["entscheidung", "miteinander", "austausch", "dialog"]
+      "categories": ["entscheidung", "austausch", "dialog"]
     },
     {
       "id": "23",
       "text": "#lebensfrEUde",
       "sentiments": ["positive"],
-      "categories": ["party", "miteinander", "jubel", "freude"]
+      "categories": ["party", "jubel", "freude"]
     },
     {
       "id": "24",
@@ -523,7 +523,7 @@
       "id": "26",
       "text": "#zerstrEUt",
       "sentiments": ["positive", "negative"],
-      "categories": ["dialog", "entscheidung", "austausch", "miteinander"]
+      "categories": ["dialog", "entscheidung", "austausch"]
     },
     {
       "id": "27",
@@ -535,7 +535,7 @@
       "id": "28",
       "text": "#EUroparockt",
       "sentiments": ["positive"],
-      "categories": ["party", "miteinander", "jubel", "freude", "musik"]
+      "categories": ["party", "musik"]
     },
     {
       "id": "29",
@@ -547,7 +547,7 @@
       "id": "30",
       "text": "#EUropaschmeckt",
       "sentiments": ["positive"],
-      "categories": ["essen", "miteinander", "trinken"]
+      "categories": ["essen", "trinken"]
     },
     {
       "id": "32",
@@ -577,7 +577,7 @@
       "id": "36",
       "text": "#EUropafüralle",
       "sentiments": ["positive"],
-      "categories": ["miteinander", "mut", "politik", "freunde", "familie", "alte", "generationen"]
+      "categories": ["mut", "freunde", "familie", "alte", "generationen"]
     },
     {
       "id": "37",
@@ -613,7 +613,7 @@
       "id": "42",
       "text": "#marktplatzEUropa",
       "sentiments": ["positive", "neutral", "negative"],
-      "categories": ["dialog", "handel", "miteinander"]
+      "categories": ["dialog", "handel"]
     },
     {
       "id": "43",
@@ -625,13 +625,13 @@
       "id": "44",
       "text": "#baustelleEUropa",
       "sentiments": ["positive", "negative", "neutral"],
-      "categories": ["bruecke", "arbeit", "baustelle", "miteinander", "zukunft"]
+      "categories": ["bruecke", "arbeit", "baustelle"]
     },
     {
       "id": "45",
       "text": "#verrücktnachEUropa",
       "sentiments": ["positive", "negative"],
-      "categories": ["jubel", "party", "miteinander", "fasching"]
+      "categories": ["party", "fasching"]
     },
     {
       "id": "46",
@@ -643,13 +643,13 @@
       "id": "47",
       "text": "#EUphemistisch",
       "sentiments": ["negative"],
-      "categories": ["baustelle", "miteinander", "ekel"]
+      "categories": ["baustelle","ekel"]
     },
     {
       "id": "48",
       "text": "#abgEUrteilt",
       "sentiments": ["negative"],
-      "categories": ["geschichte", "ekel", "miteinander", "buerokratie"]
+      "categories": ["geschichte", "ekel", "buerokratie"]
     },
     {
       "id": "50",
@@ -775,7 +775,7 @@
       "id": "74",
       "text": "#hands-onEUrope",
       "sentiments": ["positive"],
-      "categories": ["miteinander", "schoenmachen", "kaffee"]
+      "categories": ["schoenmachen", "kaffee"]
     },
     {
       "id": "75",
@@ -805,7 +805,7 @@
       "id": "79",
       "text": "#imaginingEUrope",
       "sentiments": ["positive"],
-      "categories": ["glaube", "kunst", "miteinander", "aufklaerung"]
+      "categories": ["glaube", "kunst", "aufklaerung"]
     },
     {
       "id": "80",
@@ -888,7 +888,7 @@
     {
       "id": "labw-5-90623",
       "sentiments": ["positive", "neutral"],
-      "categories": ["aktion", "miteinander", "freunde"]
+      "categories": ["aktion", "miteinander", "arbeit"]
     },
     {
       "id": "labw-5-90625",

@@ -3,6 +3,8 @@ import './Boxes.css';
 import BoxAsset from './BoxAsset';
 import { InView } from 'react-intersection-observer'
 
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
 class Boxes extends Component {
   constructor(props) {
     super(props);
@@ -14,7 +16,7 @@ class Boxes extends Component {
   }
 
   componentWillReceiveProps(props) {
-    this.setState({ hashtags: props.hashtags, tweets: props.tweets })
+    this.setState({ hashtags: shuffleArray(props.hashtags), tweets: shuffleArray(props.tweets) })
   }
 
   toggleBox = () => {
