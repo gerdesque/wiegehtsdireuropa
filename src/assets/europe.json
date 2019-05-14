@@ -822,7 +822,7 @@
     {
       "id": "82",
       "text": "#rallyingforEUrope",
-      "sentiments": ["positive"],
+      "sentiments": ["positive", "neutral"],
       "categories": ["auto", "rennen", "sport"]
     },
     {

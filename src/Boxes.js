@@ -23,6 +23,11 @@ class Boxes extends Component {
     }));
   }
 
+  onTouchStart = (e) => {
+    console.log('onTouchStart' , e);
+    return;
+  };
+
   render() {
     const hashtags = this.state.hashtags.map ((asset) =>
       <BoxAsset key ={asset.id} {...asset}/>);
@@ -42,7 +47,7 @@ class Boxes extends Component {
           <div className="Boxes-knob"/>
         {inView &&
           <div className="Boxes-container">
-            <div className="Boxes-inner Boxes-tweets">{tweets}</div>
+            <div className="Boxes-inner Boxes-tweets" onMouseDown={this.onTouchStart}>{tweets}</div>
             <div className="Boxes-inner Boxes-hashtags">{hashtags}</div>
           </div>
         }
