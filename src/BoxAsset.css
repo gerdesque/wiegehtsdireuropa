@@ -1,14 +1,11 @@
 .BoxAsset {
   box-shadow: 0 4px 6px rgba(32, 33, 36, 0.28);
-  font-size: 1.1em;
-  font-weight: 400;
-  margin: 10px;
+  margin: 5px;
   padding: 7px 10px 5px 10px;
   background-color: #FFF;
 }
 
 .Boxes-tweets .BoxAsset {
-  margin-bottom: 0;
   border: 1px solid rgba(0,0,0,0.1);
   padding: 5px;
   border-bottom: 0;
@@ -29,4 +26,20 @@
 .BoxAsset-timestamp {
   font-size: 14px;
   color: #657786;
+}
+
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 900px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1800px) {
+
 }

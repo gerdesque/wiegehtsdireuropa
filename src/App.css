@@ -4,18 +4,22 @@
   src:  url('./assets/fonts/EuropaBrush.woff') format('woff');
 }
 
+@keyframes flash {
+  0% { opacity: .3; }
+  5% { opacity: 1; }
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
-  line-height: 1.5;
 }
 
 header {
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url('./assets/hero_983.png') no-repeat center center fixed;
+    url('./assets/hero_900.png') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   animation-name: flash;
@@ -25,39 +29,7 @@ header {
   animation-delay: 0s;
 }
 
-@keyframes flash {
-  0% { opacity: .3; }
-  5% { opacity: 1; }
-}
-
-@media all and (min-width: 983px) {
-  header {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-      url('./assets/hero_1427.png');
-  }
-}
-
-@media all and (min-width: 1427px) {
-  header {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-      url('./assets/hero_1856.png');
-  }
-}
-
-@media all and (min-width: 1856px) {
-  header {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-      url('./assets/hero_1920.png');
-  }
-}
-
-.App-header img{
+.App-header img {
   width: 150px;
   height: auto;
   min-height: 150px;
@@ -86,7 +58,6 @@ header {
 h1 {
   margin: 0 10px;
   font-size: 3em;
-  line-height: 1.25;
   font-family: EuropaBrush, arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -100,21 +71,48 @@ h2 {
   font-weight: 400;
 }
 
-@media (min-width: 43.75em) {
+main {
+  font-size: 1.1em;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 900px) {
+  header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url('./assets/hero_1200.png');
+  }
+  h1 {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url('./assets/hero_1800.png');
+  }
   h1 {
     font-size: 6em;
-    line-height: 1.125;
   }
 }
 
-@media (min-width: 56.25em) {
+@media (min-width: 1800px) {
+  header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url('./assets/hero_2100.png');
+  }
   h1 {
-    font-size: 8em;
-    line-height: 1.05;
+    font-size: 9em;
   }
-}
-
-main {
-  margin: 10px auto 0px;
-  font-size: 16px;
 }

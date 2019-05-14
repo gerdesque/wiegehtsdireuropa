@@ -12,7 +12,7 @@ class Image extends Component {
       src: require('./assets/squares/' + this.props.id + '.webp'),
       srcJpg: require('./assets/squares/fallback/' + this.props.id + '.jpg'),
       color: ["", "yellow-red","green-blue", "purple-green", "pink-blue", "red-blue", "orange-green", "orange-black"],
-      assets: JSON.parse(localStorage.getItem(this.props.id)) || [],
+      assets: [],
       zoomed: false,
       selected: false
     };
@@ -27,9 +27,7 @@ class Image extends Component {
       ...this.state.assets,
       preselectedTweet,
       preselectedHashtag
-    ]},() => {
-      localStorage.setItem(this.props.id, JSON.stringify(this.state.assets));
-    });
+    ]});
   }
 
   getRandomAsset(assets) {
@@ -49,9 +47,7 @@ class Image extends Component {
       this.setState({ assets: [
         ...this.state.assets,
         droppedAsset
-      ]},() => {
-        localStorage.setItem(this.props.id, JSON.stringify(this.state.assets));
-      });
+      ]});
     }
   };
 
@@ -59,9 +55,7 @@ class Image extends Component {
     let assets = this.state.assets.slice();
     const asset = dragData.props;
     assets.splice(toIndex, 0, asset);
-    this.setState({assets: assets},() => {
-      localStorage.setItem(this.props.id, JSON.stringify(this.state.assets));
-    });
+    this.setState({assets: assets});
   };
 
   kill = (id) => {
@@ -72,9 +66,7 @@ class Image extends Component {
     if (index !== -1) {
       assets.splice(index, 1);
     }
-    this.setState({assets: assets},() => {
-      localStorage.setItem(this.props.id, JSON.stringify(this.state.assets));
-    });
+    this.setState({assets: assets});
   };
 
   zoom = () => {
@@ -97,8 +89,8 @@ class Image extends Component {
             <>
               <div className={'duotone ' + this.state.color[this.props.color]} onClick={this.select}>
               <picture>
-                <source srcset={this.state.src} type="image/webp"/>
-                <source srcset={this.state.srcJpg} type="image/jpeg"/> 
+                <source srcSet={this.state.src} type="image/webp"/>
+                <source srcSet={this.state.srcJpg} type="image/jpeg"/>
                 <img className="Image fade" id={this.props.id} src={this.state.srcJpg} alt={this.props.id} onClick={this.zoom}/>
               </picture>
               </div>
@@ -110,7 +102,7 @@ class Image extends Component {
                   onHit={this.handleDrop}
                   targetKey="imageItem"
                   dropData={{name: this.props.name}}>
-                  <div className="Droppable">
+                  <div className="Image-droppable">
                     {this.state.assets.map((asset, index) => {
                       return (
                         <ImageAsset key={asset.id} {...asset} kill={this.kill} index={index} swap={this.swap}/>);

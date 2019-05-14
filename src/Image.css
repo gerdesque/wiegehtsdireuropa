@@ -1,5 +1,10 @@
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 .Image-container {
-  margin: 30px 15px 15px;
+  margin: 10px;
 	padding: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,.3);
   transform: none;
@@ -16,14 +21,47 @@
   transform: rotate(2deg);
 }
 
-.duotone {
-  position: relative;
-  display: grid;
-  transition: all .2s ease-in-out;
+.Image-container.zoomed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  will-change: opacity;
+  transform: rotate(0deg) scale(1.01);
 }
+
+.Image {
+  width: 100%;
+}
+
+.fade {
+  animation-duration: 3s;
+  animation-name: fade;
+ }
 
 picture {
   display: grid;
+}
+
+.Image-container .highlighted .Image-droppable{
+  box-shadow: inset 0 0 4px #00f;
+}
+
+.Image-droppable {
+  width: 100%;
+  min-height: 100px;
+  margin-top: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* Duotone */
+.duotone {
+  position: relative;
+  transition: all .2s ease-in-out;
 }
 
 .duotone::after {
@@ -136,30 +174,20 @@ picture {
   background: #F98900;
 }
 
-.Image {
-  width: 100%;
+@media (min-width: 600px) {
+  .Image-droppable {
+    margin-top: 10px;
+  }
 }
 
-.Image-container.zoomed {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1000;
-  will-change: opacity;
-  transform: rotate(0deg) scale(1.01);
+@media (min-width: 900px) {
+
 }
 
-.fade {
-  animation-duration: 3s;
-  animation-name: fade;
- }
- @keyframes fade {
-  from {
-  opacity: 0;
-  }
-  to {
-  opacity: 1;
-  }
- }
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1800px) {
+
+}

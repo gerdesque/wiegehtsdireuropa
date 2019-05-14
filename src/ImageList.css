@@ -1,20 +1,14 @@
 .ImageList {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 10px;
+  grid-gap: 5px;
+  grid-template-columns: 0;
   grid-auto-flow: column;
-  grid-auto-columns: calc(66% - 40px);
+  grid-auto-columns: calc(90% - 40px);
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   -ms-overflow-style: none;
-}
-
-@media all and (min-width: 768px) {
-  .ImageList {
-    grid-auto-columns: calc(50% - 40px);
-  }
 }
 
 .ImageList::-webkit-scrollbar {
@@ -27,6 +21,7 @@
   width: 10px;
 }
 
+/* Sharing */
 .ImageList-share {
   width: 100%;
   text-align: center;
@@ -63,10 +58,65 @@
   border: none;
 }
 
-.react-sharing-button--facebook {
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  padding: 0.5em 0.75em;
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin: 0;
+  vertical-align: middle
+}
+
+.resp-sharing-button__icon--solid {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--facebook {
   background-color: #3b5998;
 }
 
-.react-sharing-button--twitter {
-  background-color: #105A98;
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+}
+
+@media (min-width: 600px) {
+  .ImageList {
+    grid-auto-columns: calc(66% - 40px);
+  }
+}
+
+@media (min-width: 900px) {
+  .ImageList {
+    grid-auto-columns: calc(45% - 40px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .ImageList {
+    grid-auto-columns: calc(33% - 40px);
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .ImageList {
+    grid-auto-columns: calc(25% - 40px);
+    grid-gap: 15px;
+    margin-top: 10px;
+  }
 }
