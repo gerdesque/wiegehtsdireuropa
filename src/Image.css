@@ -22,6 +22,10 @@
   transition: all .2s ease-in-out;
 }
 
+picture {
+  display: grid;
+}
+
 .duotone::after {
   position: absolute;
   content: "";

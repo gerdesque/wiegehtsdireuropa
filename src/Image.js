@@ -10,6 +10,7 @@ class Image extends Component {
     super(props);
     this.state = {
       src: require('./assets/squares/' + this.props.id + '.webp'),
+      srcJpg: require('./assets/squares/fallback/' + this.props.id + '.jpg'),
       color: ["", "yellow-red","green-blue", "purple-green", "pink-blue", "red-blue", "orange-green", "orange-black"],
       assets: JSON.parse(localStorage.getItem(this.props.id)) || [],
       zoomed: false,
@@ -95,7 +96,11 @@ class Image extends Component {
           {inView && 
             <>
               <div className={'duotone ' + this.state.color[this.props.color]} onClick={this.select}>
-                <img className="Image fade" id={this.props.id} src={this.state.src} alt={this.props.id} onClick={this.zoom}/>
+              <picture>
+                <source srcset={this.state.src} type="image/webp"/>
+                <source srcset={this.state.srcJpg} type="image/jpeg"/> 
+                <img className="Image fade" id={this.props.id} src={this.state.srcJpg} alt={this.props.id} onClick={this.zoom}/>
+              </picture>
               </div>
               <DropTarget
                 onHit={this.handleDrop}
