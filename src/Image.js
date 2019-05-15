@@ -4,6 +4,8 @@ import { InView } from 'react-intersection-observer'
 import ImageAsset from './ImageAsset';
 import { DropTarget } from 'react-drag-drop-container';
 
+const isHashtag = asset => asset.text.charAt(0) === '#';
+
 class Image extends Component {
 
   constructor(props) {
@@ -43,17 +45,16 @@ class Image extends Component {
 
     if (duplicate) return;
 
-    // Replace tweet
-    const isTweet = droppedAsset.username !== undefined;
-    const oldTweet = assets.find(asset => asset.username !== undefined);
-    if (isTweet && oldTweet !== undefined) {
-      return this.replaceAsset(oldTweet.id, assets, droppedAsset)
+    // Replace hashtag
+    const oldHashtags = assets.filter(asset => isHashtag(asset));
+    if (isHashtag(droppedAsset) && oldHashtags.length === 3) {
+      return this.replaceAsset(oldHashtags[2].id, assets, droppedAsset)
     }
 
-    // Replace hashtag
-    const oldHashtags = assets.filter(asset => asset.username === undefined);
-    if (!isTweet && oldHashtags.length === 3) {
-      return this.replaceAsset(oldHashtags[2].id, assets, droppedAsset)
+    // Replace tweet
+    const oldTweet = assets.find(asset => !isHashtag(asset));
+    if (!isHashtag(droppedAsset) && oldTweet !== undefined) {
+      return this.replaceAsset(oldTweet.id, assets, droppedAsset)
     }
 
     // Add asset
@@ -95,6 +96,7 @@ class Image extends Component {
 
   render() {
     const isZoomed = this.state.zoomed ? ' zoomed': '';
+    var externalUrl = 'https://www.landesarchiv-bw.de/plink/?f=5-90496' + this.props.id;
     return (
       <InView triggerOnce="true">
         {({ inView, ref }) => (
@@ -127,6 +129,9 @@ class Image extends Component {
               <button className="react-sharing-button__link react-sharing-button--download" onClick={ () => this.props.share(this.props.id)}>
                 <svg className="react-sharing-button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 12v5H3v-5H1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5z"/><path d="M10 15l5-6h-4V1H9v8H5l5 6z"/></svg>
               </button>
+              <a className="react-sharing-button__link react-sharing-button--external" href={externalUrl} target="_blank" rel="noopener noreferrer" aria-label="External link">
+                <svg className="react-sharing-button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+              </a>
             </>
           }
           </div>

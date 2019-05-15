@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './BoxAsset.css';
 import { DragDropContainer } from 'react-drag-drop-container';
+//import DragDropContainer from './DragDropContainer';
 
 class BoxAsset extends Component {
   constructor(props) {
@@ -8,23 +9,14 @@ class BoxAsset extends Component {
     this.state = {dragging: false};
   }
 
-  onDragStart = (e) => {
-    console.log('onDragStart',e);
-    return;
-  };
-
-  onDrag = (e) => {
-    console.log('onDrag',e);
-    this.setState({dragging: true})
+  handleClick = (e) => {
+    e.stopPropagation();
   }
-
-  onDragEnd = (e) => {
-    console.log('onDragEnd',e);
-    this.setState({dragging: false})
-  };
 
   render() {
     return (
+      <div className = "BoxAsset-Container"
+      onClick={this.handleClick}>
       <DragDropContainer
         targetKey="image"
         dragData={{props: this.props}}
@@ -39,6 +31,7 @@ class BoxAsset extends Component {
             {this.props.timestamp && <div className="BoxAsset-timestamp">{this.props.timestamp}</div>}
             </div>
         }}/>
+      </div>
     );
   }
 }

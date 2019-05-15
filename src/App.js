@@ -6,7 +6,7 @@ import Boxes from './Boxes';
 import domtoimage from 'dom-to-image';
 
 function filter (node) {
-  return (node.tagName !== 'A');
+  return (node.tagName !== 'BUTTON' && node.tagName !== "SOURCE");
 }
 
 class App extends Component {
@@ -37,7 +37,9 @@ class App extends Component {
         var link = document.createElement('a');
         link.download = 'wiegehtsdireuropa.png';
         link.href = dataUrl;
+        document.body.appendChild(link);
         link.click();
+        document.body.removeChild(link);
     });
   }
 

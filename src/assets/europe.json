@@ -83,7 +83,7 @@
     {
       "id": "210",
       "text": "Wie würde dein Leben ohne die EU aussehen?",
-      "sentiments": ["positive", "neutral", "negative"],
+      "sentiments": ["positive", "neutral"],
       "categories": ["baustelle", "müde", "aufklaerung", "glaube", "warten", "schlaf"],
       "twitterhandle": ["@CarlyLaurence"],
       "username": ["Carly Laurence"],
@@ -245,7 +245,7 @@
     {
       "id": "228",
       "text": "Für Europa reichts.",
-      "sentiments": ["negative", "neutral", "positive"],
+      "sentiments": ["negative", "neutral"],
       "categories": ["schoenmachen", "sport", "warten"],
       "twitterhandle": ["@AFromsdorf"],
       "username": ["Günther Hubs"],
@@ -852,7 +852,7 @@
     {
       "id": "88",
       "text": "#fallingforEUrope",
-      "sentiments": ["positive", "negative"],
+      "sentiments": ["positive"],
       "categories": ["unfall"]
     },
     {
@@ -916,7 +916,7 @@
     },
     {
       "id": "labw-5-90901",
-      "sentiments": ["neutral", "positive", "negative"],
+      "sentiments": ["neutral"],
       "categories": ["sport", "rennen"]
     },
     {
@@ -1061,7 +1061,7 @@
     },
     {
       "id": "labw-5-92897",
-      "sentiments": ["neutral", "positive"],
+      "sentiments": ["neutral"],
       "categories": ["reise", "entdeckung", "einsam"]
     },
     {
@@ -1196,7 +1196,7 @@
     },
     {
       "id": "labw-5-93806",
-      "sentiments": ["positive", "neutral", "negative"],
+      "sentiments": ["positive", "neutral"],
       "categories": ["schlaf"]
     },
     {

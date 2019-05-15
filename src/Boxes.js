@@ -25,11 +25,6 @@ class Boxes extends Component {
     }));
   }
 
-  onTouchStart = (e) => {
-    console.log('onTouchStart' , e);
-    return;
-  };
-
   render() {
     const hashtags = this.state.hashtags.map ((asset) =>
       <BoxAsset key ={asset.id} {...asset}/>);
