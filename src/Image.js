@@ -96,7 +96,7 @@ class Image extends Component {
 
   render() {
     const isZoomed = this.state.zoomed ? ' zoomed': '';
-    var externalUrl = 'https://www.landesarchiv-bw.de/plink/?f=5-90496' + this.props.id;
+    var externalUrl = 'https://www.landesarchiv-bw.de/plink/?f=' + (this.props.id).substr(5);
     return (
       <InView triggerOnce="true">
         {({ inView, ref }) => (
@@ -130,7 +130,7 @@ class Image extends Component {
                 <svg className="react-sharing-button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 12v5H3v-5H1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5z"/><path d="M10 15l5-6h-4V1H9v8H5l5 6z"/></svg>
               </button>
               <a className="react-sharing-button__link react-sharing-button--external" href={externalUrl} target="_blank" rel="noopener noreferrer" aria-label="External link">
-                <svg className="react-sharing-button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+              <svg className="react-sharing-button__icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1408 928v320q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h704q14 0 23 9t9 23v64q0 14-9 23t-23 9h-704q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113v-320q0-14 9-23t23-9h64q14 0 23 9t9 23zm384-864v512q0 26-19 45t-45 19-45-19l-176-176-652 652q-10 10-23 10t-23-10l-114-114q-10-10-10-23t10-23l652-652-176-176q-19-19-19-45t19-45 45-19h512q26 0 45 19t19 45z"/></svg>
               </a>
             </>
           }

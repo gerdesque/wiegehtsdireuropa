@@ -57,7 +57,7 @@
 }
 
 .react-sharing-button--external {
-  background-color: #A32C19;
+  background-color: #25D366;
   cursor: pointer;
   border: none;
 }
@@ -77,7 +77,8 @@
   padding: 0.5em 0.75em;
 }
 
-.resp-sharing-button__icon svg {
+.resp-sharing-button__icon svg,
+.resp-sharing-button__icon img {
   width: 1em;
   height: 1em;
   margin: 0;
@@ -87,6 +88,10 @@
 .resp-sharing-button__icon--solid {
   fill: #fff;
   stroke: none
+}
+
+.resp-sharing-button--instagram {
+  background-image: linear-gradient( 0deg, #E09B3D, #C74C4D 30%, #C21975 60% #7024C4 )
 }
 
 .resp-sharing-button--facebook {

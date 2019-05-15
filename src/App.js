@@ -3,10 +3,11 @@ import logo from './assets/logo.svg';
 import './App.css';
 import ImageList from './ImageList';
 import Boxes from './Boxes';
+import SiteNotice from './SiteNotice';
 import domtoimage from 'dom-to-image';
 
 function filter (node) {
-  return (node.tagName !== 'BUTTON' && node.tagName !== "SOURCE");
+  return (node.tagName !== 'BUTTON' && node.tagName !== "SOURCE" && node.tagName !== "A");
 }
 
 class App extends Component {
@@ -58,6 +59,7 @@ class App extends Component {
         <main>
           <ImageList images={this.state.images} share={this.share} hashtags={this.state.hashtags} tweets={this.state.tweets}/>
           <Boxes hashtags={this.state.hashtags} tweets={this.state.tweets}/>
+          <SiteNotice/>
         </main>
       </>
     );
