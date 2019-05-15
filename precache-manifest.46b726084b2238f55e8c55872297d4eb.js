@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "5cdc8501427aeec3520f064fe892b4dc",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-95202.5cdc8501.webp"
+    "revision": "b998793624df4f620df3c357c8a41570",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-95106.b9987936.webp"
   },
   {
-    "revision": "c6101a756b1b9cc5088a",
-    "url": "/wiegehtsdireuropa/static/css/main.55040f51.chunk.css"
+    "revision": "376fe6517d677793aefa",
+    "url": "/wiegehtsdireuropa/static/css/main.09f24319.chunk.css"
   },
   {
     "revision": "95bbee0410ad99687d84",
     "url": "/wiegehtsdireuropa/static/js/runtime~main.b0c5e7bb.js"
   },
   {
-    "revision": "52218469bd70e0a361d1",
-    "url": "/wiegehtsdireuropa/static/js/2.ddcf50ad.chunk.js"
+    "revision": "57917c02247225902627",
+    "url": "/wiegehtsdireuropa/static/js/2.0850a44a.chunk.js"
   },
   {
     "revision": "ecd99bac1aa6c471bc2a58357af55200",
     "url": "/wiegehtsdireuropa/static/media/logo.ecd99bac.svg"
+  },
+  {
+    "revision": "94faac3c360ec2d2a94bc01897678e59",
+    "url": "/wiegehtsdireuropa/static/media/instagram.94faac3c.svg"
   },
   {
     "revision": "17baadf57b6b807a93a047c0059eb58e",
@@ -412,12 +416,12 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-95033.95cad07d.webp"
   },
   {
-    "revision": "b998793624df4f620df3c357c8a41570",
-    "url": "/wiegehtsdireuropa/static/media/labw-5-95106.b9987936.webp"
+    "revision": "376fe6517d677793aefa",
+    "url": "/wiegehtsdireuropa/static/js/main.52380261.chunk.js"
   },
   {
-    "revision": "c6101a756b1b9cc5088a",
-    "url": "/wiegehtsdireuropa/static/js/main.993d524d.chunk.js"
+    "revision": "5cdc8501427aeec3520f064fe892b4dc",
+    "url": "/wiegehtsdireuropa/static/media/labw-5-95202.5cdc8501.webp"
   },
   {
     "revision": "6f64bc432305dc9c931970d917efd4bc",
@@ -828,7 +832,7 @@ self.__precacheManifest = [
     "url": "/wiegehtsdireuropa/static/media/labw-5-95612.3f9b79eb.jpg"
   },
   {
-    "revision": "7faeb8a6ca93d88d24005f6ce0545834",
+    "revision": "474142d94968fb40f19838bd1c6882cf",
     "url": "/wiegehtsdireuropa/index.html"
   }
 ];
