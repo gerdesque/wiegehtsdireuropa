@@ -280,7 +280,7 @@
     },
     {
       "id": "232",
-      "text": "„Wir dürfen nicht den Extremisten die Macht geben. Redet mit jedem. Es ist eine Schicksalswahl.“",
+      "text": "Wir dürfen nicht den Extremisten die Macht geben. Redet mit jedem. Es ist eine Schicksalswahl.",
       "sentiments": ["negative", "neutral"],
       "categories": ["mut", "wahl"],
       "twitterhandle": ["@spdde"],

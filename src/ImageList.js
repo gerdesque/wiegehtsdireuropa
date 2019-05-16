@@ -23,7 +23,7 @@ class ImageList extends Component {
     var twitterUrl = 'https://twitter.com/intent/tweet/?text=' + encodeURIComponent(shareText) + '&url=' + encodeURIComponent(url);
     var facebookUrl = 'https://facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
     const imageItems = shuffleArray(this.props.images).map((image) =>
-      <Image key={image.id} color={this.getRandomColor(8)} {...image} share={this.props.share}
+      <Image key={image.id} color={this.getRandomColor(11)} {...image} share={this.props.share}
         hashtags={this.props.hashtags
           .filter((tag) => tag.sentiments.some(sentiment => image.sentiments.includes(sentiment)))
           .filter((tag) => tag.categories.some(categorie => image.categories.includes(categorie)))}

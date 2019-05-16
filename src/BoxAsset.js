@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './BoxAsset.css';
-//import { DragDropContainer } from 'react-drag-drop-container';
 import DragDropContainer from './DragDropContainer';
 
 class BoxAsset extends Component {

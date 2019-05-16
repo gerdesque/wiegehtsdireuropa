@@ -178,6 +178,48 @@ picture {
   background: #F98900;
 }
 
+.violet-marine {
+  background-color: #002333;
+}
+
+.violet-marine img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: hard-light;
+}
+
+.violet-marine::after {
+  mix-blend-mode: hard-light;
+  background: #8E5EB0;
+}
+
+.green-brown {
+  background-color: #832241;
+}
+
+.green-brown img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: hard-light;
+}
+
+.green-brown::after {
+  mix-blend-mode: darken;
+  background: #84D043;
+}
+
+.yellow-turquoise {
+  background-color: #05606C;
+}
+
+.yellow-turquoise img {
+  filter: grayscale(100%) contrast(1.2);
+  mix-blend-mode: hard-light;
+}
+
+.yellow-turquoise::after {
+  mix-blend-mode: darken;
+  background: #EBDF28;
+}
+
 @media (min-width: 600px) {
   .Image-droppable {
     margin-top: 10px;

@@ -4,10 +4,10 @@
   "homepage": "https://gerdesque.github.io/wiegehtsdireuropa/",
   "dependencies": {
     "dom-to-image": "^2.6.0",
+    "file-saver": "^2.0.2",
     "lazy-react": "^2.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-drag-drop-container": "^6.1.1",
     "react-intersection-observer": "^8.23.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"

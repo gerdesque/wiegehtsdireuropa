@@ -13,7 +13,7 @@ class Image extends Component {
     this.state = {
       src: require('./assets/squares/' + this.props.id + '.webp'),
       srcJpg: require('./assets/squares/fallback/' + this.props.id + '.jpg'),
-      color: ["", "yellow-red","green-blue", "purple-green", "pink-blue", "red-blue", "orange-green", "orange-black"],
+      color: ["", "yellow-red","green-blue", "purple-green", "pink-blue", "red-blue", "orange-green", "orange-black", "violet-marine", "green-brown", "yellow-turquoise"],
       assets: [],
       zoomed: false
     };
