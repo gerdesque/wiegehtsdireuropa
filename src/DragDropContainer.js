@@ -22,7 +22,7 @@ function isZoomed() {
 }
 
 let timer;
-const delay = 300;
+const delay = 500;
 
 class DragDropContainer extends Component {
   constructor(props) {
@@ -89,7 +89,6 @@ class DragDropContainer extends Component {
     elem.addEventListener('touchmove', this.handleTouchMove, { passive: false });
     elem.addEventListener('touchend', this.handleTouchEnd);
     elem.addEventListener('touchcancel', this.handleTouchCancel);
-    elem.addEventListener('click', this.handleClick);
   };
 
   buildCustomEvent = (eventName, extraData = {}) => {
@@ -166,15 +165,15 @@ class DragDropContainer extends Component {
     if (usesLeftButton(e) && !this.props.noDragging) {
       document.addEventListener('mousemove', this.handleMouseMove);
       document.addEventListener('mouseup', this.handleMouseUp);
+      this.setState({ isDrag: true });
       this.startDrag(e, e.clientX, e.clientY);
     }
   };
 
   handleTouchStart = (e) => {
     if (!this.props.noDragging) {
-      this.setState({ isDrag: false });
+      this.setState({ isDrag: true });
       timer = setTimeout(() => {this.startDrag(e, e.targetTouches[0].clientX, e.targetTouches[0].clientY)},delay);
-      //e.stopPropagation(); this.setFixedOffset(); this.startDrag(e.targetTouches[0].clientX, e.targetTouches[0].clientY);
     }
   };
 
@@ -183,7 +182,7 @@ class DragDropContainer extends Component {
       clearTimeout(timer);
     }
 
-    if (!this.state.isDrag) {
+    if (this.state.isDrag) {
       e.stopPropagation();
       this.setFixedOffset();
       document.addEventListener(`${this.props.targetKey}Dropped`, this.props.onDrop);
@@ -213,7 +212,6 @@ class DragDropContainer extends Component {
   handleTouchMove = (e) => {
     this.setState({ isDrag: true });
     if (!this.props.noDragging) {
-    //if (!this.props.noDragging && !this.state.isDrag) {
       if (this.state.clicked) {
         e.preventDefault();  // prevents window scrolling
         this.drag(e.targetTouches[0].clientX, e.targetTouches[0].clientY);
@@ -249,7 +247,7 @@ class DragDropContainer extends Component {
 
   // Drop
   handleMouseUp = (e) => {
-    this.setState({ clicked: false });
+    this.setState({ clicked: false, isDrag: false });
     if (this.state.dragging) {
       document.removeEventListener('mousemove', this.handleMouseMove);
       document.removeEventListener('mouseup', this.handleMouseUp);
@@ -327,9 +325,7 @@ class DragDropContainer extends Component {
       visibility: displayMode === 'hidden' ? 'hidden' : 'inherit',
     };
 
-    const isDrag = this.state.isDrag ? ' isDrag': '';
-    const dragged = this.state.clicked ? ' dragged': '';
-    const dragging = this.state.dragging ? ' dragging': '';
+    const dragged = this.state.isDrag ? ' dragged': '';
 
     return (
       <div className={'ddcontainer' + dragged}  style={containerStyles} ref={(c) => { this.containerElem = c; }}>
@@ -337,7 +333,6 @@ class DragDropContainer extends Component {
           {content}
         </span>
         {ghost}
-        {<div>State: {isDrag} + {dragged} + {dragging} </div>}
       </div>
     );
   }

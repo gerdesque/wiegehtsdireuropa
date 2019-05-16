@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './ImageAsset.css';
-import { DragDropContainer,DropTarget } from 'react-drag-drop-container';
+import { DropTarget } from 'react-drag-drop-container';
+import DragDropContainer from './DragDropContainer';
 
 const maxAssetLength = 140;
 

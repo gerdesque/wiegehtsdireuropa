@@ -90,7 +90,7 @@ class SiteNotice extends Component {
         </a>
         <span className="SiteNotice-About resp-sharing-button__link" onClick={this.toggle}/>
         <div className={className}>
-          <div class="close icon" onClick={this.toggle}></div>
+          <div className="close icon" onClick={this.toggle}></div>
           {aboutTextSmall}{aboutText}
         </div>
       </div>
