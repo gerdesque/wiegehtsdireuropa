@@ -5,6 +5,7 @@ import ImageList from './ImageList';
 import Boxes from './Boxes';
 import SiteNotice from './SiteNotice';
 import domtoimage from 'dom-to-image';
+// eslint-disable-next-line no-unused-vars
 import { saveAs } from 'file-saver';
 
 function filter (node) {
@@ -36,10 +37,11 @@ class App extends Component {
     domtoimage.toPng(selectedImage,
       { filter: filter, quality: 0.95, bgcolor: "#FFFFFF", style: {'transform': 'scale(0.95)' , margin: 0}})
     .then(function (dataUrl) {
-        var img = new Image();
+        /*var img = new Image();
         img.src = dataUrl;
         selectedImage.appendChild(img);
-        //window.saveAs(dataUrl, 'wiegehtsdireuropa.png');
+        */
+        window.saveAs(dataUrl, 'wiegehtsdireuropa.png');
         /*var link = document.createElement('a');
         link.download = 'wiegehtsdireuropa.png';
         link.href = dataUrl;

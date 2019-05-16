@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Image.css';
 import { InView } from 'react-intersection-observer'
 import ImageAsset from './ImageAsset';
-import { DropTarget } from 'react-drag-drop-container';
+import DropTarget from './DropTarget';
 
 const isHashtag = asset => asset.text.charAt(0) === '#';
 
