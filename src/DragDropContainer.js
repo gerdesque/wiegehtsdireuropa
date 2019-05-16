@@ -22,7 +22,7 @@ function isZoomed() {
 }
 
 let timer;
-const delay = 500;
+const delay = 300;
 
 class DragDropContainer extends Component {
   constructor(props) {
@@ -88,6 +88,8 @@ class DragDropContainer extends Component {
     // must add touchmove listener here in order for preventDefault() to work, to prevent scrolling during drag..
     elem.addEventListener('touchmove', this.handleTouchMove, { passive: false });
     elem.addEventListener('touchend', this.handleTouchEnd);
+    elem.addEventListener('touchcancel', this.handleTouchCancel);
+    elem.addEventListener('click', this.handleClick);
   };
 
   buildCustomEvent = (eventName, extraData = {}) => {
@@ -195,9 +197,6 @@ class DragDropContainer extends Component {
       });
       this.props.onDragStart(this.props.dragData);
     }
-    //else {
-    //  alert("scroll")
-    //}
   };
 
   // During Drag
@@ -215,9 +214,8 @@ class DragDropContainer extends Component {
     this.setState({ isDrag: true });
     if (!this.props.noDragging) {
     //if (!this.props.noDragging && !this.state.isDrag) {
-      //alert("move");
-      //e.preventDefault();  // prevents window scrolling
       if (this.state.clicked) {
+        e.preventDefault();  // prevents window scrolling
         this.drag(e.targetTouches[0].clientX, e.targetTouches[0].clientY);
       }
     }
@@ -261,13 +259,12 @@ class DragDropContainer extends Component {
   };
 
   handleTouchEnd = (e) => {
-    if (this.state.isDrag) return;
-
-    //alert("end");
-    this.setState({ clicked: false });
-    if (this.state.dragging) {
-      this.drop(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+    if (this.state.isDrag) {
+      if (this.state.dragging) {
+        this.drop(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+      }
     }
+    this.setState({ clicked: false, isDrag: false });
   };
 
   drop = (x, y) => {
@@ -277,6 +274,10 @@ class DragDropContainer extends Component {
     this._isMounted && this.setState({ dragging: false });
     this.props.onDragEnd(this.props.dragData, this.currentTarget, x, y);
   };
+
+  handleTouchCancel = (e) => {
+    this.setState({ isDrag: false });
+  }
 
   getDisplayMode = () => {
     if (this.state.dragging && !this.props.dragClone && !this.props.customDragElement) {
@@ -326,15 +327,17 @@ class DragDropContainer extends Component {
       visibility: displayMode === 'hidden' ? 'hidden' : 'inherit',
     };
 
-    const isDrag = this.state.isDrag ? 'drag': 'scroll';
+    const isDrag = this.state.isDrag ? ' isDrag': '';
+    const dragged = this.state.clicked ? ' dragged': '';
+    const dragging = this.state.dragging ? ' dragging': '';
 
     return (
-      <div className="ddcontainer" style={containerStyles} ref={(c) => { this.containerElem = c; }}>
+      <div className={'ddcontainer' + dragged}  style={containerStyles} ref={(c) => { this.containerElem = c; }}>
         <span className="ddcontainersource" style={sourceElemStyles} ref={(c) => { this.sourceElem = c; }}>
           {content}
         </span>
         {ghost}
-        {/* <div>EVENTS: {isDrag}!</div> */}
+        {<div>State: {isDrag} + {dragged} + {dragging} </div>}
       </div>
     );
   }

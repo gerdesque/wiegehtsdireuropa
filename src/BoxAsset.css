@@ -1,3 +1,14 @@
+.BoxAsset-Container {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.BoxAsset-Container .dragged .BoxAsset {
+  box-shadow: 0 2px 10px #00f;
+}
+
 .BoxAsset {
   box-shadow: 0 4px 6px rgba(32, 33, 36, 0.28);
   margin: 5px;

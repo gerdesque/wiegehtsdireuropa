@@ -8,6 +8,10 @@
   background-color: #FFF;
   margin-right: 5px;
   height: fit-content;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media (min-width: 600px) {
