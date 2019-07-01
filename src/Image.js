@@ -126,7 +126,7 @@ class Image extends Component {
                   </div>
                 </DropTarget>
               </DropTarget>
-              <button className="react-sharing-button__link react-sharing-button--download" onClick={ () => this.props.share(this.props.id)}>
+              <button className="react-sharing-button__link react-sharing-button--download" onClick={ () => this.props.share(this.props.id)} aria-label="Download image">
                 <svg className="react-sharing-button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 12v5H3v-5H1v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5z"/><path d="M10 15l5-6h-4V1H9v8H5l5 6z"/></svg>
               </button>
               <a className="react-sharing-button__link react-sharing-button--external" href={externalUrl} target="_blank" rel="noopener noreferrer" aria-label="External link">

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import './ImageList.css';
-import Image from './Image';
+const Image = React.lazy(() => import('./Image'));
 
 let currentValue = 0;
 const shuffleArray = array => array.sort(() => Math.random() - 0.5);
@@ -32,7 +32,7 @@ class ImageList extends Component {
           .filter((tweet) => tweet.categories.some(categorie => image.categories.includes(categorie)))}
       />);
     return (
-      <>
+      <Suspense fallback={<div>Loading...</div>}>
         <div className="ImageList">{imageItems}</div>
         <div className="ImageList-share">
         <a className="resp-sharing-button__link" href={facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">
@@ -50,7 +50,7 @@ class ImageList extends Component {
           </div>
         </a>
         </div>
-      </>
+      </Suspense>
     );
   }
 }

@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import './Boxes.css';
-import BoxAsset from './BoxAsset';
 import { InView } from 'react-intersection-observer'
+
+const BoxAsset = React.lazy(() => import('./BoxAsset'));
 
 const shuffleArray = array => array.sort(() => Math.random() - 0.5);
 
@@ -44,8 +45,10 @@ class Boxes extends Component {
           <div className="Boxes-knob"/>
         {inView &&
           <div className="Boxes-container">
-            <div className="Boxes-inner Boxes-tweets" onMouseDown={this.onTouchStart}>{tweets}</div>
-            <div className="Boxes-inner Boxes-hashtags">{hashtags}</div>
+            <Suspense fallback={<div>Loading...</div>}>
+              <div className="Boxes-inner Boxes-tweets" onMouseDown={this.onTouchStart}>{tweets}</div>
+              <div className="Boxes-inner Boxes-hashtags">{hashtags}</div>
+            </Suspense>
           </div>
         }
         </div>
