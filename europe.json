@@ -1,0 +1,1368 @@
+{
+  "tweets": [{
+      "id": "201",
+      "text": "Europa ist unser Ort, wo wir Tradition und Werte pflegen können.",
+      "sentiments": ["positive"],
+      "categories": ["geschichte", "generationen", "tradition", "alte"],
+      "twitterhandle": ["@PLInst_Wien"],
+      "username": ["PL Institut Wien"],
+      "timestamp": ["09:00 - 1. Mai 2019"]
+    },
+    {
+      "id": "202",
+      "text": "Europa ist ein Ort, den wir mitgestalten. Das ist unser Ort.",
+      "sentiments": ["positive"],
+      "categories": ["reise", "generationen", "abenteuer", "entdeckung"],
+      "twitterhandle": ["@PLInst_Wien"],
+      "username": ["PL Institut Wien"],
+      "timestamp": ["03:01 - 1. Mai 2019"]
+    },
+    {
+      "id": "203",
+      "text": "Was werdet ihr wählen?",
+      "sentiments": ["neutral", "positive", "negative"],
+      "categories": ["politik", "wahl", "suche", "entscheidung"],
+      "twitterhandle": ["@BlondJedi"],
+      "username": ["Julia"],
+      "timestamp": ["09:52 - 27. Apr. 2019"]
+    },
+    {
+      "id": "204",
+      "text": "Europa ist auf einer großen Idee aufgebaut: Gemeinsamkeit.",
+      "sentiments": ["positive"],
+      "categories": ["gemeinsam", "unterschiede"],
+      "twitterhandle": ["@Die_Gruenen"],
+      "username": ["BÜNDNIS90/DIE GRÜNEN"],
+      "timestamp": ["03:02 - 2. Mai 2019"]
+    },
+    {
+      "id": "205",
+      "text": "Reguläre Jobs mit ordentlichen Löhnen und fairen Arbeitsbedingungen sind machbar.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["arbeit"],
+      "twitterhandle": ["@dieLinke"],
+      "username": ["DIE LINKE"],
+      "timestamp": ["07:26 - 29. Apr. 2019"]
+    },
+    {
+      "id": "206",
+      "text": "Scheiss auf Europa!",
+      "sentiments": ["negative"],
+      "categories": ["einsam", "ekel", "emotion", "warten", "schlaf"],
+      "twitterhandle": ["@12Mannbmg"],
+      "username": ["Lucienfavre1122"],
+      "timestamp": ["03:52 - 2. Mai 2019"]
+    },
+    {
+      "id": "207",
+      "text": "Nutzt die Chancen, kommt zusammen, wir bauen unser neues Europa, das ist die Antwort. Freiheit!",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["baustelle", "arbeit"],
+      "twitterhandle": ["@nicosemsrott"],
+      "username": ["Nico Semsrott"],
+      "timestamp": ["22:42 - 1. Mai 2019"]
+    },
+    {
+      "id": "208",
+      "text": "Am 26. Mai werden die Weichen für die Zukunft gestellt.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["bewegung", "rennen", "entscheidung"],
+      "twitterhandle": ["@ihkniederbayern"],
+      "username": ["IHK Niederbayern"],
+      "timestamp": ["03:55 - 2. Mai 2019"]
+    },
+    {
+      "id": "209",
+      "text": "The European Union is a role model to me.",
+      "sentiments": ["positive"],
+      "categories": ["schoenmachen", "jagd"],
+      "twitterhandle": ["@rebekkamueller"],
+      "username": ["Rebekka Mueller"],
+      "timestamp": ["11:37 - 11. Juli 2017"]
+    },
+    {
+      "id": "210",
+      "text": "Wie würde dein Leben ohne die EU aussehen?",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["baustelle", "müde", "aufklaerung", "glaube", "warten", "schlaf"],
+      "twitterhandle": ["@CarlyLaurence"],
+      "username": ["Carly Laurence"],
+      "timestamp": ["12:48 - 18. Mai 2017"]
+    },
+    {
+      "id": "211",
+      "text": "Spargel essen für Europa!",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["essen"],
+      "twitterhandle": ["@zwangsbernd"],
+      "username": ["avec vous"],
+      "timestamp": ["12:03 - 1. Mai 2019"]
+    },
+    {
+      "id": "212",
+      "text": "Die Lebensmittel, welche in Europa und Nordamerika weggeworfen werden, würden dreimal reichen um alle Hungernden auf der Welt zu versorgen!",
+      "sentiments": ["negative"],
+      "categories": ["essen"],
+      "twitterhandle": ["@Suuupertyp"],
+      "username": ["Adi Pös"],
+      "timestamp": ["13:30 - 31. Juli 2013"]
+    },
+    {
+      "id": "213",
+      "text": "Ein Europa, in dem wir mal eben nach Frankreich fahren können, um mit Eingeborenen, Erasmusstudenten und Kommilitonen lecker Döner zu essen.",
+      "sentiments": ["positive"],
+      "categories": ["miteinander", "essen"],
+      "twitterhandle": ["@RedPanda10V3"],
+      "username": ["kuscheliges Capybara"],
+      "timestamp": ["03:54 - 5. Mai 2018"]
+    },
+    {
+      "id": "214",
+      "text": "Lecker aufs Land - ein kulinarischer Ausflug",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["essen", "klimawandel", "suche"],
+      "twitterhandle": ["@AllgemeineNachr"],
+      "username": ["Allg. Nachrichten"],
+      "timestamp": ["23:30 - 10. Nov. 2017"]
+    },
+    {
+      "id": "215",
+      "text": "Ich liebe Europa. Die Länder, die Menschen, die Sprachen, das Essen. Vielfalt ohne Mauern. Es ist ein wahr gewordener Traum - für mich.",
+      "sentiments": ["positive"],
+      "categories": ["essen", "unterschiede", "entspannung", "jubel"],
+      "twitterhandle": ["@sfn_eddie"],
+      "username": ["A. Tom Quixotte"],
+      "timestamp": ["02:57 - 23. Sept. 2017"]
+    },
+    {
+      "id": "216",
+      "text": "ABER: es darf eben NICHT nur heißen 'Für Europa reicht's' Wir brauchen ein sozialeres, nachhaltigeres, offeneres und jüngeres Europa!",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["generationen"],
+      "twitterhandle": ["@MR_SBULL"],
+      "username": ["SIMON"],
+      "timestamp": ["22:30 - 6. Mai 2019"]
+    },
+    {
+      "id": "217",
+      "text": "Klimawandel macht nicht an Grenzen halt.",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["grenzen", "klimawandel"],
+      "twitterhandle": ["@Umwelthilfe"],
+      "username": ["Deutsche Umwelthilfe"],
+      "timestamp": ["03:02 - 7. Mai 2019"]
+    },
+    {
+      "id": "218",
+      "text": "Die Demokratie lebt von Einmischung und Beteiligung - nicht nur, aber auch wieder am 26. Mai.",
+      "sentiments": ["neutral"],
+      "categories": ["buerokratie", "rufen"],
+      "twitterhandle": ["@GoeringEckardt"],
+      "username": ["Katrin Göring-Eckardt MdB"],
+      "timestamp": ["02:08 - 7. Mai 2019"]
+    },
+    {
+      "id": "219",
+      "text": "Was ist Europa für uns? Für die Wirtschaft ist es nicht nur Heimat, sondern auch Heimmarkt",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["handel", "geld"],
+      "twitterhandle": ["@WKOe"],
+      "username": ["Wirtschaftskammer Ö."],
+      "timestamp": ["09:07 - 7. Mai 2019"]
+    },
+    {
+      "id": "220",
+      "text": "Verdammte scheiße, geht zur EUROPA WAHL und jammert nicht rum!",
+      "sentiments": ["negative"],
+      "categories": ["wahl", "unfall", "emotion", "schlaf"],
+      "twitterhandle": ["@FreakCologne"],
+      "username": ["Freak"],
+      "timestamp": ["09:07 - 7. Mai 2019"]
+    },
+    {
+      "id": "221",
+      "text": "Welche Partei muss ich wählen um im Europa günstiger mit der Bahn von A nach B zu kommen als mit dem Flieger?",
+      "sentiments": ["neutral"],
+      "categories": ["reise", "auto", "unfall", "flugzeug", "boot", "schiff"],
+      "twitterhandle": ["@DanielFrevel"],
+      "username": ["Daniel Frevel"],
+      "timestamp": ["16:24 - 31. März 2019"]
+    },
+    {
+      "id": "222",
+      "text": "Es muss Schluss sein mit dem Lohndumping!",
+      "sentiments": ["neutral"],
+      "categories": ["geld", "arbeit"],
+      "twitterhandle": ["@katarinabarley"],
+      "username": ["Katarina Barley"],
+      "timestamp": ["23:03 - 3. Mai 2019"]
+    },
+    {
+      "id": "223",
+      "text": "Deutschland produziert mehr Fleisch als erlaubt. Um dieses Problem zu lösen, brauchen wir die EU.",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["essen"],
+      "twitterhandle": ["@krautreporter"],
+      "username": ["Krautreporter"],
+      "timestamp": ["12:01 - 3. Mai 2019"]
+    },
+    {
+      "id": "224",
+      "text": "Europa. Die beste Idee, die Europa je hatte.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["emotion", "trinken", "entspannung"],
+      "twitterhandle": ["@felix_graedler"],
+      "username": ["Felix Grädler"],
+      "timestamp": ["09:11 - 2. Mai 2019"]
+    },
+    {
+      "id": "225",
+      "text": "Die Herausforderungen, vor denen wir heute stehen, die können wir nur gemeinsam anpacken.",
+      "sentiments": ["positive"],
+      "categories": ["gemeinsam", "arbeit"],
+      "twitterhandle": ["@Die_Gruenen"],
+      "username": ["BÜNDNIS90/DIE GRÜNEN"],
+      "timestamp": ["03:02 - 2. Mai 2019"]
+    },
+    {
+      "id": "226",
+      "text": "Europawahl ist Klimawahl.",
+      "sentiments": ["neutral"],
+      "categories": ["reise", "schiff", "klimawandel"],
+      "twitterhandle": ["@Marco_Fechner"],
+      "username": ["Marco Fechner"],
+      "timestamp": ["08:17 - 7. Mai 2019"]
+    },
+    {
+      "id": "227",
+      "text": "Sinnloses Gelddrucken statt echter Sanierung. Draghis vergiftetes Erbe: Europa als Kollateralschaden der EZB-Geldpolitik.",
+      "sentiments": ["negative"],
+      "categories": ["geld", "politik"],
+      "twitterhandle": ["@gamleboeger"],
+      "username": ["Gert Pedersen"],
+      "timestamp": ["15:00 - 31. März 2019"]
+    },
+    {
+      "id": "228",
+      "text": "Für Europa reichts.",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["schoenmachen", "sport", "warten"],
+      "twitterhandle": ["@AFromsdorf"],
+      "username": ["Günther Hubs"],
+      "timestamp": ["14:13 - 31. März 2019"]
+    },
+    {
+      "id": "229",
+      "text": "Wer allen Menschen wirklich zuhört gewinnt die Wahl.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["wahl", "dialog", "telefon", "alte"],
+      "twitterhandle": ["@Humanistin"],
+      "username": ["Humanistin"],
+      "timestamp": ["16:28 - 30. März 2019"]
+    },
+    {
+      "id": "230",
+      "text": "Heute ist ein guter Tag für Europa!",
+      "sentiments": ["positive"],
+      "categories": ["mut", "abenteuer", "jubel", "sport", "trinken", "freude"],
+      "twitterhandle": ["@hugohbusse"],
+      "username": ["Hugo Holger Busse"],
+      "timestamp": ["16:03 - 30. März 2019"]
+    },
+    {
+      "id": "231",
+      "text": "Was wir wollen, ist ein Europa der Menschenrechte, das freie & gerechte Gesellschaften fördert",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["freunde"],
+      "twitterhandle": ["@AmnestySachsen"],
+      "username": ["Amnesty International Sachsen"],
+      "timestamp": ["12:24 - 7. Mai 2019"]
+    },
+    {
+      "id": "232",
+      "text": "Wir dürfen nicht den Extremisten die Macht geben. Redet mit jedem. Es ist eine Schicksalswahl.",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["mut", "wahl"],
+      "twitterhandle": ["@spdde"],
+      "username": ["SPD Parteivorstand"],
+      "timestamp": ["12:26 - 7. Mai 2019"]
+    },
+    {
+      "id": "233",
+      "text": "Eine Gesellschaft, in der es nicht um radikale Gleichheit der Geschlechter geht, sondern um einen bewussten und inklusiven Umgang mit Unterschieden.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["unterschiede", "generationen"],
+      "twitterhandle": ["@www_magazin"],
+      "username": ["was wäre wenn"],
+      "timestamp": ["12:33 - 7. Mai 2019"]
+    },
+    {
+      "id": "234",
+      "text": "Lass‘ mal reden, Europa! Heute Nachmittag bei Kaffee und Kuchen.",
+      "sentiments": ["positive"],
+      "categories": ["dialog", "telefon", "essen", "kaffee"],
+      "twitterhandle": ["@MiRo_SPD"],
+      "username": ["Michael Roth MdB"],
+      "timestamp": ["16:57 - 6. Mai 2019"]
+    },
+    {
+      "id": "235",
+      "text": "Gleicher Lohn für gleiche Arbeit in Europa.",
+      "sentiments": ["neutral"],
+      "categories": ["arbeit"],
+      "twitterhandle": ["@kinokathi"],
+      "username": ["Katharina Dockhorn"],
+      "timestamp": ["17:45 - 8. Mai 2019"]
+    },
+    {
+      "id": "236",
+      "text": "Europa. Jetzt aber richtig!",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["wahl", "baustelle", "musik", "rennen", "schiff"],
+      "twitterhandle": ["@GEW_BERLIN"],
+      "username": ["GEW BERLIN"],
+      "timestamp": ["13:38 - 1. Mai 2019"]
+    },
+    {
+      "id": "237",
+      "text": "Welchen Zirkus soll ich denn nun wählen? Also ich mag ja Glitzer, aber ich fürchte Europa braucht etwas mehr als das. ",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["fasching", "party", "licht"],
+      "twitterhandle": ["@mybrainfudge"],
+      "username": ["MyBrainFudge"],
+      "timestamp": ["19:40 - 3. Mai 2019"]
+    },
+    {
+      "id": "238",
+      "text": "Man kann auch reisen, ohne zu fliegen. Europa hat viele schöne Ecken, die sind auch mit Bus, Bahn oder Auto erreichbar.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["auto", "reise", "unfall", "schiff", "klimawandel"],
+      "twitterhandle": ["@MelVar17"],
+      "username": ["M.V."],
+      "timestamp": ["22:48 - 5. Mai 2019"]
+    },
+    {
+      "id": "239",
+      "text": "So ein bisschen Framing muss schon sein, deshalb geht es ja auch um Europa und nicht um die EU.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["rahmen"],
+      "twitterhandle": ["@griese_robert"],
+      "username": ["Robert Griese"],
+      "timestamp": ["13:33 - 8. Mai 2019"]
+    },
+    {
+      "id": "240",
+      "text": "Europa ist unser Zuhause, es ist der Ort, an dem wir leben und arbeiten. Europa bedeutet für uns Freunde und Familie. ",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "familie"],
+      "twitterhandle": ["@EON_de"],
+      "username": ["E.ON"],
+      "timestamp": ["11:31 - 8. Mai 2019"]
+    },
+    {
+      "id": "241",
+      "text": "Das Europa wie wir es kennen steht auf dem Spiel!",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["spiel", "politik"],
+      "twitterhandle": ["@bxlmax"],
+      "username": ["Max von Abendroth"],
+      "timestamp": ["22:44 - 5. Mai 2019"]
+    },
+    {
+      "id": "242",
+      "text": "Geringe Wahlbeteiligung bei der letzten Europawahl. Das muss sich ändern. Willst du mit mir wählen gehen?",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["wahl", "rufen"],
+      "twitterhandle": ["@ZDFheute"],
+      "username": ["ZDF Heute"],
+      "timestamp": ["10:24 - 3. Mai 2019"]
+    },
+    {
+      "id": "243",
+      "text": "Und wie sieht deine Heimat Europa aus?",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["reise", "party", "essen", "musik"],
+      "twitterhandle": ["@PulseofEurope"],
+      "username": ["Pulse of Europe"],
+      "timestamp": ["22:10 - 29. Apr. 2019"]
+    },
+    {
+      "id": "245",
+      "text": "Europa ist ein Mosaik. Aus vielen unterschiedlichen Steinen. Vielfältig, offen, demokratisch und friedlich.",
+      "sentiments": ["positive"],
+      "categories": ["generationen", "party", "freunde", "familie"],
+      "twitterhandle": ["@Kasallamusik"],
+      "username": ["Kasalla"],
+      "timestamp": ["11:42 - 2. Mai 2019"]
+    },
+    {
+      "id": "246",
+      "text": "Europa ist nicht perfekt, aber zusammen können wir es besser machen.",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["arbeit", "zukunft", "gemeinsam", "baustelle", "kunst", "schoenmachen", "unfall"],
+      "twitterhandle": ["@Igutmensch"],
+      "username": ["Idgie Gutmensch"],
+      "timestamp": ["02:11 - 29. Apr. 2019"]
+    }
+  ],
+  "hashtags": [{
+      "id": "1",
+      "text": "#nEUland",
+      "sentiments": ["positive"],
+      "categories": ["mut", "abenteuer", "reise", "entdeckung", "zukunft", "unterschiede", "flugzeug", "boot"]
+    },
+    {
+      "id": "2",
+      "text": "#frEUnde",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "miteinander"]
+    },
+    {
+      "id": "3",
+      "text": "#frEUndschaft",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "miteinander"]
+    },
+    {
+      "id": "4",
+      "text": "#EUphorie",
+      "sentiments": ["positive"],
+      "categories": ["freude", "jubel"]
+    },
+    {
+      "id": "9",
+      "text": "#frEUndlich",
+      "sentiments": ["positive"],
+      "categories": ["freunde"]
+    },
+    {
+      "id": "10",
+      "text": "#meinmiliEU",
+      "sentiments": ["positive", "negative"],
+      "categories": ["freunde", "familie", "grenzen", "generationen", "rahmen"]
+    },
+    {
+      "id": "11",
+      "text": "#EUretwegen",
+      "sentiments": ["positive", "negative"],
+      "categories": ["miteinander", "freunde"]
+    },
+    {
+      "id": "13",
+      "text": "#nEUgier",
+      "sentiments": ["positive"],
+      "categories": ["neugier", "abenteuer", "mut"]
+    },
+    {
+      "id": "15",
+      "text": "#originalgetrEU",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["tradition", "geschichte", "unterschiede", "alte"]
+    },
+    {
+      "id": "16",
+      "text": "#abentEUer",
+      "sentiments": ["positive"],
+      "categories": ["mut", "abenteuer", "reise", "entdeckung", "zukunft"]
+    },
+    {
+      "id": "17",
+      "text": "#abentEUerlust",
+      "sentiments": ["positive"],
+      "categories": ["mut", "abenteuer", "reise", "entdeckung", "zukunft", "flugzeug", "boot"]
+    },
+    {
+      "id": "18",
+      "text": "#erlEUchten",
+      "sentiments": ["positive"],
+      "categories": ["aufklaerung", "zukunft"]
+    },
+    {
+      "id": "19",
+      "text": "#nichtsberEUen",
+      "sentiments": ["positive"],
+      "categories": ["mut", "zukunft", "geschichte", "entspannung", "alte"]
+    },
+    {
+      "id": "20",
+      "text": "#freEUdentaumel",
+      "sentiments": ["positive"],
+      "categories": ["party", "jubel", "freude"]
+    },
+    {
+      "id": "21",
+      "text": "#kontaktfrEUdig",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "dialog", "austausch"]
+    },
+    {
+      "id": "22",
+      "text": "#krEUzung",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["entscheidung", "austausch", "dialog"]
+    },
+    {
+      "id": "23",
+      "text": "#lebensfrEUde",
+      "sentiments": ["positive"],
+      "categories": ["party", "jubel", "freude"]
+    },
+    {
+      "id": "24",
+      "text": "#beschlEUnigung",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["zukunft", "entscheidung"]
+    },
+    {
+      "id": "25",
+      "text": "#sEUfz",
+      "sentiments": ["positive", "negative"],
+      "categories": ["emotion", "jubel", "freude", "entspannung"]
+    },
+    {
+      "id": "26",
+      "text": "#zerstrEUt",
+      "sentiments": ["positive", "negative"],
+      "categories": ["dialog", "entscheidung", "austausch"]
+    },
+    {
+      "id": "27",
+      "text": "#nEUronalenetzwerke",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["dialog"]
+    },
+    {
+      "id": "28",
+      "text": "#EUroparockt",
+      "sentiments": ["positive"],
+      "categories": ["party", "musik"]
+    },
+    {
+      "id": "29",
+      "text": "#EUropaverbindet",
+      "sentiments": ["positive"],
+      "categories": ["miteinander", "dialog", "freunde", "austausch"]
+    },
+    {
+      "id": "30",
+      "text": "#EUropaschmeckt",
+      "sentiments": ["positive"],
+      "categories": ["essen", "trinken"]
+    },
+    {
+      "id": "32",
+      "text": "#EUropaohnegrenzen ",
+      "sentiments": ["positive"],
+      "categories": ["reise", "abenteuer", "mut"]
+    },
+    {
+      "id": "33",
+      "text": "#EUropaleuchtet",
+      "sentiments": ["positive"],
+      "categories": ["licht", "mut"]
+    },
+    {
+      "id": "34",
+      "text": "#ichwähleEU",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["politik", "wahl", "mut", "entscheidung", "rahmen"]
+    },
+    {
+      "id": "35",
+      "text": "#gehwählen",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["politik", "wahl", "mut", "entscheidung", "unterschiede"]
+    },
+    {
+      "id": "36",
+      "text": "#EUropafüralle",
+      "sentiments": ["positive"],
+      "categories": ["mut", "freunde", "familie", "alte", "generationen"]
+    },
+    {
+      "id": "37",
+      "text": "#wiesiehtdeinEUROPAaus",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["reise", "unfall"]
+    },
+    {
+      "id": "38",
+      "text": "#EUropabewegtdich",
+      "sentiments": ["positive"],
+      "categories": ["reise", "abenteuer", "auto"]
+    },
+    {
+      "id": "39",
+      "text": "#EUropabewegtsich",
+      "sentiments": ["positive"],
+      "categories": ["bewegung", "reise", "abenteuer", "auto"]
+    },
+    {
+      "id": "40",
+      "text": "#EUropabautbrücken",
+      "sentiments": ["positive"],
+      "categories": ["dialog", "bruecke", "miteinander", "baustelle"]
+    },
+    {
+      "id": "41",
+      "text": "#EUropalässtdichnichtallein",
+      "sentiments": ["positive"],
+      "categories": ["familie", "bruecke", "miteinander", "freunde", "party"]
+    },
+    {
+      "id": "42",
+      "text": "#marktplatzEUropa",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["dialog", "handel"]
+    },
+    {
+      "id": "43",
+      "text": "#aufdersuchenachEUropa",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["zukunft", "warten", "suche"]
+    },
+    {
+      "id": "44",
+      "text": "#baustelleEUropa",
+      "sentiments": ["positive", "negative", "neutral"],
+      "categories": ["bruecke", "arbeit", "baustelle"]
+    },
+    {
+      "id": "45",
+      "text": "#verrücktnachEUropa",
+      "sentiments": ["positive", "negative"],
+      "categories": ["party", "fasching"]
+    },
+    {
+      "id": "46",
+      "text": "#tEUer",
+      "sentiments": ["negative"],
+      "categories": ["geld", "handel", "baustelle", "buerokratie"]
+    },
+    {
+      "id": "47",
+      "text": "#EUphemistisch",
+      "sentiments": ["negative"],
+      "categories": ["baustelle","ekel"]
+    },
+    {
+      "id": "48",
+      "text": "#abgEUrteilt",
+      "sentiments": ["negative"],
+      "categories": ["geschichte", "ekel", "buerokratie"]
+    },
+    {
+      "id": "50",
+      "text": "#amatEUre",
+      "sentiments": ["negative"],
+      "categories": ["sport", "buerokratie"]
+    },
+    {
+      "id": "51",
+      "text": "#ausbEUtung",
+      "sentiments": ["negative"],
+      "categories": ["arbeit", "buerokratie", "geld"]
+    },
+    {
+      "id": "52",
+      "text": "#ungehEUerlich",
+      "sentiments": ["negative"],
+      "categories": ["ekel", "buerokratie", "politik", "geld"]
+    },
+    {
+      "id": "53",
+      "text": "#vergEudung",
+      "sentiments": ["negative"],
+      "categories": ["geld", "baustelle", "buerokratie"]
+    },
+    {
+      "id": "55",
+      "text": "#musEUm",
+      "sentiments": ["negative"],
+      "categories": ["geschichte", "tradition", "buerokratie"]
+    },
+    {
+      "id": "56",
+      "text": "#bedEUtungslos",
+      "sentiments": ["negative"],
+      "categories": ["zukunft", "politik", "einsam"]
+    },
+    {
+      "id": "57",
+      "text": "#berEUen",
+      "sentiments": ["negative"],
+      "categories": ["geschichte", "politik", "tradition"]
+    },
+    {
+      "id": "58",
+      "text": "#bEUnruhigt",
+      "sentiments": ["negative"],
+      "categories": ["zukunft", "politik"]
+    },
+    {
+      "id": "60",
+      "text": "#ernEUern",
+      "sentiments": ["negative", "positive", "neutral"],
+      "categories": ["baustelle", "dialog", "aktion", "mut", "zukunft"]
+    },
+    {
+      "id": "62",
+      "text": "#gegenstEUern",
+      "sentiments": ["negative", "positive"],
+      "categories": ["bewegung", "dialog", "aktion", "schiff", "unfall"]
+    },
+    {
+      "id": "64",
+      "text": "#mEUterei",
+      "sentiments": ["negative"],
+      "categories": ["politik", "mut", "aktion"]
+    },
+    {
+      "id": "65",
+      "text": "#hEUldoch",
+      "sentiments": ["negative"],
+      "categories": ["emotion", "ekel", "spiel"]
+    },
+    {
+      "id": "66",
+      "text": "#spielverderberEUropa",
+      "sentiments": ["negative"],
+      "categories": ["spiel", "ekel", "aktion", "emotion"]
+    },
+    {
+      "id": "68",
+      "text": "#creatingEUrope",
+      "sentiments": ["positive"],
+      "categories": ["baustelle", "dialog", "aktion", "kunst"]
+    },
+    {
+      "id": "69",
+      "text": "#buildingbridges",
+      "sentiments": ["positive"],
+      "categories": ["baustelle", "dialog", "bruecke"]
+    },
+    {
+      "id": "70",
+      "text": "#believeinEUrope",
+      "sentiments": ["positive"],
+      "categories": ["glaube", "zukunft"]
+    },
+    {
+      "id": "71",
+      "text": "#callingforEUrope",
+      "sentiments": ["positive"],
+      "categories": ["dialog", "telefon", "rufen", "zukunft"]
+    },
+    {
+      "id": "72",
+      "text": "#beautifyEUrope",
+      "sentiments": ["positive"],
+      "categories": ["schoenmachen", "aktion", "baustelle", "zukunft"]
+    },
+    {
+      "id": "73",
+      "text": "#celebratingEUrope",
+      "sentiments": ["positive"],
+      "categories": ["party", "musik", "jubel"]
+    },
+    {
+      "id": "74",
+      "text": "#hands-onEUrope",
+      "sentiments": ["positive"],
+      "categories": ["schoenmachen", "kaffee"]
+    },
+    {
+      "id": "75",
+      "text": "#voteforEUrope",
+      "sentiments": ["positive"],
+      "categories": ["wahl", "politik", "entscheidung", "zukunft"]
+    },
+    {
+      "id": "76",
+      "text": "#EUropewithoutborders",
+      "sentiments": ["positive"],
+      "categories": ["bruecke", "reise", "abenteuer", "mut"]
+    },
+    {
+      "id": "77",
+      "text": "#EUropelikestomoveit",
+      "sentiments": ["positive"],
+      "categories": ["party", "reise", "auto", "kaffee"]
+    },
+    {
+      "id": "78",
+      "text": "#discoveringEUrope",
+      "sentiments": ["positive"],
+      "categories": ["entdeckung", "suche", "reise", "zukunft"]
+    },
+    {
+      "id": "79",
+      "text": "#imaginingEUrope",
+      "sentiments": ["positive"],
+      "categories": ["glaube", "kunst", "aufklaerung"]
+    },
+    {
+      "id": "80",
+      "text": "#drinkingtoEUrope",
+      "sentiments": ["positive"],
+      "categories": ["trinken", "party", "jubel", "zukunft"]
+    },
+    {
+      "id": "81",
+      "text": "#iwantyouforEUrope",
+      "sentiments": ["positive"],
+      "categories": ["telefon", "dialog", "aktion", "rufen"]
+    },
+    {
+      "id": "82",
+      "text": "#rallyingforEUrope",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["auto", "rennen", "sport"]
+    },
+    {
+      "id": "83",
+      "text": "#movingEUrope",
+      "sentiments": ["positive"],
+      "categories": ["auto", "bewegung", "sport"]
+    },
+    {
+      "id": "84",
+      "text": "#sleepingbeautyEUrope",
+      "sentiments": ["positive"],
+      "categories": ["schlaf"]
+    },
+    {
+      "id": "85",
+      "text": "#lookingforEUrope",
+      "sentiments": ["positive"],
+      "categories": ["suche", "reise"]
+    },
+    {
+      "id": "86",
+      "text": "#buildingEUrope",
+      "sentiments": ["positive"],
+      "categories": ["baustelle", "aktion", "zukunft"]
+    },
+    {
+      "id": "87",
+      "text": "#datingEUrope",
+      "sentiments": ["positive"],
+      "categories": ["telefon"]
+    },
+    {
+      "id": "88",
+      "text": "#fallingforEUrope",
+      "sentiments": ["positive"],
+      "categories": ["unfall"]
+    },
+    {
+      "id": "89",
+      "text": "#crazyaboutEUrope",
+      "sentiments": ["positive"],
+      "categories": ["fasching", "party", "jubel"]
+    },
+    {
+      "id": "90",
+      "text": "#allforEUrope",
+      "sentiments": ["positive"],
+      "categories": ["miteinander", "party", "mut"]
+    },
+    {
+      "id": "91",
+      "text": "#hauntingforEUrope",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["jagd"]
+    }
+  ],
+  "images": [{
+      "id": "labw-5-90607",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["baustelle", "aktion"]
+    },
+    {
+      "id": "labw-5-90623",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["aktion", "miteinander", "arbeit"]
+    },
+    {
+      "id": "labw-5-90625",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["miteinander", "aktion", "gemeinsam"]
+    },
+    {
+      "id": "labw-5-90641",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["kaffee", "aktion"]
+    },
+    {
+      "id": "labw-5-90683",
+      "sentiments": ["neutral", "negative"],
+      "categories": ["auto", "reise"]
+    },
+    {
+      "id": "labw-5-90710",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["suche"]
+    },
+    {
+      "id": "labw-5-90741",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["essen", "miteinander"]
+    },
+    {
+      "id": "labw-5-90766",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["rennen", "sport"]
+    },
+    {
+      "id": "labw-5-90901",
+      "sentiments": ["neutral"],
+      "categories": ["sport", "rennen"]
+    },
+    {
+      "id": "labw-5-90955",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["spiel", "miteinander", "familie", "gemeinsam"]
+    },
+    {
+      "id": "labw-5-91050",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["flugzeug", "reise"]
+    },
+    {
+      "id": "labw-5-91058",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["kunst", "suche", "glaube"]
+    },
+    {
+      "id": "labw-5-91090",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["telefon", "suche", "miteinander", "freunde", "dialog"]
+    },
+    {
+      "id": "labw-5-91091",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["schoenmachen", "aktion"]
+    },
+    {
+      "id": "labw-5-91099",
+      "sentiments": ["positive"],
+      "categories": ["party", "jubel", "trinken", "fasching", "freunde"]
+    },
+    {
+      "id": "labw-5-91109",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["kunst", "rahmen"]
+    },
+    {
+      "id": "labw-5-91122",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "party", "jubel", "reise"]
+    },
+    {
+      "id": "labw-5-91128",
+      "sentiments": ["positive"],
+      "categories": ["schoenmachen", "aktion", "kunst"]
+    },
+    {
+      "id": "labw-5-91137",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["jagd", "aktion", "familie"]
+    },
+    {
+      "id": "labw-5-91140",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["schoenmachen", "aktion", "freunde"]
+    },
+    {
+      "id": "labw-5-91157",
+      "sentiments": ["positive"],
+      "categories": ["rennen", "sport", "freunde", "gemeinsam"]
+    },
+    {
+      "id": "labw-5-91244",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["baustelle", "buerokratie", "suche"]
+    },
+    {
+      "id": "labw-5-91246",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["einsam", "ekel"]
+    },
+    {
+      "id": "labw-5-91250",
+      "sentiments": ["positive", "negative"],
+      "categories": ["baustelle", "boot", "reise", "gemeinsam"]
+    },
+    {
+      "id": "labw-5-91533",
+      "sentiments": ["positive"],
+      "categories": ["gemeinsam", "dialog", "essen", "aufklaerung"]
+    },
+    {
+      "id": "labw-5-91548",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["unterschiede", "wahl"]
+    },
+    {
+      "id": "labw-5-91600",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["spiel", "einsam", "zukunft"]
+    },
+    {
+      "id": "labw-5-91612",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["schoenmachen", "kunst", "zukunft"]
+    },
+    {
+      "id": "labw-5-91625",
+      "sentiments": ["positive"],
+      "categories": ["party", "trinken", "jubel", "fasching", "freude"]
+    },
+    {
+      "id": "labw-5-91655",
+      "sentiments": ["positive"],
+      "categories": ["party", "jubel", "emotion"]
+    },
+    {
+      "id": "labw-5-91865",
+      "sentiments": ["positive", "negative"],
+      "categories": ["party", "fasching", "sport"]
+    },
+    {
+      "id": "labw-5-91873",
+      "sentiments": ["positive"],
+      "categories": ["rennen", "sport", "gemeinsam"]
+    },
+    {
+      "id": "labw-5-92090",
+      "sentiments": ["positive", "negative", "neutral"],
+      "categories": ["einsam", "jagd", "suche", "warten"]
+    },
+    {
+      "id": "labw-5-92141",
+      "sentiments": ["positive"],
+      "categories": ["kunst", "zukunft"]
+    },
+    {
+      "id": "labw-5-92143",
+      "sentiments": ["positive"],
+      "categories": ["party", "trinken", "unterschiede"]
+    },
+    {
+      "id": "labw-5-92512",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["schoenmachen", "suche"]
+    },
+    {
+      "id": "labw-5-92826",
+      "sentiments": ["positive", "negative", "neutral"],
+      "categories": ["unterschiede", "suche", "auto"]
+    },
+    {
+      "id": "labw-5-92897",
+      "sentiments": ["neutral"],
+      "categories": ["reise", "entdeckung", "einsam"]
+    },
+    {
+      "id": "labw-5-92954",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["gemeinsam", "reise", "schlaf", "auto"]
+    },
+    {
+      "id": "labw-5-92966",
+      "sentiments": ["positive"],
+      "categories": ["party", "trinken", "gemeinsam"]
+    },
+    {
+      "id": "labw-5-92969",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["handel", "geld", "unterschiede", "miteinander"]
+    },
+    {
+      "id": "labw-5-92971",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["essen", "arbeit"]
+    },
+    {
+      "id": "labw-5-93112",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["reise", "bruecke", "entdeckung"]
+    },
+    {
+      "id": "labw-5-93221",
+      "sentiments": ["positive"],
+      "categories": ["gemeinsam", "warten", "bruecke"]
+    },
+    {
+      "id": "labw-5-93279",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["reise", "unterschiede"]
+    },
+    {
+      "id": "labw-5-93302",
+      "sentiments": ["positive"],
+      "categories": ["trinken", "party", "jubel", "einsam"]
+    },
+    {
+      "id": "labw-5-93308",
+      "sentiments": ["positive"],
+      "categories": ["trinken", "unterschiede", "party", "miteinander"]
+    },
+    {
+      "id": "labw-5-93337",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["reise", "auto", "klimawandel", "grenzen"]
+    },
+    {
+      "id": "labw-5-93375",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["warten", "einsam", "fasching"]
+    },
+    {
+      "id": "labw-5-93411",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["reise", "unterschiede", "warten", "suche"]
+    },
+    {
+      "id": "labw-5-93414",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["miteinander", "warten", "mut", "zukunft", "neugier"]
+    },
+    {
+      "id": "labw-5-93461",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["reise", "auto"]
+    },
+    {
+      "id": "labw-5-93563",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["einsam", "unterschiede", "geschichte", "tradition"]
+    },
+    {
+      "id": "labw-5-93623",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["gemeinsam", "baustelle", "zukunft", "mut"]
+    },
+    {
+      "id": "labw-5-93628",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["kaffee"]
+    },
+    {
+      "id": "labw-5-93655",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["zukunft", "geschichte", "austausch"]
+    },
+    {
+      "id": "labw-5-93666",
+      "sentiments": ["positive"],
+      "categories": ["reise", "entspannung", "kunst", "jubel"]
+    },
+    {
+      "id": "labw-5-93696",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["generationen", "unterschiede", "alte", "reise"]
+    },
+    {
+      "id": "labw-5-93723",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["unfall", "buerokratie"]
+    },
+    {
+      "id": "labw-5-93737",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["rufen", "politik"]
+    },
+    {
+      "id": "labw-5-93741",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["schoenmachen", "einsam"]
+    },
+    {
+      "id": "labw-5-93773",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["mut", "sport", "abenteuer"]
+    },
+    {
+      "id": "labw-5-93788",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "party", "musik", "miteinander", "freude"]
+    },
+    {
+      "id": "labw-5-93804",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["suche"]
+    },
+    {
+      "id": "labw-5-93806",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["schlaf"]
+    },
+    {
+      "id": "labw-5-93848",
+      "sentiments": ["positive", "negative"],
+      "categories": ["freunde", "spiel", "baustelle", "miteinander"]
+    },
+    {
+      "id": "labw-5-93877",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["freunde", "reise", "auto"]
+    },
+    {
+      "id": "labw-5-93879",
+      "sentiments": ["neutral", "negative"],
+      "categories": ["einsam", "warten", "jagd"]
+    },
+    {
+      "id": "labw-5-93882",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "gemeinsam"]
+    },
+    {
+      "id": "labw-5-93889",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "essen", "miteinander"]
+    },
+    {
+      "id": "labw-5-93892",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["schoenmachen", "miteinander"]
+    },
+    {
+      "id": "labw-5-93895",
+      "sentiments": ["positive"],
+      "categories": ["kaffee"]
+    },
+    {
+      "id": "labw-5-93907",
+      "sentiments": ["positive", "negative"],
+      "categories": ["freunde", "spiel", "baustelle"]
+    },
+    {
+      "id": "labw-5-93913",
+      "sentiments": ["positive"],
+      "categories": ["musik", "suche"]
+    },
+    {
+      "id": "labw-5-93916",
+      "sentiments": ["positive"],
+      "categories": ["spiel", "freunde", "mut", "gemeinsam"]
+    },
+    {
+      "id": "labw-5-93944",
+      "sentiments": ["positive"],
+      "categories": ["kunst", "zukunft", "aufklaerung", "generationen"]
+    },
+    {
+      "id": "labw-5-93978",
+      "sentiments": ["positive"],
+      "categories": ["trinken", "freunde"]
+    },
+    {
+      "id": "labw-5-94001",
+      "sentiments": ["positive"],
+      "categories": ["zukunft", "gemeinsam", "neugier", "warten"]
+    },
+    {
+      "id": "labw-5-94004",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["kunst", "reise"]
+    },
+    {
+      "id": "labw-5-94026",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "party", "musik", "miteinander"]
+    },
+    {
+      "id": "labw-5-94077",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "musik", "reise"]
+    },
+    {
+      "id": "labw-5-94086",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "party", "musik", "unterschiede"]
+    },
+    {
+      "id": "labw-5-94199",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["schlaf", "warten", "muede"]
+    },
+    {
+      "id": "labw-5-94386",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["reise", "bewegung"]
+    },
+    {
+      "id": "labw-5-94494",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["reise", "klimawandel", "schiff"]
+    },
+    {
+      "id": "labw-5-94532",
+      "sentiments": ["positive", "neutral", "negative"],
+      "categories": ["arbeit", "handel", "einsam"]
+    },
+    {
+      "id": "labw-5-94769",
+      "sentiments": ["positive"],
+      "categories": ["trinken"]
+    },
+    {
+      "id": "labw-5-94770",
+      "sentiments": ["positive"],
+      "categories": ["freunde", "essen", "trinken", "gemeinsam", "wahl"]
+    },
+    {
+      "id": "labw-5-94790",
+      "sentiments": ["positive"],
+      "categories": ["mut", "sport", "neugier"]
+    },
+    {
+      "id": "labw-5-94858",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["handel", "geld", "arbeit", "unterschiede", "tradition"]
+    },
+    {
+      "id": "labw-5-94956",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["licht", "auto"]
+    },
+    {
+      "id": "labw-5-95033",
+      "sentiments": ["positive", "negative"],
+      "categories": ["baustelle", "zukunft"]
+    },
+    {
+      "id": "labw-5-95106",
+      "sentiments": ["positive", "negative", "neutral"],
+      "categories": ["baustelle", "gemeinsam", "arbeit"]
+    },
+    {
+      "id": "labw-5-95202",
+      "sentiments": ["positive", "neutral"],
+      "categories": ["bewegung", "reise", "entscheidung", "wahl"]
+    },
+    {
+      "id": "labw-5-95250",
+      "sentiments": ["positive", "negative"],
+      "categories": ["einsam", "suche"]
+    },
+    {
+      "id": "labw-5-95330",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["bruecke", "baustelle", "arbeit"]
+    },
+    {
+      "id": "labw-5-95472",
+      "sentiments": ["negative"],
+      "categories": ["unfall", "auto", "reise"]
+    },
+    {
+      "id": "labw-5-95612",
+      "sentiments": ["negative", "neutral"],
+      "categories": ["arbeit", "freunde", "familie", "buerokratie", "wahl"]
+    }
+  ]
+}
