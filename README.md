@@ -1,5 +1,7 @@
 # [Wie geht's dir, Europa?](https://gerdesque.github.io/wiegehtsdireuropa/)
 
+![Wie geht's dir, Europa?](https://codingdavinci.de/img/projekte/wie_gehts_dir_europa.png)
+
 Sonntag, 10.30 Uhr - wach, aufgeregt, zukunftsoptimistisch #EUphorisch. Geht´s dir heute auch so, Europa?
 
 Keine hundert Jahre liegen zwischen den Fotografien von Willy Pragher und unserer twitteraffinen Zeit. Anlässlich der Europawahl 2019 wollen wir die fotografischen Momentaufnahmen des letzten Jahrhunderts mit aktuellen Statements zum Thema EU und Europa von TwitternutzerInnen zusammenbringen.
