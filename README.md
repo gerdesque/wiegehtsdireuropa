@@ -1,7 +1,12 @@
-# [![Logo of _Wie geht's dir, Europa?_](public/logo-192.png)](https://gerdesque.github.io/wiegehtsdireuropa/)
+<p align="center">
+  <a href="https://gerdesque.github.io/wiegehtsdireuropa/">
+    <img alt="Logo of 'Wie geht's dir, Europa?'" src="public/logo-192.png">
+  </a>
+</p>
+
 ---
 
-![Screenshot of _Wie geht's dir, Europa?_](wiegehtsdireuropa.png)
+[![Screenshot of _Wie geht's dir, Europa?_](wiegehtsdireuropa.png)](https://gerdesque.github.io/wiegehtsdireuropa/)
 
 ## About [_Wie geht's dir, Europa?_](https://gerdesque.github.io/wiegehtsdireuropa/)
 
@@ -32,4 +37,4 @@ Feel free to send us feedback on [Twitter](https://twitter.com/digiwako) or [fil
 - Clone or download the repo
 - `yarn` to install dependencies
 - `yarn start` to run the app
-- `yarn build` to build to app
+- `yarn build` to build the app
