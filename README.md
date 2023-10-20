@@ -1,6 +1,9 @@
-# [Wie geht's dir, Europa?](https://gerdesque.github.io/wiegehtsdireuropa/)
+# [![Logo of _Wie geht's dir, Europa?_](public/logo-192.png)](https://gerdesque.github.io/wiegehtsdireuropa/)
+---
 
-![Wie geht's dir, Europa?]()
+![Screenshot of _Wie geht's dir, Europa?_](wiegehtsdireuropa.png)
+
+## About [_Wie geht's dir, Europa?_](https://gerdesque.github.io/wiegehtsdireuropa/)
 
 The web project **"Wie geht´s dir, Europa?"** (How are you, Europe?) has been created  
 as a prototype during the cultural hackathon Coding da Vinci Süd from April to May 2019. 
@@ -20,4 +23,13 @@ The photos were made available under a CC-BY license, the associated metadata un
 
 [Project page on the website of Coding da Vinci Süd](https://codingdavinci.de/de/projects/2019_sued/wie_gehts_dir_europa.html)
 
+## Feedback
 
+Feel free to send us feedback on [Twitter](https://twitter.com/digiwako) or [file an issue](https://github.com/gerdesque/wiegehtsdireuropa/issues/new). Feature requests are always welcome.
+
+## Build Process
+
+- Clone or download the repo
+- `yarn` to install dependencies
+- `yarn start` to run the app
+- `yarn build` to build to app
