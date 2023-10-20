@@ -1,8 +1,23 @@
 # [Wie geht's dir, Europa?](https://gerdesque.github.io/wiegehtsdireuropa/)
 
-![Wie geht's dir, Europa?](https://codingdavinci.de/img/projekte/wie_gehts_dir_europa.png)
+![Wie geht's dir, Europa?]()
 
-Sonntag, 10.30 Uhr - wach, aufgeregt, zukunftsoptimistisch #EUphorisch. Geht´s dir heute auch so, Europa?
+The web project **"Wie geht´s dir, Europa?"** (How are you, Europe?) has been created  
+as a prototype during the cultural hackathon Coding da Vinci Süd from April to May 2019. 
 
-Keine hundert Jahre liegen zwischen den Fotografien von Willy Pragher und unserer twitteraffinen Zeit. Anlässlich der Europawahl 2019 wollen wir die fotografischen Momentaufnahmen des letzten Jahrhunderts mit aktuellen Statements zum Thema EU und Europa von TwitternutzerInnen zusammenbringen.
-Was dabei herauskommt, sind positive und negative, vielleicht sogar witzige und überraschende Memes zum Thema Europa.
+In occasion of the elections for the parliament of the EU in 2019 the project combines  
+photographs from the professional photographer Willy Pragher (1908-1992),  
+who captured the 1920s to 1940s in a highly aesthetic perspective,  
+and Twitter tweets from 2019 as collected statements about the European Union and Europe.  
+
+What emerges half automatically are positive and negative,  
+sometimes even funny and surprising memes on the topic of Europe and the EU.
+
+_The photographs before had been digitized  
+by the Landesarchiv Baden-Württemberg (State archive of Baden-Wuerttemberg)  
+and made accessable by the online regional information system LEO-BW.  
+The photos were made available under a CC-BY license, the associated metadata under a CC0-license._  
+
+[Project page on the website of Coding da Vinci Süd](https://codingdavinci.de/de/projects/2019_sued/wie_gehts_dir_europa.html)
+
+
